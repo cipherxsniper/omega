@@ -1,0 +1,63 @@
+#!/data/data/com.termux/files/usr/bin/env bash
+# OmegaOS Auto Push v2 - Full Project Detection + GitHub + Omega Cloud
+# Fully autonomous push of all commands and projects
+
+REPO_DIR="${HOME}/Omega-President/Omega-President/omega"
+PROJECTS_DIR="${REPO_DIR}/projects"
+OMEGA_CLOUD="${HOME}/Omega-President/Omega-President/OmegaCloud"
+TIMESTAMP=$(date +"%Y-%m-%d %H:%M:%S")
+
+echo "[OmegaOS] Starting Auto Push v2 at $TIMESTAMP..."
+
+# --- Check repo exists ---
+if [ ! -d "$REPO_DIR/.git" ]; then
+    echo "[OmegaOS] ERROR: Git repository not found at $REPO_DIR"
+    exit 1
+fi
+
+# --- Push commands first ---
+cd "$REPO_DIR" || exit
+echo "[OmegaOS] Adding commands to Git..."
+git add commands/*
+
+# Commit if changes exist
+if ! git diff --cached --quiet; then
+    git commit -m "[OmegaOS Auto] Commands Update: $TIMESTAMP"
+    echo "[OmegaOS] Pushing commands to GitHub..."
+    git push origin main
+else
+    echo "[OmegaOS] No changes in commands. Skipping Git push."
+fi
+
+# --- Detect projects ---
+if [ -d "$PROJECTS_DIR" ]; then
+    for proj in "$PROJECTS_DIR"/*; do
+        [ -d "$proj" ] || continue
+        echo "[OmegaOS] Processing project: $(basename "$proj")"
+
+        # Add project to Git
+        git add "$proj"
+        if ! git diff --cached --quiet; then
+            git commit -m "[OmegaOS Auto] Project $(basename "$proj") Update: $TIMESTAMP"
+            echo "[OmegaOS] Pushing project $(basename "$proj") to GitHub..."
+            git push origin main
+        else
+            echo "[OmegaOS] No changes in project $(basename "$proj"). Skipping Git push."
+        fi
+    done
+else
+    echo "[OmegaOS] No projects folder found at $PROJECTS_DIR"
+fi
+
+# --- Sync to Omega Cloud ---
+mkdir -p "$OMEGA_CLOUD"
+echo "[OmegaOS] Syncing repository and projects to Omega Cloud..."
+rsync -av --exclude='.git/' "$REPO_DIR/" "$OMEGA_CLOUD/"
+
+if [ $? -eq 0 ]; then
+    echo "[OmegaOS] Omega Cloud sync complete: $OMEGA_CLOUD"
+else
+    echo "[OmegaOS] WARNING: Some files were not synced due to conflicts."
+fi
+
+echo "[OmegaOS] Auto Push v2 finished at $(date +"%Y-%m-%d %H:%M:%S")"
