@@ -1,0 +1,87 @@
+[
+  {
+    "step": 1,
+    "context": 0.5,
+    "consensus": "optimize",
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "rewards": {
+      "brain_00": 0.9903401867730917,
+      "brain_01": 0.8034641359182482,
+      "brain_02": 0.5454580298578092,
+      "wink_brain": 0.4316148811067445
+    }
+  },
+  {
+    "step": 2,
+    "context": 0.025,
+    "consensus": "explore",
+    "decisions": {
+      "brain_00": "explore",
+      "brain_01": "explore",
+      "brain_02": "explore",
+      "wink_brain": "explore"
+    },
+    "rewards": {
+      "brain_00": 0.0973251977754298,
+      "brain_01": 0.9783221949709677,
+      "brain_02": 0.8904281021458511,
+      "wink_brain": 0.3289717327624062
+    }
+  },
+  {
+    "step": 3,
+    "context": 0.05,
+    "consensus": "explore",
+    "decisions": {
+      "brain_00": "explore",
+      "brain_01": "explore",
+      "brain_02": "explore",
+      "wink_brain": "explore"
+    },
+    "rewards": {
+      "brain_00": 0.12757442410067443,
+      "brain_01": 0.8872570256010962,
+      "brain_02": 0.8011114853193966,
+      "wink_brain": 0.43751175905418993
+    }
+  },
+  {
+    "step": 4,
+    "context": 0.075,
+    "consensus": "explore",
+    "decisions": {
+      "brain_00": "explore",
+      "brain_01": "optimize",
+      "brain_02": "explore",
+      "wink_brain": "explore"
+    },
+    "rewards": {
+      "brain_00": 0.8468245906690116,
+      "brain_01": 0.5419743660136197,
+      "brain_02": 0.9886809903564204,
+      "wink_brain": 0.3704936705674322
+    }
+  },
+  {
+    "step": 5,
+    "context": 0.1,
+    "consensus": "optimize",
+    "decisions": {
+      "brain_00": "explore",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "explore"
+    },
+    "rewards": {
+      "brain_00": 0.5934068180119734,
+      "brain_01": 0.19218879127787136,
+      "brain_02": 0.04208620208944325,
+      "wink_brain": 0.6286947887783783
+    }
+  }
+]

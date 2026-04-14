@@ -1,0 +1,51 @@
+{
+  "tick": 10,
+  "attention_budget": 2,
+  "focus": 0.5754303567492678,
+  "signals": [
+    {
+      "source": "ml",
+      "value": 0.8301821763858604,
+      "score": 0.1878193725068602
+    },
+    {
+      "source": "swarm",
+      "value": 0.7818818165128368,
+      "score": 0.7939644567236507
+    },
+    {
+      "source": "memory",
+      "value": 0.21071750218798369,
+      "score": 0.3568962567748849
+    }
+  ],
+  "selected": [
+    {
+      "source": "swarm",
+      "value": 0.7818818165128368,
+      "score": 0.7939644567236507
+    },
+    {
+      "source": "memory",
+      "value": 0.21071750218798369,
+      "score": 0.3568962567748849
+    }
+  ],
+  "goals": [
+    {
+      "name": "swarm",
+      "strength": 0.48500274253265657,
+      "hits": 7
+    },
+    {
+      "name": "ml",
+      "strength": 0.3517240465403631,
+      "hits": 4
+    },
+    {
+      "name": "memory",
+      "strength": 0.31012638030753487,
+      "hits": 3
+    }
+  ]
+}

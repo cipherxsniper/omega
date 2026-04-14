@@ -1,0 +1,65 @@
+{
+  "nodes": {
+    "core": {
+      "energy": 1.0
+    }
+  },
+  "ideas": {
+    "idea_8": {
+      "strength": 1.0
+    },
+    "idea_3": {
+      "strength": 1.0,
+      "links": []
+    },
+    "idea_17": {
+      "strength": 1.0,
+      "links": []
+    },
+    "idea_1": {
+      "strength": 1.0,
+      "links": [
+        "idea_2",
+        "idea_2",
+        "idea_2",
+        "idea_2",
+        "idea_2",
+        "idea_2",
+        "idea_2"
+      ]
+    },
+    "idea_2": {
+      "strength": 1.0,
+      "links": []
+    },
+    "idea_4": {
+      "strength": 1.0,
+      "links": []
+    },
+    "idea_9": {
+      "strength": 1.0,
+      "links": []
+    },
+    "idea_13": {
+      "strength": 1.0,
+      "links": []
+    },
+    "idea_19": {
+      "strength": 1.0,
+      "links": []
+    },
+    "idea_20": {
+      "strength": 1.0,
+      "links": []
+    },
+    "idea_25": {
+      "strength": 1.0,
+      "links": []
+    },
+    "idea_33": {
+      "strength": 1.0,
+      "links": []
+    }
+  },
+  "events": []
+}

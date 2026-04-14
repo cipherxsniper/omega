@@ -1,0 +1,308 @@
+{
+  "beliefs": [],
+  "messages": [
+    {
+      "from": "swarm",
+      "type": "signal",
+      "value": 0.6556080942427903,
+      "time": 1776168879.06522
+    },
+    {
+      "from": "memory",
+      "type": "signal",
+      "value": 0.5468220774791583,
+      "time": 1776168879.065223
+    },
+    {
+      "from": "ml",
+      "type": "signal",
+      "value": 0.7841680129883781,
+      "time": 1776168881.0658386
+    },
+    {
+      "from": "swarm",
+      "type": "signal",
+      "value": 0.11842642124131955,
+      "time": 1776168881.06585
+    },
+    {
+      "from": "memory",
+      "type": "signal",
+      "value": 1.0133098368788627,
+      "time": 1776168881.0658524
+    },
+    {
+      "from": "ml",
+      "type": "signal",
+      "value": 0.7661952850533161,
+      "time": 1776168883.0672345
+    },
+    {
+      "from": "swarm",
+      "type": "signal",
+      "value": 0.3596472655052405,
+      "time": 1776168883.0672688
+    },
+    {
+      "from": "memory",
+      "type": "signal",
+      "value": 0.6758146019498065,
+      "time": 1776168883.0672827
+    },
+    {
+      "from": "ml",
+      "type": "signal",
+      "value": 0.6160611459146008,
+      "time": 1776168885.0695593
+    },
+    {
+      "from": "swarm",
+      "type": "signal",
+      "value": 0.16705098169341973,
+      "time": 1776168885.0695713
+    },
+    {
+      "from": "memory",
+      "type": "signal",
+      "value": 0.30315991795333785,
+      "time": 1776168885.069574
+    },
+    {
+      "from": "ml",
+      "type": "signal",
+      "value": 1.0597715738308997,
+      "time": 1776174371.0687947
+    },
+    {
+      "from": "swarm",
+      "type": "signal",
+      "value": 0.2144889775209976,
+      "time": 1776174371.0688062
+    },
+    {
+      "from": "memory",
+      "type": "signal",
+      "value": 0.8988477081935424,
+      "time": 1776174371.0688093
+    },
+    {
+      "from": "ml",
+      "type": "signal",
+      "value": 0.9015602640563845,
+      "time": 1776174373.6892397
+    },
+    {
+      "from": "swarm",
+      "type": "signal",
+      "value": 0.315897624132927,
+      "time": 1776174373.689265
+    },
+    {
+      "from": "memory",
+      "type": "signal",
+      "value": 0.30198056553587843,
+      "time": 1776174373.6892703
+    },
+    {
+      "from": "ml",
+      "type": "signal",
+      "value": 0.784545314279393,
+      "time": 1776174375.9742005
+    },
+    {
+      "from": "swarm",
+      "type": "signal",
+      "value": 0.840598512662553,
+      "time": 1776174375.974243
+    },
+    {
+      "from": "memory",
+      "type": "signal",
+      "value": 0.5766681839669081,
+      "time": 1776174375.9742486
+    },
+    {
+      "from": "ml",
+      "type": "signal",
+      "value": 1.0306517410070737,
+      "time": 1776174378.1155267
+    },
+    {
+      "from": "swarm",
+      "type": "signal",
+      "value": 0.49633543472794006,
+      "time": 1776174378.1155572
+    },
+    {
+      "from": "memory",
+      "type": "signal",
+      "value": 0.7134170225416481,
+      "time": 1776174378.115563
+    },
+    {
+      "from": "ml",
+      "type": "signal",
+      "value": 0.7612276603319097,
+      "time": 1776174380.3822465
+    },
+    {
+      "from": "swarm",
+      "type": "signal",
+      "value": 0.13629848957609358,
+      "time": 1776174380.3822732
+    },
+    {
+      "from": "memory",
+      "type": "signal",
+      "value": 0.4405327371073387,
+      "time": 1776174380.3822784
+    },
+    {
+      "from": "ml",
+      "type": "signal",
+      "value": 0.3739687140932029,
+      "time": 1776174382.5788357
+    },
+    {
+      "from": "swarm",
+      "type": "signal",
+      "value": 0.15260157357720938,
+      "time": 1776174382.5788648
+    },
+    {
+      "from": "memory",
+      "type": "signal",
+      "value": 0.4265314630985027,
+      "time": 1776174382.5789223
+    },
+    {
+      "from": "ml",
+      "type": "signal",
+      "value": 0.8498002360266768,
+      "time": 1776174385.2070656
+    },
+    {
+      "from": "swarm",
+      "type": "signal",
+      "value": 0.7355835400222389,
+      "time": 1776174385.2071474
+    },
+    {
+      "from": "memory",
+      "type": "signal",
+      "value": 0.1797492912741026,
+      "time": 1776174385.2071571
+    },
+    {
+      "from": "ml",
+      "type": "signal",
+      "value": 0.3409728603028838,
+      "time": 1776175892.1079638
+    },
+    {
+      "from": "swarm",
+      "type": "signal",
+      "value": 0.09697730889198458,
+      "time": 1776175892.1080458
+    },
+    {
+      "from": "memory",
+      "type": "signal",
+      "value": 0.32166008707059107,
+      "time": 1776175892.1080558
+    },
+    {
+      "from": "ml",
+      "type": "signal",
+      "value": 0.021323364135275955,
+      "time": 1776175894.1140387
+    },
+    {
+      "from": "swarm",
+      "type": "signal",
+      "value": 0.9458401668160561,
+      "time": 1776175894.1140673
+    },
+    {
+      "from": "memory",
+      "type": "signal",
+      "value": -0.003072890761646699,
+      "time": 1776175894.114075
+    },
+    {
+      "from": "ml",
+      "type": "signal",
+      "value": 0.0410650246688951,
+      "time": 1776175896.2265615
+    },
+    {
+      "from": "swarm",
+      "type": "signal",
+      "value": 0.1077500478404883,
+      "time": 1776175896.2265887
+    },
+    {
+      "from": "memory",
+      "type": "signal",
+      "value": 0.12519124106969765,
+      "time": 1776175896.2265952
+    },
+    {
+      "from": "ml",
+      "type": "signal",
+      "value": -0.06615712741309783,
+      "time": 1776175911.3667865
+    },
+    {
+      "from": "swarm",
+      "type": "signal",
+      "value": 0.40338444226769643,
+      "time": 1776175911.3668156
+    },
+    {
+      "from": "memory",
+      "type": "signal",
+      "value": 0.7047723188766548,
+      "time": 1776175911.3668234
+    },
+    {
+      "from": "ml",
+      "type": "signal",
+      "value": 0.4558703730915568,
+      "time": 1776175913.4148738
+    },
+    {
+      "from": "swarm",
+      "type": "signal",
+      "value": 0.09790208565753167,
+      "time": 1776175913.4149027
+    },
+    {
+      "from": "memory",
+      "type": "signal",
+      "value": 0.3479187254223547,
+      "time": 1776175913.4149098
+    },
+    {
+      "from": "ml",
+      "type": "signal",
+      "value": 0.5081604602983908,
+      "time": 1776175915.4386373
+    },
+    {
+      "from": "swarm",
+      "type": "signal",
+      "value": 0.8612569146963587,
+      "time": 1776175915.4386714
+    },
+    {
+      "from": "memory",
+      "type": "signal",
+      "value": 0.8590463715339771,
+      "time": 1776175915.4386773
+    }
+  ],
+  "global_attention": 0.487343640858586,
+  "global_reward": 0.46650214629329056,
+  "tick": 17
+}

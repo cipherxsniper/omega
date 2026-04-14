@@ -1,0 +1,33 @@
+{
+  "processes": {
+    "omega_unified_kernel_v15.py": 28161,
+    "omega_identity_kernel_v25.py": 28167,
+    "omega_execution_engine_v7.py": 28176,
+    "omega_meta_brain_v10.py": 28179,
+    "omega_unified_brain_v22.py": 28295,
+    "omega_swarm_memory_bridge_v9.py": 28182,
+    "omega_mesh_superintelligence_v12.py": 28296,
+    "omega_process_supervisor_v2.py": 28297
+  },
+  "restarts": {
+    "omega_unified_kernel_v15.py": 195,
+    "omega_identity_kernel_v25.py": 195,
+    "omega_execution_engine_v7.py": 195,
+    "omega_meta_brain_v10.py": 195,
+    "omega_swarm_memory_bridge_v9.py": 195,
+    "omega_unified_brain_v22.py": 191,
+    "omega_mesh_superintelligence_v12.py": 191,
+    "omega_process_supervisor_v2.py": 191
+  },
+  "health": {
+    "omega_unified_kernel_v15.py": "dead",
+    "omega_identity_kernel_v25.py": "dead",
+    "omega_execution_engine_v7.py": "dead",
+    "omega_meta_brain_v10.py": "dead",
+    "omega_unified_brain_v22.py": "dead",
+    "omega_swarm_memory_bridge_v9.py": "dead",
+    "omega_mesh_superintelligence_v12.py": "dead",
+    "omega_process_supervisor_v2.py": "dead"
+  },
+  "tick": 195
+}

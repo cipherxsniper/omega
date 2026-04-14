@@ -1,0 +1,2074 @@
+{
+  "run_omega_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/run_omega_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_orchestrator_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_orchestrator_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "run_omega": {
+    "path": "/data/data/com.termux/files/home/Omega/run_omega.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_event_mesh_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_event_mesh_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_brain_node_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_brain_node_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "Brain_00_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/Brain_00_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "Brain_11_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/Brain_11_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "Brain_22_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/Brain_22_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "ParallelBrain": {
+    "path": "/data/data/com.termux/files/home/Omega/ParallelBrain.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_data_stream_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_data_stream_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_decision_engine_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_decision_engine_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_adaptive_optimizer_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_adaptive_optimizer_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_economy_engine_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_economy_engine_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_identity_engine_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_identity_engine_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_cognitive_node_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_cognitive_node_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_execution_engine_v7": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_execution_engine_v7.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_swarm_mesh_v8": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_swarm_mesh_v8.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_swarm_node_v8": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_swarm_node_v8.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_global_memory_cloud_v9": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_global_memory_cloud_v9.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_swarm_memory_bridge_v9": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_swarm_memory_bridge_v9.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_intelligence_economy_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_intelligence_economy_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_meta_brain_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_meta_brain_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_brain_factory_v11": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_brain_factory_v11.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_sensor_interface_v11": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_sensor_interface_v11.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_swarm_evolver_v11": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_swarm_evolver_v11.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_v5_fixed": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_orchestrator_v5_fixed.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "run_omega_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/run_omega_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_learning_engine_v11": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_learning_engine_v11.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_learning_convergence_v12": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_learning_convergence_v12.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_recursive_intelligence_v13": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_recursive_intelligence_v13.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "run_omega_v9": {
+    "path": "/data/data/com.termux/files/home/Omega/run_omega_v9.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_memory_patch_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_memory_patch_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_learning_engine_patch_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_learning_engine_patch_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_adaptive_convergence_v14": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_adaptive_convergence_v14.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "run_omega_all_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/run_omega_all_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_unified_kernel_v15": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_unified_kernel_v15.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "run_omega_kernel_v15": {
+    "path": "/data/data/com.termux/files/home/Omega/run_omega_kernel_v15.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "run_omega_unified": {
+    "path": "/data/data/com.termux/files/home/Omega/run_omega_unified.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_unified_interface_spec_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_unified_interface_spec_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "run_omega_unified_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/run_omega_unified_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "run_omega_v14": {
+    "path": "/data/data/com.termux/files/home/Omega/run_omega_v14.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_adaptive_convergence_v15": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_adaptive_convergence_v15.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "run_omega_v15": {
+    "path": "/data/data/com.termux/files/home/Omega/run_omega_v15.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "run_omega_v16": {
+    "path": "/data/data/com.termux/files/home/Omega/run_omega_v16.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "brain_01": {
+    "path": "/data/data/com.termux/files/home/Omega/brain_01.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_adaptive_convergence_v16": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_adaptive_convergence_v16.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_adaptive_convergence_v17": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_adaptive_convergence_v17.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_swarm_network_v18": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_swarm_network_v18.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_swarm_network_v19": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_swarm_network_v19.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_swarm_consciousness_v20": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_swarm_consciousness_v20.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_self_reflection_v21": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_self_reflection_v21.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_goal_emergence_v22": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_goal_emergence_v22.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_self_model_v23": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_self_model_v23.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_intention_v24": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_intention_v24.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_identity_kernel_v25": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_identity_kernel_v25.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_recursive_self_mod_v26": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_recursive_self_mod_v26.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "brain_02": {
+    "path": "/data/data/com.termux/files/home/Omega/brain_02.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "wink_brain": {
+    "path": "/data/data/com.termux/files/home/Omega/wink_brain.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_conflict_resolver_v27": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_conflict_resolver_v27.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_memory_federation_v28": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_memory_federation_v28.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_cluster_core_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_cluster_core_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_cluster_core_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_cluster_core_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_cluster_core_v7": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_cluster_core_v7.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "iot_brain": {
+    "path": "/data/data/com.termux/files/home/Omega/iot_brain.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_ml_core_v8": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_ml_core_v8.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_cluster_core_v8": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_cluster_core_v8.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_superintelligence_v9": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_superintelligence_v9.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_code_backup": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_code_backup.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mesh_superintelligence_v12": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mesh_superintelligence_v12.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_code_backup_v12": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_code_backup_v12.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_unified_superintelligence_v13": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_unified_superintelligence_v13.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_cross_brain_v15": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_cross_brain_v15.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_cross_brain_v16": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_cross_brain_v16.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mesh_v16": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mesh_v16.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_swarm_v23_unified": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_swarm_v23_unified.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_swarm_v24_persistent": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_swarm_v24_persistent.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_swarm_v25_neural": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_swarm_v25_neural.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_swarm_v26_shared_mesh": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_swarm_v26_shared_mesh.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_swarm_v27_internet_mesh": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_swarm_v27_internet_mesh.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_autorewrite_v28_engine": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_autorewrite_v28_engine.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_self_patch_v29_engine": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_self_patch_v29_engine.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_swarm_v30_synchronized_evolution": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_swarm_v30_synchronized_evolution.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_ml_core_v9": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_ml_core_v9.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_ml_core_v11": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_ml_core_v11.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_ml_core_v12": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_ml_core_v12.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "fix_v12_tail": {
+    "path": "/data/data/com.termux/files/home/Omega/fix_v12_tail.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_daemon_supervisor_v13": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_daemon_supervisor_v13.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mesh_supervisor_v15": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mesh_supervisor_v15.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_temporal_prediction_v17": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_temporal_prediction_v17.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_attention_swarm_v18": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_attention_swarm_v18.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_self_model_v19": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_self_model_v19.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_goal_emergence_v20": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_goal_emergence_v20.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_unified_brain_v22": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_unified_brain_v22.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "fix_swarm_core": {
+    "path": "/data/data/com.termux/files/home/Omega/fix_swarm_core.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v4": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v4.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v8": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v8.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v9": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v9.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v12": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v12.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v13": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v13.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v16": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v16.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v18": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v18.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v19": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v19.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v20": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v20.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v26": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v26.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_state": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v32": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v32.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "node_attention": {
+    "path": "/data/data/com.termux/files/home/Omega/node_attention.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "node_goal": {
+    "path": "/data/data/com.termux/files/home/Omega/node_goal.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_router_v35": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_router_v35.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_bus_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_bus_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v37": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v37.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_router_v37": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_router_v37.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v39": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v39.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v41": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v41.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v42": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v42.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_graph_memory_patch_queue": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_graph_memory_patch_queue.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_consensus_v43": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_consensus_v43.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v47": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v47.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v48": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v48.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v49": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v49.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v50": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v50.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_v54_federation": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_v54_federation.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_v56_identity_core": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_v56_identity_core.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_v58_hierarchy": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_v58_hierarchy.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_v59_specialization": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_v59_specialization.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_v60_cognitive_economy": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_v60_cognitive_economy.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_v61_cognitive_market": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_v61_cognitive_market.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_unified_field_os": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_unified_field_os.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_cognitive_feedback_identity_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_cognitive_feedback_identity_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_os_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_os_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_os_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_os_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_os_v4": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_os_v4.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_os_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_os_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mesh_os_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mesh_os_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mesh_os_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mesh_os_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_reinforcement_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_reinforcement_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_bus_v4": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_bus_v4.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_crdt_memory_v4": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_crdt_memory_v4.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_lang_v4": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_lang_v4.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_bus_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_bus_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_lang_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_lang_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_gravity_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_gravity_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mesh_os_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mesh_os_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_v6_pruning_patch": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_v6_pruning_patch.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_cluster_v61": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_cluster_v61.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_identity_v62": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_identity_v62.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_self_reflective_kernel_v6_3": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_self_reflective_kernel_v6_3.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mesh_os_v11": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mesh_os_v11.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_crdt_consensus_v14": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_crdt_consensus_v14.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_olang_compiler_v15": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_olang_compiler_v15.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_cognitive_reality_v18": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_cognitive_reality_v18.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_v20_bridge": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_v20_bridge.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "learning_engine_v17": {
+    "path": "/data/data/com.termux/files/home/Omega/engines/learning_engine_v17.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_unified_launcher_v4": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_unified_launcher_v4.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_unified_launcher_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_unified_launcher_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_unified_launcher_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_unified_launcher_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_unified_launcher_v7": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_unified_launcher_v7.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_unified_launcher_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_unified_launcher_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_ml_core_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_ml_core_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "fix_boot_v12": {
+    "path": "/data/data/com.termux/files/home/Omega/fix_boot_v12.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_daemon_supervisor_v14": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_daemon_supervisor_v14.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_shared_neural_matrix_v16": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_shared_neural_matrix_v16.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "fix_kernel_lock": {
+    "path": "/data/data/com.termux/files/home/Omega/fix_kernel_lock.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v7": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v7.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v10_1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v10_1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v11": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v11.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v14": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v14.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v15": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v15.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v17": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v17.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v21": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v21.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v22": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v22.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v23": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v23.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v24": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v24.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v25": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v25.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v27": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v27.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v28": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v28.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v29": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v29.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v30": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v30.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v31": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v31.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v33": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v33.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_bus": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_bus.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "node_memory": {
+    "path": "/data/data/com.termux/files/home/Omega/node_memory.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "node_stability": {
+    "path": "/data/data/com.termux/files/home/Omega/node_stability.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_graph_memory_v36": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_graph_memory_v36.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v38": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v38.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v40": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v40.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v40_patch": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v40_patch.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_graph_memory_patch_atomic": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_graph_memory_patch_atomic.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_graph_memory_patch_init": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_graph_memory_patch_init.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v44": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v44.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v45": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v45.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v46": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v46.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v51": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v51.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_kernel_v52": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_kernel_v52.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_v53_main": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_v53_main.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_v55_civilization": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_v55_civilization.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_v55_civilization_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_v55_civilization_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_v57_cognitive_society": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_v57_cognitive_society.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_v62_cognitive_physics": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_v62_cognitive_physics.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_memory_persistence_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_memory_persistence_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_unified_field_os_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_unified_field_os_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_cognitive_society_mesh_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_cognitive_society_mesh_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_os_kernel_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_os_kernel_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_os_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_os_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mesh_bus_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mesh_bus_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_identity_graph_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_identity_graph_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mesh_node_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mesh_node_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_shared_state_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_shared_state_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_bus_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_bus_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mesh_os_v4": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mesh_os_v4.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_crdt_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_crdt_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_reinforcement_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_reinforcement_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mutation_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mutation_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mesh_os_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mesh_os_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_thought_export_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_thought_export_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_reflection_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_reflection_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "quantum_brain": {
+    "path": "/data/data/com.termux/files/home/Omega/quantum_brain.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_brain_bridge_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_brain_bridge_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mesh_os_v7": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mesh_os_v7.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mesh_os_v8": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mesh_os_v8.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mesh_os_v9": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mesh_os_v9.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mesh_os_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mesh_os_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_swarm_control_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_swarm_control_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_event_bus_v12": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_event_bus_v12.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_identity_graph_v13": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_identity_graph_v13.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_autonomous_brain_generator_v16": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_autonomous_brain_generator_v16.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_cognitive_physics_v17": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_cognitive_physics_v17.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_self_awareness_v19": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_self_awareness_v19.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_recursive_improvement_v20": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_recursive_improvement_v20.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_unified_launcher_STABLE": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_unified_launcher_STABLE.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "run_omega_shk_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/run_omega_shk_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_unified_kernel_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_unified_kernel_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_boot_resolver_v11": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_boot_resolver_v11.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_boot_resolver_v14": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_boot_resolver_v14.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_execution_type_registry_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_execution_type_registry_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_unified_launcher_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_unified_launcher_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_cognitive_os_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_cognitive_os_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mesh_node_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mesh_node_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_civilization_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_civilization_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_self_healing_boot_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_self_healing_boot_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_boot_resolver_v7": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_boot_resolver_v7.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_boot_resolver_v8": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_boot_resolver_v8.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_import_canonicalizer_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_import_canonicalizer_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_import_resolution_kernel_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_import_resolution_kernel_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_module_identity_graph_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_module_identity_graph_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_boot_compiler_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_boot_compiler_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_unified_boot_compiler_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_unified_boot_compiler_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_self_healing_boot_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_self_healing_boot_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_boot_resolver_v9": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_boot_resolver_v9.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_boot_resolver_v12": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_boot_resolver_v12.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_boot_resolver_v13": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_boot_resolver_v13.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_auto_import_repair_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_auto_import_repair_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_boot_sequence_master_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_boot_sequence_master_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_boot_compiler_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_boot_compiler_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_system_root_map_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_system_root_map_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_unified_launcher_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_unified_launcher_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_unified_launcher_v11": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_unified_launcher_v11.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "run_omega_uks1": {
+    "path": "/data/data/com.termux/files/home/Omega/run_omega_uks1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "run_omega_shk_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/run_omega_shk_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "run_omega_shk_v4": {
+    "path": "/data/data/com.termux/files/home/Omega/run_omega_shk_v4.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_mesh_orchestrator_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_mesh_orchestrator_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_cognitive_internet_v4": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_cognitive_internet_v4.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_boot_resolver_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_boot_resolver_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_boot_resolver_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_boot_resolver_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_boot_resolver_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_boot_resolver_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_boot_resolver_v4": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_boot_resolver_v4.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_boot_resolver_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_boot_resolver_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_cognitive_consensus_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_cognitive_consensus_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_import_resolution_kernel_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_import_resolution_kernel_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_graph_cognition_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_graph_cognition_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_cognitive_organism_v4": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_cognitive_organism_v4.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "self_modifier_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/core/self_modifier_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "reinforcement_core": {
+    "path": "/data/data/com.termux/files/home/Omega/core/reinforcement_core.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "__init__": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/__init__.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "memorycore_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/core/memorycore_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "context_engine_v11": {
+    "path": "/data/data/com.termux/files/home/Omega/core/context_engine_v11.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "goal_engine_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/core/goal_engine_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "memorycore_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/core/memorycore_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "context_engine_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/core/context_engine_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "goal_engine_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/core/goal_engine_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "reinforcement_core_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/core/reinforcement_core_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "memory_graph_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/core/memory_graph_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "reasoning_engine_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/core/reasoning_engine_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "self_modifier_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/core/self_modifier_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "orchestrator": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/mesh_v7/orchestrator.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "intelligence": {
+    "path": "/data/data/com.termux/files/home/Omega/core/intelligence.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "swarm": {
+    "path": "/data/data/com.termux/files/home/Omega/core/swarm.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "ingestion": {
+    "path": "/data/data/com.termux/files/home/Omega/core/ingestion.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "memory": {
+    "path": "/data/data/com.termux/files/home/Omega/core/memory.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "evolver": {
+    "path": "/data/data/com.termux/files/home/Omega/core/evolver.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "frame_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/core/frame_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "types_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/core/types_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "step_interface": {
+    "path": "/data/data/com.termux/files/home/Omega/core/step_interface.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "prediction_engine": {
+    "path": "/data/data/com.termux/files/home/Omega/engines/prediction_engine.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "aware_engine_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/engines/aware_engine_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "internet_engine_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/engines/internet_engine_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "internet_engine_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/engines/internet_engine_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "prediction_engine_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/engines/prediction_engine_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "action_engine_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/engines/action_engine_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "brain_1": {
+    "path": "/data/data/com.termux/files/home/Omega/brains/brain_1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "brain_2": {
+    "path": "/data/data/com.termux/files/home/Omega/brains/brain_2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "brain_3": {
+    "path": "/data/data/com.termux/files/home/Omega/brains/brain_3.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "brain_autonomous": {
+    "path": "/data/data/com.termux/files/home/Omega/brains/brain_autonomous.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "evolved_brain": {
+    "path": "/data/data/com.termux/files/home/Omega/brains/evolved_brain.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "health_monitor": {
+    "path": "/data/data/com.termux/files/home/Omega/system/health_monitor.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_orchestrator_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_orchestrator_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_v4_2": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_orchestrator_v4_2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_v4": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_orchestrator_v4.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_v7": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_orchestrator_v7.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_v8": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_orchestrator_v8.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_v9": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_orchestrator_v9.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_v9_patch": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_orchestrator_v9_patch.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_v9_fix": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_orchestrator_v9_fix.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_governance_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_governance_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_v9_governed": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_orchestrator_v9_governed.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_governance_v7": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_governance_v7.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_contract_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_contract_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_safe_engine_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_safe_engine_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_v10_core_patch": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_orchestrator_v10_core_patch.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_v11": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_orchestrator_v11.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_safe_contract": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_safe_contract.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_interface_patch": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_interface_patch.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "patch_recursive_v13": {
+    "path": "/data/data/com.termux/files/home/Omega/system/patch_recursive_v13.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_patch_v9": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_orchestrator_patch_v9.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_recursive_patch_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_recursive_patch_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_schema_guard_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_schema_guard_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_patch_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_orchestrator_patch_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_core_base_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_core_base_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_orchestrator_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_orchestrator_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_recursive_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_recursive_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_self_healing_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_self_healing_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_self_healing_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_self_healing_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_shk_v4": {
+    "path": "/data/data/com.termux/files/home/Omega/system/omega_shk_v4.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "civilization_engine": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/civilization/civilization_engine.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_causal_runtime_linker_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_causal_runtime_linker_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_semantic_lifecycle_interpreter_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_semantic_lifecycle_interpreter_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_runtime_introspection_layer_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_runtime_introspection_layer_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_cross_layer_truth_reconciler_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_cross_layer_truth_reconciler_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_self_aware_system_health_model_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_self_aware_system_health_model_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_causal_health_graph_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_causal_health_graph_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_predictive_collapse_engine_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_predictive_collapse_engine_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_autonomous_self_healing_policy_engine_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_autonomous_self_healing_policy_engine_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_autonomous_repair_orchestrator_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_autonomous_repair_orchestrator_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_self_stabilizing_kernel_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_self_stabilizing_kernel_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_causal_kernel_graph_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_causal_kernel_graph_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_causal_repair_engine_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_causal_repair_engine_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_predictive_graph_evolution_v4_v5_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_predictive_graph_evolution_v4_v5_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_causal_memory_graph_v7": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_causal_memory_graph_v7.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_self_aware_causal_identity_v8": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_self_aware_causal_identity_v8.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_module_identity_registry_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_module_identity_registry_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_self_verifying_boot_compiler_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_self_verifying_boot_compiler_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_consensus_engine_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_layers/v10/core/omega_consensus_engine_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_import_kernel_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_layers/v10/core/omega_import_kernel_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "omega_consensus_runtime_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/omega_layers/v10/runtime/omega_consensus_runtime_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega"
+  },
+  "schema": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/core/schema.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "engine": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/core/engine.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "governance_engine": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/governance/governance_engine.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "economy_engine": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/economy/economy_engine.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "run": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime/run.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "fs_daemon": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime/fs_daemon.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "run_mesh": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime/run_mesh.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "node": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/nodes/node.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "mesh_orchestrator": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/mesh/mesh_orchestrator.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "mesh_bus": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/bus/mesh_bus.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "cognitive_bus": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/net/cognitive_bus.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "environment_sensor": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/sensors/environment_sensor.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "node_v7": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/mesh_v7/node_v7.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "run_v7": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/run_v7.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "run_swarm_v9_to_v21": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/run_swarm_v9_to_v21.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "run_swarm_v9_to_v21_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/run_swarm_v9_to_v21_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "start_omega": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "start_omega_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "start_omega_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "start_omega_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "start_omega_v4": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v4.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "start_omega_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "start_omega_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "start_omega_v7": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v7.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "start_omega_v8": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v8.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "start_omega_v9": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v9.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "start_omega_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "start_omega_v15": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v15.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "node_discovery": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/node_discovery.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "node_identity": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/node_identity.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "node_identity_v73": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/node_identity_v73.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "mesh_node_v73": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/mesh_node_v73.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "_patch_broadcast": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/_patch_broadcast.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "mesh_cluster_v74": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/mesh_cluster_v74.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "node_registry_v75": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/node_registry_v75.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "patch_mesh_v75": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/patch_mesh_v75.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "patch_broadcast_v75": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/patch_broadcast_v75.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "cluster_registry_v75": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/cluster_registry_v75.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "secure_handshake_v75": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/secure_handshake_v75.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "secure_mesh_patch_v75": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/secure_mesh_patch_v75.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "cluster_map_v75": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/cluster_map_v75.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "mesh_cluster_v75": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/mesh_cluster_v75.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "node_identity_v76": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/node_identity_v76.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "mesh_cluster_v76": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/mesh_cluster_v76.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "lan_cluster_v77": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/lan_cluster_v77.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "hybrid_swarm_v77": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/hybrid_swarm_v77.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_transport_v771": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/swarm_transport_v771.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_router_v772": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/swarm_router_v772.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "distributed_cognition_v8": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/distributed_cognition_v8.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "secure_cognitive_sync_v81": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/secure_cognitive_sync_v81.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v8_swarm_os": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v8_swarm_os.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v8_2_swarm_node": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v8_2_swarm_node.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v8_2_launch_swarm": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v8_2_launch_swarm.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "port_manager_v82": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/port_manager_v82.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "_patch_v82_bind_fix": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/_patch_v82_bind_fix.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "patch_v82_swarm_node_bind": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/patch_v82_swarm_node_bind.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v83_task_model": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v83_task_model.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v83_execution_engine": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v83_execution_engine.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v83_swarm_node_patch": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v83_swarm_node_patch.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v84_swarm_supervisor": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v84_swarm_supervisor.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v85_secure_identity": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v85_secure_identity.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v85_trust_registry": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v85_trust_registry.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v85_handshake": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v85_handshake.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "mesh_cluster_v85": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/mesh_cluster_v85.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v86_peer_enrollment": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v86_peer_enrollment.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v86_trust_registry": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v86_trust_registry.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v86_lan_discovery": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v86_lan_discovery.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "mesh_cluster_v86": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/mesh_cluster_v86.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "mesh_cluster_v862_runner": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/mesh_cluster_v862_runner.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_intelligence_v87": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/swarm_intelligence_v87.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_all_upgrades_v88": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/swarm_all_upgrades_v88.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_cognitive_swarm_os": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_cognitive_swarm_os.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_1_lan_swarm_discovery": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_1_lan_swarm_discovery.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_2_encrypted_identity_mesh": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_2_encrypted_identity_mesh.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_3_lan_swarm_discovery": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_3_lan_swarm_discovery.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_swarm_os": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_swarm_os.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "lan_discovery_swarm_v94": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/lan_discovery_swarm_v94.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "lan_mesh_v95_secure": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/lan_mesh_v95_secure.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "cognitive_swarm_v96": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/cognitive_swarm_v96.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "cognitive_routing_v97": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/cognitive_routing_v97.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_registry": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/swarm_registry.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_registry_v98": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/swarm_registry_v98.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_8_shared_memory_swarm_core": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_8_shared_memory_swarm_core.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v10_crypto_swarm_os": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v10_crypto_swarm_os.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v11_swarm_intelligence_os": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v11_swarm_intelligence_os.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v12_swarm_consciousness_os": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v12_swarm_consciousness_os.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v13_swarm_reasoning_engine": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v13_swarm_reasoning_engine.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v14_distributed_multi_device_swarm": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v14_distributed_multi_device_swarm.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v15_secure_cognitive_swarm_os": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v15_secure_cognitive_swarm_os.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v16_public_key_swarm_identity": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v16_public_key_swarm_identity.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v17_lan_auto_enrollment_swarm": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v17_lan_auto_enrollment_swarm.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v17_lan_auto_enrollment_swarm_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v17_lan_auto_enrollment_swarm_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v17_lan_auto_enrollment_swarm_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v17_lan_auto_enrollment_swarm_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "test_swarm_emitter": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/test_swarm_emitter.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v10_cognitive_event_memory_graph": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v10_cognitive_event_memory_graph.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v11_swarm_reasoning_engine": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v11_swarm_reasoning_engine.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v12_swarm_cognition_layer": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v12_swarm_cognition_layer.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v13_swarm_self_optimization_engine": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v13_swarm_self_optimization_engine.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v14_distributed_swarm_sync": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v14_distributed_swarm_sync.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v15_crypto_swarm_identity": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v15_crypto_swarm_identity.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v16_swarm_federation_layer": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v16_swarm_federation_layer.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v17_swarm_governance_layer": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v17_swarm_governance_layer.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v18_swarm_cognition_layer": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v18_swarm_cognition_layer.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v19_swarm_prediction_engine": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v19_swarm_prediction_engine.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v20_swarm_self_optimization_engine": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v20_swarm_self_optimization_engine.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v21_swarm_coordination_layer": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v21_swarm_coordination_layer.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_monitor_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/swarm_monitor_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_assistant_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_assistant_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_memory_graph_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_memory_graph_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_memory_graph_v2_patch": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_memory_graph_v2_patch.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_memory_graph_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_memory_graph_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_assistant_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_assistant_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_cognition_loop_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_cognition_loop_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_assistant_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_assistant_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_brain_unified_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_brain_unified_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_brain_unified_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_brain_unified_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_crdt_memory_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_crdt_memory_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_federation_mesh_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_federation_mesh_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_semantic_model_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_semantic_model_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_v10_recursive_core": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_v10_recursive_core.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_v11_emergent_reasoning": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_v11_emergent_reasoning.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus_v4": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v4.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus_v5": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v5.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus_v7": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v7.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus_v8": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v8.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus_v9": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v9.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus_v13": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v13.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus_v13_patch": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v13_patch.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_v15_semantic_cognition": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_v15_semantic_cognition.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_semantic_engine_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_semantic_engine_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus_v11": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v11.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus_v12": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v12.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus_v14": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v14.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus_v13_listen_patch": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v13_listen_patch.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "v9_9_swarm_bus_v13_processor_patch": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v13_processor_patch.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_v16_causal_reasoning_engine": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_v16_causal_reasoning_engine.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "omega_v17_world_model_engine": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_v17_world_model_engine.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_supervisor_v1": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/supervisor/swarm_supervisor_v1.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_supervisor_v2": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/supervisor/swarm_supervisor_v2.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_supervisor_v3": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/supervisor/swarm_supervisor_v3.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_control_plane_v6": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/supervisor/swarm_control_plane_v6.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_control_plane_v9": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/supervisor/swarm_control_plane_v9.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_control_plane_v10": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/supervisor/swarm_control_plane_v10.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_forecast_engine_v11": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/supervisor/swarm_forecast_engine_v11.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_intelligence_v12": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/supervisor/swarm_intelligence_v12.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_autonomy_v13": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/supervisor/swarm_autonomy_v13.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_mesh_v14": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/supervisor/swarm_mesh_v14.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_organism_v15": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/supervisor/swarm_organism_v15.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  },
+  "swarm_consciousness_v16": {
+    "path": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/supervisor/swarm_consciousness_v16.py",
+    "root": "/data/data/com.termux/files/home/Omega/OmegaV6"
+  }
+}

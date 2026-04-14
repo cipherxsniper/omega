@@ -1,0 +1,25 @@
+{
+  "processes": {
+    "omega_unified_kernel_v15.py": 23891,
+    "omega_identity_kernel_v25.py": 23892,
+    "omega_execution_engine_v7.py": 23894,
+    "omega_meta_brain_v10.py": 23897,
+    "omega_unified_brain_v22.py": 23440,
+    "omega_swarm_memory_bridge_v9.py": 23898,
+    "omega_mesh_superintelligence_v12.py": 23442,
+    "omega_process_supervisor_v2.py": 23450,
+    "omega_os_runtime_v1.py": 23460
+  },
+  "category_map": {
+    "omega_unified_kernel_v15.py": "kernel",
+    "omega_identity_kernel_v25.py": "kernel",
+    "omega_execution_engine_v7.py": "engine",
+    "omega_meta_brain_v10.py": "brain",
+    "omega_unified_brain_v22.py": "brain",
+    "omega_swarm_memory_bridge_v9.py": "swarm",
+    "omega_mesh_superintelligence_v12.py": "mesh",
+    "omega_process_supervisor_v2.py": "default",
+    "omega_os_runtime_v1.py": "default"
+  },
+  "tick": 7
+}
