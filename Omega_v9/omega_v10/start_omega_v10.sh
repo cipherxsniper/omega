@@ -1,11 +1,12 @@
 #!/bin/bash
 
 cd ~/Omega
+mkdir -p logs
 
-redis-server > redis.log 2>&1 &
+# safe redis start
+redis-server --daemonize yes
 
 cd ~/Omega/Omega_v9/omega_v10
-
 mkdir -p logs
 
 nohup node core/orchestrator.js > logs/core.log 2>&1 &
