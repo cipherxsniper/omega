@@ -54,3 +54,9 @@ if __name__ == "__main__":
         print(observer.narrate(tick, trace, field), flush=True)
 
         tick += 1
+
+# === v7.8 SELF-MODEL INIT PATCH ===
+from omega_self_model_v78 import OmegaSelfModelV78
+self_model = OmegaSelfModelV78()
+prev = None
+
