@@ -6,13 +6,6 @@ from omega_observer_v75 import OmegaObserverV75
 from omega_fusion_v75 import OmegaFusionV75
 
 layer = OmegaExecutionLayerV73()
-
-# === v7.5 NODE SAFETY BOOT PATCH ===
-from omega_node_safety_v75 import OmegaNodeSafetyV75
-
-safety = OmegaNodeSafetyV75()
-safety.ensure_nodes(layer)
-
 field = OmegaKnowledgeFieldV75()
 observer = OmegaObserverV75()
 fusion = OmegaFusionV75()
