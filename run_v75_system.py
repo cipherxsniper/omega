@@ -4,15 +4,6 @@ OmegaExecutionLayerV73 = get_execution_layer()
 
 # (rest of your existing runner code should already be here below this)
 
-if __name__ == "__main__":
-    print("[Ω] booting v7.5 runner...", flush=True)
-
-    layer = OmegaExecutionLayerV73()
-
-    from omega_node_safety_v75 import OmegaNodeSafetyV75
-    safety = OmegaNodeSafetyV75()
-    safety.ensure_nodes(layer)
-
 observer = __import__("omega_observer_v75").OmegaObserverV75()
 
 tick = 0
@@ -33,6 +24,7 @@ tick = 0
 # FIXED OBSERVER IMPORT (v7.5)
 
 # FIXED OBSERVER IMPORT (v7.5 correct class name)
+
 
 if __name__ == "__main__":
     print("[Ω] booting v7.5 runner...", flush=True)
