@@ -91,3 +91,16 @@ def _bootstrap_runtime():
 
     return True
 
+
+def _safe_event(event):
+    if event is None:
+        return {"event_type": "null_event", "raw": None}
+
+    if not isinstance(event, dict):
+        return {"event_type": "type_error", "raw": str(event)}
+
+    if "event_type" not in event:
+        event["event_type"] = "unknown"
+
+    return event
+
