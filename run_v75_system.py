@@ -26,6 +26,7 @@ while True:
 # FIXED OBSERVER IMPORT (v7.5 correct class name)
 
 
+
 if __name__ == "__main__":
     print("[Ω] booting v7.5 runner...", flush=True)
 
@@ -39,7 +40,7 @@ if __name__ == "__main__":
 
     tick = 0
 
-while True:
+    while True:
         trace = layer.route("temporal", {"drift": 40}, steps=4)
 
         field = {"global_memory": layer.memory}
