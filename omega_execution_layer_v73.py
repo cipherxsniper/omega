@@ -17,6 +17,12 @@ class OmegaExecutionLayerV73:
         self.weights[(a, b)] = weight
 
     def route(self, start, payload, steps=3):
+        # === v7.5 GRAPH SYNC PATCH ===
+        if hasattr(self, "edges") and self.edges:
+            for a in self.edges:
+                for b, w in self.edges[a].items():
+                    self.weights[(a, b)] = w
+
         current = start
         trace = []
 
