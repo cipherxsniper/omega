@@ -23,6 +23,6 @@ if __name__ == "__main__":
 
         print(f"\n[Ω v7.5 | TICK {tick}]", flush=True)
         print("Final node:", trace["final_node"], flush=True)
-        print(observer.narrate(tick, trace, field), flush=True)
+        print(observer.narrate(tick, __import__("patch_observer_v75").normalize_trace(trace), field), flush=True)
 
         tick += 1
