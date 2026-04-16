@@ -8,7 +8,7 @@ observer = __import__("omega_observer_v75").OmegaObserverV75()
 
 tick = 0
 
-    while True:
+while True:
         trace = layer.route("temporal", {"drift": 40}, steps=4)
 
         field = {
@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
     tick = 0
 
-    while True:
+while True:
         trace = layer.route("temporal", {"drift": 40}, steps=4)
 
         field = {"global_memory": layer.memory}
