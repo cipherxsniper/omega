@@ -1,0 +1,2 @@
+export PYTHONPATH=$PWD
+export OMEGA_ROOT=$PWD

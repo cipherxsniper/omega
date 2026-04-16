@@ -1,0 +1,131 @@
+{
+  "nodes": {},
+  "ideas": {
+    "core": {
+      "strength": 1.5225787342233157,
+      "fitness": 0
+    },
+    "memory": {
+      "strength": 1.5333347271184166,
+      "fitness": 0
+    },
+    "entropy": {
+      "strength": 1.6397586065120866,
+      "fitness": 0
+    },
+    "idea_4": {
+      "strength": 10.126700939346337,
+      "fitness": 0,
+      "link": "idea_17"
+    },
+    "idea_6": {
+      "strength": 9.090071122544986,
+      "fitness": 0,
+      "link": "entropy"
+    },
+    "idea_16": {
+      "strength": 9.221405698535031,
+      "fitness": 0,
+      "link": "idea_32"
+    },
+    "idea_17": {
+      "strength": 8.800828482822578,
+      "fitness": 0
+    },
+    "idea_21": {
+      "strength": 8.780071943040602,
+      "fitness": 0
+    },
+    "idea_23": {
+      "strength": 8.976887281558097,
+      "fitness": 0
+    },
+    "idea_24": {
+      "strength": 8.71997982748113,
+      "fitness": 0,
+      "link": "idea_35"
+    },
+    "idea_25": {
+      "strength": 9.028521152786078,
+      "fitness": 0
+    },
+    "idea_27": {
+      "strength": 9.830780319820281,
+      "fitness": 0,
+      "link": "idea_36"
+    },
+    "idea_30": {
+      "strength": 8.972544525651442,
+      "fitness": 0,
+      "link": "memory"
+    },
+    "idea_32": {
+      "strength": 8.300741396272763,
+      "fitness": 0
+    },
+    "idea_34": {
+      "strength": 8.681037470459266,
+      "fitness": 0,
+      "link": "core"
+    },
+    "idea_35": {
+      "strength": 8.14244627305763,
+      "fitness": 0
+    },
+    "idea_36": {
+      "strength": 8.28948634922877,
+      "fitness": 0
+    },
+    "idea_38": {
+      "strength": 8.132015272298254,
+      "fitness": 0,
+      "link": "idea_30"
+    },
+    "idea_42": {
+      "strength": 7.713404712911521,
+      "fitness": 0
+    },
+    "idea_43": {
+      "strength": 6.9154056286212695,
+      "fitness": 0
+    },
+    "idea_52": {
+      "strength": 5.825358431171602,
+      "fitness": 0
+    },
+    "idea_54": {
+      "strength": 5.308424254887329,
+      "fitness": 0
+    },
+    "idea_55": {
+      "strength": 5.146431974941565,
+      "fitness": 0,
+      "link": "idea_57"
+    },
+    "idea_56": {
+      "strength": 4.998282429480705,
+      "fitness": 0
+    },
+    "idea_57": {
+      "strength": 5.225116463340663,
+      "fitness": 0,
+      "link": "idea_36"
+    },
+    "idea_58": {
+      "strength": 4.691497832879704,
+      "fitness": 0
+    },
+    "idea_63": {
+      "strength": 3.312576900729029,
+      "fitness": 0
+    },
+    "idea_64": {
+      "strength": 3.125004704262669,
+      "fitness": 0,
+      "link": "core"
+    }
+  },
+  "meta": {
+    "version": 5
+  }
+}

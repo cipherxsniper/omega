@@ -1,0 +1,178 @@
+[
+  {
+    "step": 1,
+    "signal": 0.9744877338409423,
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "avg_state": 0.5036745856652368
+  },
+  {
+    "step": 2,
+    "signal": 0.07459955215454102,
+    "decisions": {
+      "brain_00": "explore",
+      "brain_01": "explore",
+      "brain_02": "explore",
+      "wink_brain": "explore"
+    },
+    "avg_state": 0.5788076478319834
+  },
+  {
+    "step": 3,
+    "signal": 0.17477889060974122,
+    "decisions": {
+      "brain_00": "explore",
+      "brain_01": "explore",
+      "brain_02": "explore",
+      "wink_brain": "explore"
+    },
+    "avg_state": 0.5532102768328886
+  },
+  {
+    "step": 4,
+    "signal": 0.2749542951583862,
+    "decisions": {
+      "brain_00": "explore",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "avg_state": 0.6560486499588063
+  },
+  {
+    "step": 5,
+    "signal": 0.37513580322265627,
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "avg_state": 0.6775097194846181
+  },
+  {
+    "step": 6,
+    "signal": 0.4753338575363159,
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "avg_state": 0.7232825470683235
+  },
+  {
+    "step": 7,
+    "signal": 0.5754221916198731,
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "avg_state": 0.7445131667339149
+  },
+  {
+    "step": 8,
+    "signal": 0.6757006168365478,
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "avg_state": 0.6355842465099092
+  },
+  {
+    "step": 9,
+    "signal": 0.7759422779083252,
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "avg_state": 0.681837091879562
+  },
+  {
+    "step": 10,
+    "signal": 0.8763875484466552,
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "avg_state": 0.6684929269638474
+  },
+  {
+    "step": 11,
+    "signal": 0.9766849517822266,
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "avg_state": 0.6408089717566614
+  },
+  {
+    "step": 12,
+    "signal": 0.07692408561706543,
+    "decisions": {
+      "brain_00": "explore",
+      "brain_01": "explore",
+      "brain_02": "optimize",
+      "wink_brain": "explore"
+    },
+    "avg_state": 0.5942951975933304
+  },
+  {
+    "step": 13,
+    "signal": 0.17717654705047609,
+    "decisions": {
+      "brain_00": "explore",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "explore"
+    },
+    "avg_state": 0.6828902052948087
+  },
+  {
+    "step": 14,
+    "signal": 0.2774031162261963,
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "avg_state": 0.6435195746847323
+  },
+  {
+    "step": 15,
+    "signal": 0.37771728038787844,
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "avg_state": 0.6702434551889289
+  },
+  {
+    "step": 16,
+    "signal": 0.4780282974243164,
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "avg_state": 0.6279712887737126
+  }
+]

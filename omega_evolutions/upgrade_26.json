@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-04-14 19:36:42.000833",
+  "from_version": "v8",
+  "to_version": "v8.1",
+  "reason": "entropy adaptation cycle",
+  "patch": [
+    "increase stability weighting",
+    "optimize tick loop latency",
+    "reduce entropy drift factor"
+  ]
+}

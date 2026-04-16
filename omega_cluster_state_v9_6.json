@@ -1,0 +1,29 @@
+{
+  "nodes": {
+    "local-node-1": {
+      "status": "READY",
+      "capacity": 10,
+      "running": []
+    }
+  },
+  "services": {
+    "kernel": {
+      "cmd": "python omega_kernel_v55.py",
+      "replicas": 1,
+      "node": "local-node-1",
+      "critical": true
+    },
+    "chat": {
+      "cmd": "python omega_chat_assistant_v9_bus.py",
+      "replicas": 1,
+      "node": "local-node-1",
+      "critical": true
+    },
+    "ml_core": {
+      "cmd": "python omega_ml_core_v12.py",
+      "replicas": 1,
+      "node": "local-node-1",
+      "critical": false
+    }
+  }
+}

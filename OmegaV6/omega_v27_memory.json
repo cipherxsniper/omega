@@ -1,0 +1,763 @@
+{
+  "learning_engine_v17": [
+    {
+      "t": 1776170391.6007543,
+      "data": {
+        "step": 1,
+        "features": [
+          3.346166039912246,
+          93,
+          0.8810115062519103
+        ],
+        "score": 0.44299099275168397,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170393.7515063,
+      "data": {
+        "step": 2,
+        "features": [
+          72.05169933252364,
+          93,
+          0.5331180240449179
+        ],
+        "score": 0.4269792514914628,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170396.158947,
+      "data": {
+        "step": 3,
+        "features": [
+          58.09991694656442,
+          93,
+          0.3380679911619765
+        ],
+        "score": 0.4406249905038026,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170398.3243349,
+      "data": {
+        "step": 4,
+        "features": [
+          11.070760560267434,
+          93,
+          0.16039443026687128
+        ],
+        "score": 0.45704576891041365,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170400.5394645,
+      "data": {
+        "step": 5,
+        "features": [
+          28.269224786237523,
+          93,
+          0.5204684795719281
+        ],
+        "score": 0.4477901052102301,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170402.8411324,
+      "data": {
+        "step": 6,
+        "features": [
+          66.34300115236911,
+          93,
+          0.02487650742498182
+        ],
+        "score": 0.42798017290487067,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170405.320642,
+      "data": {
+        "step": 7,
+        "features": [
+          59.436336636557186,
+          93,
+          0.4078823754113651
+        ],
+        "score": 0.45039135277082565,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    }
+  ],
+  "fix_boot_v12": [
+    {
+      "t": 1776170391.6013162,
+      "data": {
+        "step": 1,
+        "features": [
+          3.346166039912246,
+          93,
+          0.8810115062519103
+        ],
+        "score": 0.3263715800192983,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170393.755522,
+      "data": {
+        "step": 2,
+        "features": [
+          72.05169933252364,
+          93,
+          0.5331180240449179
+        ],
+        "score": 0.3126952270137248,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170396.1609824,
+      "data": {
+        "step": 3,
+        "features": [
+          58.09991694656442,
+          93,
+          0.3380679911619765
+        ],
+        "score": 0.3286266465156194,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170398.326852,
+      "data": {
+        "step": 4,
+        "features": [
+          11.070760560267434,
+          93,
+          0.16039443026687128
+        ],
+        "score": 0.34728439180199405,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170400.5513642,
+      "data": {
+        "step": 5,
+        "features": [
+          28.269224786237523,
+          93,
+          0.5204684795719281
+        ],
+        "score": 0.34022395564397895,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170402.8458982,
+      "data": {
+        "step": 6,
+        "features": [
+          66.34300115236911,
+          93,
+          0.02487650742498182
+        ],
+        "score": 0.32256834632994447,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170405.3256593,
+      "data": {
+        "step": 7,
+        "features": [
+          59.436336636557186,
+          93,
+          0.4078823754113651
+        ],
+        "score": 0.34708776272739794,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    }
+  ],
+  "node_stability": [
+    {
+      "t": 1776170391.601769,
+      "data": {
+        "step": 1,
+        "features": [
+          3.346166039912246,
+          93,
+          0.8810115062519103
+        ],
+        "score": 0.39834203712494326,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170393.759613,
+      "data": {
+        "step": 2,
+        "features": [
+          72.05169933252364,
+          93,
+          0.5331180240449179
+        ],
+        "score": 0.38322927497725695,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170396.1629317,
+      "data": {
+        "step": 3,
+        "features": [
+          58.09991694656442,
+          93,
+          0.3380679911619765
+        ],
+        "score": 0.3977500135198809,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170398.3293717,
+      "data": {
+        "step": 4,
+        "features": [
+          11.070760560267434,
+          93,
+          0.16039443026687128
+        ],
+        "score": 0.41502229146617026,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170400.5577767,
+      "data": {
+        "step": 5,
+        "features": [
+          28.269224786237523,
+          93,
+          0.5204684795719281
+        ],
+        "score": 0.4066070973148716,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170402.851291,
+      "data": {
+        "step": 6,
+        "features": [
+          66.34300115236911,
+          93,
+          0.02487650742498182
+        ],
+        "score": 0.3876268251674193,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170405.330638,
+      "data": {
+        "step": 7,
+        "features": [
+          59.436336636557186,
+          93,
+          0.4078823754113651
+        ],
+        "score": 0.4108450719881233,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    }
+  ],
+  "quantum_brain": [
+    {
+      "t": 1776170391.60219,
+      "data": {
+        "step": 1,
+        "features": [
+          3.346166039912246,
+          93,
+          0.8810115062519103
+        ],
+        "score": 0.8484964270638965,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170393.7640085,
+      "data": {
+        "step": 2,
+        "features": [
+          72.05169933252364,
+          93,
+          0.5331180240449179
+        ],
+        "score": 0.824383577117431,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170396.1649387,
+      "data": {
+        "step": 3,
+        "features": [
+          58.09991694656442,
+          93,
+          0.3380679911619765
+        ],
+        "score": 0.8300812296172515,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170398.331906,
+      "data": {
+        "step": 4,
+        "features": [
+          11.070760560267434,
+          93,
+          0.16039443026687128
+        ],
+        "score": 0.8387038832415937,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170400.5609915,
+      "data": {
+        "step": 5,
+        "features": [
+          28.269224786237523,
+          93,
+          0.5204684795719281
+        ],
+        "score": 0.8218150572547864,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170402.858356,
+      "data": {
+        "step": 6,
+        "features": [
+          66.34300115236911,
+          93,
+          0.02487650742498182
+        ],
+        "score": 0.7945336259085359,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170405.3452718,
+      "data": {
+        "step": 7,
+        "features": [
+          59.436336636557186,
+          93,
+          0.4078823754113651
+        ],
+        "score": 0.8096137367144176,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    }
+  ],
+  "Brain_22_v10": [
+    {
+      "t": 1776170391.602653,
+      "data": {
+        "step": 1,
+        "features": [
+          3.346166039912246,
+          93,
+          0.8810115062519103
+        ],
+        "score": 0.8236787247879209,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170393.7684278,
+      "data": {
+        "step": 2,
+        "features": [
+          72.05169933252364,
+          93,
+          0.5331180240449179
+        ],
+        "score": 0.800065228886975,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170396.166881,
+      "data": {
+        "step": 3,
+        "features": [
+          58.09991694656442,
+          93,
+          0.3380679911619765
+        ],
+        "score": 0.8062492483514045,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170398.3343818,
+      "data": {
+        "step": 4,
+        "features": [
+          11.070760560267434,
+          93,
+          0.16039443026687128
+        ],
+        "score": 0.8153455416010634,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170400.5673013,
+      "data": {
+        "step": 5,
+        "features": [
+          28.269224786237523,
+          93,
+          0.5204684795719281
+        ],
+        "score": 0.7989238824470669,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170402.8690946,
+      "data": {
+        "step": 6,
+        "features": [
+          66.34300115236911,
+          93,
+          0.02487650742498182
+        ],
+        "score": 0.7721032745969707,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170405.359011,
+      "data": {
+        "step": 7,
+        "features": [
+          59.436336636557186,
+          93,
+          0.4078823754113651
+        ],
+        "score": 0.7876319924290837,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    }
+  ],
+  "node_attention": [
+    {
+      "t": 1776170391.6032515,
+      "data": {
+        "step": 1,
+        "features": [
+          3.346166039912246,
+          93,
+          0.8810115062519103
+        ],
+        "score": 0.8982220609307645,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170393.773025,
+      "data": {
+        "step": 2,
+        "features": [
+          72.05169933252364,
+          93,
+          0.5331180240449179
+        ],
+        "score": 0.8731206983069617,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170396.1689343,
+      "data": {
+        "step": 3,
+        "features": [
+          58.09991694656442,
+          93,
+          0.3380679911619765
+        ],
+        "score": 0.8778436083829916,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170398.3368907,
+      "data": {
+        "step": 4,
+        "features": [
+          11.070760560267434,
+          93,
+          0.16039443026687128
+        ],
+        "score": 0.8855050144320187,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170400.579802,
+      "data": {
+        "step": 5,
+        "features": [
+          28.269224786237523,
+          93,
+          0.5204684795719281
+        ],
+        "score": 0.8676801658214031,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170402.8730783,
+      "data": {
+        "step": 6,
+        "features": [
+          66.34300115236911,
+          93,
+          0.02487650742498182
+        ],
+        "score": 0.8394874323038203,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170405.3699596,
+      "data": {
+        "step": 7,
+        "features": [
+          59.436336636557186,
+          93,
+          0.4078823754113651
+        ],
+        "score": 0.8536684669817961,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    }
+  ],
+  "Brain_11_v10": [
+    {
+      "t": 1776170391.603807,
+      "data": {
+        "step": 1,
+        "features": [
+          3.346166039912246,
+          93,
+          0.8810115062519103
+        ],
+        "score": 0.08857302919659031,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170393.7776783,
+      "data": {
+        "step": 2,
+        "features": [
+          72.05169933252364,
+          93,
+          0.5331180240449179
+        ],
+        "score": 0.07966764720747105,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170396.1710198,
+      "data": {
+        "step": 3,
+        "features": [
+          58.09991694656442,
+          93,
+          0.3380679911619765
+        ],
+        "score": 0.10025961830549067,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170398.3405573,
+      "data": {
+        "step": 4,
+        "features": [
+          11.070760560267434,
+          93,
+          0.16039443026687128
+        ],
+        "score": 0.1234697041560679,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170400.5925605,
+      "data": {
+        "step": 5,
+        "features": [
+          28.269224786237523,
+          93,
+          0.5204684795719281
+        ],
+        "score": 0.12088556175097127,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170402.8825004,
+      "data": {
+        "step": 6,
+        "features": [
+          66.34300115236911,
+          93,
+          0.02487650742498182
+        ],
+        "score": 0.107631720314797,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170405.3751435,
+      "data": {
+        "step": 7,
+        "features": [
+          59.436336636557186,
+          93,
+          0.4078823754113651
+        ],
+        "score": 0.13644986923255342,
+        "decision": "explore",
+        "source": "internet_ingestion_v27"
+      }
+    }
+  ],
+  "iot_brain": [
+    {
+      "t": 1776170391.6042895,
+      "data": {
+        "step": 1,
+        "features": [
+          3.346166039912246,
+          93,
+          0.8810115062519103
+        ],
+        "score": 0.7861653759121728,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170393.782672,
+      "data": {
+        "step": 2,
+        "features": [
+          72.05169933252364,
+          93,
+          0.5331180240449179
+        ],
+        "score": 0.763311146988742,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170396.173216,
+      "data": {
+        "step": 3,
+        "features": [
+          58.09991694656442,
+          93,
+          0.3380679911619765
+        ],
+        "score": 0.770230248091136,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170398.35186,
+      "data": {
+        "step": 4,
+        "features": [
+          11.070760560267434,
+          93,
+          0.16039443026687128
+        ],
+        "score": 0.7800379213460005,
+        "decision": "optimize",
+        "source": "internet_ingestion_v27"
+      }
+    },
+    {
+      "t": 1776170400.6051545,
+      "data": {
+        "step": 5,
+        

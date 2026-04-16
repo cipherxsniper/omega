@@ -1,0 +1,1267 @@
+{
+  "warnings": [
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/learning_engine_v17.py",
+      "missing": "omega_memorycore_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_memorycore_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_cluster_v9_6.py",
+      "missing": "omega_scheduler_v9_6",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_scheduler_v9_6.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v30.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v31.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v33.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v38.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v40.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v42.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v27.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v28.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v29.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v37.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v39.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v41.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v44.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v45.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v46.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v48.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v49.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v50.py",
+      "missing": "omega_state",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_mesh_os_v5.py",
+      "missing": "omega_reinforcement_v5",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_reinforcement_v5.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_mesh_os_v6.py",
+      "missing": "omega_reflection_v6",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_reflection_v6.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_mesh_os_v6.py",
+      "missing": "omega_thought_export_v6",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_thought_export_v6.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/omega_nexus_kernel_v9_3.py",
+      "missing": "omega_supervisor_v9_3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_supervisor_v9_3.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_control_plane_v6_brain_core.py",
+      "missing": "omega_os_brain_layer_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_os_brain_layer_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_os_brain_v2.py",
+      "missing": "omega_health_monitor_v2",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_health_monitor_v2.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_os_brain_v2.py",
+      "missing": "omega_os_registry_v2",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_os_registry_v2.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_os_brain_v2.py",
+      "missing": "omega_execution_engine_v2",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_execution_engine_v2.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_restart_patch.py",
+      "missing": "omega_launch_guard",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_launch_guard.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_supervisor_integration_patch.py",
+      "missing": "omega_process_supervisor_v2",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_process_supervisor_v2.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_init_system.py",
+      "missing": "omega_manifest_loader_patch",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_manifest_loader_patch.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_launch_patch_apply.py",
+      "missing": "omega_launch_guard",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_launch_guard.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_manifest_builder_v3.py",
+      "missing": "omega_module_classifier_v3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_module_classifier_v3.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_os_brain_v3.py",
+      "missing": "omega_manifest_builder_v3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_manifest_builder_v3.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_os_brain_v3.py",
+      "missing": "omega_dag_engine_v3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_dag_engine_v3.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_systemd_v2_5.py",
+      "missing": "omega_launch_guard",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_launch_guard.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/omega_restart_supervised_patch.py",
+      "missing": "omega_launch_guard",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_launch_guard.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v1.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v1.py",
+      "missing": "runtime_v7.core.omega_semantic_model_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_semantic_model_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v1.py",
+      "missing": "runtime_v7.core.omega_federation_mesh_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_federation_mesh_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v2.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v2.py",
+      "missing": "runtime_v7.core.omega_semantic_model_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_semantic_model_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v2.py",
+      "missing": "runtime_v7.core.omega_federation_mesh_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_federation_mesh_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v3.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v3.py",
+      "missing": "runtime_v7.core.omega_semantic_model_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_semantic_model_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v3.py",
+      "missing": "runtime_v7.core.omega_federation_mesh_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_federation_mesh_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v4.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v4.py",
+      "missing": "runtime_v7.core.omega_semantic_model_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_semantic_model_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v5.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v5.py",
+      "missing": "runtime_v7.core.omega_semantic_model_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_semantic_model_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v6.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v6.py",
+      "missing": "runtime_v7.core.omega_semantic_model_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_semantic_model_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v7.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v7.py",
+      "missing": "runtime_v7.core.omega_semantic_model_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_semantic_model_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v8.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v8.py",
+      "missing": "runtime_v7.core.omega_semantic_model_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_semantic_model_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v9.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v9.py",
+      "missing": "runtime_v7.core.omega_semantic_model_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_semantic_model_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v10.py",
+      "missing": "runtime_v7.core.omega_v10_recursive_core",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_v10_recursive_core.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/start_omega_v15.py",
+      "missing": "runtime_v7.core.omega_semantic_engine_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_semantic_engine_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v2.py",
+      "missing": "runtime_v7.core.omega_memory_graph_v2",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_memory_graph_v2.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v12_swarm_cognition_layer.py",
+      "missing": "runtime_v7.core.omega_memory_graph_v3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_memory_graph_v3.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_assistant_v1.py",
+      "missing": "runtime_v7.core.omega_memory_graph_v2",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_memory_graph_v2.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_memory_graph_v2_patch.py",
+      "missing": "runtime_v7.core.omega_memory_graph_v2",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_memory_graph_v2.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_assistant_v2.py",
+      "missing": "runtime_v7.core.omega_memory_graph_v3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_memory_graph_v3.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v3.py",
+      "missing": "runtime_v7.core.omega_memory_graph_v3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_memory_graph_v3.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_cognition_loop_v1.py",
+      "missing": "runtime_v7.core.omega_memory_graph_v3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_memory_graph_v3.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_assistant_v3.py",
+      "missing": "runtime_v7.core.omega_memory_graph_v3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_memory_graph_v3.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_brain_unified_v1.py",
+      "missing": "runtime_v7.core.omega_memory_graph_v3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_memory_graph_v3.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_federation_mesh_v1.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_semantic_model_v1.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_v10_recursive_core.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_v10_recursive_core.py",
+      "missing": "runtime_v7.core.omega_semantic_model_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_semantic_model_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_v11_emergent_reasoning.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_v11_emergent_reasoning.py",
+      "missing": "runtime_v7.core.omega_semantic_model_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_semantic_model_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v4.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v5.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v6.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v7.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v8.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v9.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_v15_semantic_cognition.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v11.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v13.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v10.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v12.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/v9_9_swarm_bus_v14.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_v17_world_model_engine.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_v16_causal_reasoning_engine.py",
+      "missing": "runtime_v7.core.omega_crdt_memory_v1",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_crdt_memory_v1.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/_dist/Omega-Memory/data/data/com.termux/files/home/Omega/_dist/Omega-Memory/data/data/com.termux/files/home/Omega/_dist/Omega-Memory/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_memory_graph_v2_patch.py",
+      "missing": "runtime_v7.core.omega_memory_graph_v2",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_memory_graph_v2.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/_dist/Omega-Memory/data/data/com.termux/files/home/Omega/_dist/Omega-Memory/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_memory_graph_v2_patch.py",
+      "missing": "runtime_v7.core.omega_memory_graph_v2",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_memory_graph_v2.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/_dist/Omega-Memory/data/data/com.termux/files/home/Omega/OmegaV6/runtime_v7/core/omega_memory_graph_v2_patch.py",
+      "missing": "runtime_v7.core.omega_memory_graph_v2",
+      "expected_path": "/data/data/com.termux/files/home/Omega/runtime_v7/core/omega_memory_graph_v2.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/core/omega_worker_pool.py",
+      "missing": "omega_safe_import",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_safe_import.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/core/omega_supervisor.py",
+      "missing": "omega_worker_pool",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_worker_pool.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/core/omega_supervisor.py",
+      "missing": "omega_event_router",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_event_router.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/core/omega_worker_node.py",
+      "missing": "omega_safe_import",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_safe_import.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/core/omega_supervisor_v2.py",
+      "missing": "omega_event_router_v2",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_event_router_v2.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/core/omega_reasoning_node_v3.py",
+      "missing": "omega_event_bus_v3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_event_bus_v3.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/core/omega_planner_v3.py",
+      "missing": "omega_event_bus_v3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_event_bus_v3.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/core/omega_worker_v3.py",
+      "missing": "omega_event_bus_v3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_event_bus_v3.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/core/omega_supervisor_v3.py",
+      "missing": "omega_worker_v3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_worker_v3.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/core/omega_supervisor_v3.py",
+      "missing": "omega_event_bus_v3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_event_bus_v3.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/core/omega_supervisor_v3.py",
+      "missing": "omega_reasoning_node_v3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_reasoning_node_v3.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/core/omega_supervisor_v3.py",
+      "missing": "omega_memory_v3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_memory_v3.py",
+      "risk": "HIGH"
+    },
+    {
+      "type": "missing_module_predicted",
+      "file": "/data/data/com.termux/files/home/Omega/core/omega_supervisor_v3.py",
+      "missing": "omega_planner_v3",
+      "expected_path": "/data/data/com.termux/files/home/Omega/omega_planner_v3.py",
+      "risk": "HIGH"
+    }
+  ],
+  "fixes": [
+    {
+      "issue": "omega_memorycore_v1",
+      "suggested_fix": "omega_memorycore_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_scheduler_v9_6",
+      "suggested_fix": "omega_scheduler_v9_6",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_state",
+      "suggested_fix": "omega_state",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_reinforcement_v5",
+      "suggested_fix": "omega_reinforcement_v4",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_reflection_v6",
+      "suggested_fix": "omega_reflection_v6",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_thought_export_v6",
+      "suggested_fix": "omega_thought_export_v6",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_supervisor_v9_3",
+      "suggested_fix": "omega_supervisor_v9_3",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_os_brain_layer_v1",
+      "suggested_fix": "omega_os_brain_layer_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_health_monitor_v2",
+      "suggested_fix": "omega_health_monitor_v2",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_os_registry_v2",
+      "suggested_fix": "omega_os_registry_v2",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_execution_engine_v2",
+      "suggested_fix": "omega_execution_engine_v2",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_launch_guard",
+      "suggested_fix": "omega_launch_guard",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_process_supervisor_v2",
+      "suggested_fix": "omega_process_supervisor_v2",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_manifest_loader_patch",
+      "suggested_fix": "omega_manifest_loader_patch",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_launch_guard",
+      "suggested_fix": "omega_launch_guard",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_module_classifier_v3",
+      "suggested_fix": "omega_module_classifier_v3",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_manifest_builder_v3",
+      "suggested_fix": "omega_manifest_builder_v3",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_dag_engine_v3",
+      "suggested_fix": "omega_dag_engine_v3",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_launch_guard",
+      "suggested_fix": "omega_launch_guard",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_launch_guard",
+      "suggested_fix": "omega_launch_guard",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_semantic_model_v1",
+      "suggested_fix": "runtime_v7.core.omega_semantic_model_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_federation_mesh_v1",
+      "suggested_fix": "runtime_v7.core.omega_federation_mesh_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_semantic_model_v1",
+      "suggested_fix": "runtime_v7.core.omega_semantic_model_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_federation_mesh_v1",
+      "suggested_fix": "runtime_v7.core.omega_federation_mesh_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_semantic_model_v1",
+      "suggested_fix": "runtime_v7.core.omega_semantic_model_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_federation_mesh_v1",
+      "suggested_fix": "runtime_v7.core.omega_federation_mesh_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_semantic_model_v1",
+      "suggested_fix": "runtime_v7.core.omega_semantic_model_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_semantic_model_v1",
+      "suggested_fix": "runtime_v7.core.omega_semantic_model_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_semantic_model_v1",
+      "suggested_fix": "runtime_v7.core.omega_semantic_model_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_semantic_model_v1",
+      "suggested_fix": "runtime_v7.core.omega_semantic_model_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_semantic_model_v1",
+      "suggested_fix": "runtime_v7.core.omega_semantic_model_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_semantic_model_v1",
+      "suggested_fix": "runtime_v7.core.omega_semantic_model_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_v10_recursive_core",
+      "suggested_fix": "runtime_v7.core.omega_v10_recursive_core",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_semantic_engine_v1",
+      "suggested_fix": "runtime_v7.core.omega_semantic_engine_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_memory_graph_v2",
+      "suggested_fix": "runtime_v7.core.omega_memory_graph_v2",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_memory_graph_v3",
+      "suggested_fix": "runtime_v7.core.omega_memory_graph_v3",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_memory_graph_v2",
+      "suggested_fix": "runtime_v7.core.omega_memory_graph_v2",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_memory_graph_v2",
+      "suggested_fix": "runtime_v7.core.omega_memory_graph_v2",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_memory_graph_v3",
+      "suggested_fix": "runtime_v7.core.omega_memory_graph_v3",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_memory_graph_v3",
+      "suggested_fix": "runtime_v7.core.omega_memory_graph_v3",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_memory_graph_v3",
+      "suggested_fix": "runtime_v7.core.omega_memory_graph_v3",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_memory_graph_v3",
+      "suggested_fix": "runtime_v7.core.omega_memory_graph_v3",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_memory_graph_v3",
+      "suggested_fix": "runtime_v7.core.omega_memory_graph_v3",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_semantic_model_v1",
+      "suggested_fix": "runtime_v7.core.omega_semantic_model_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_semantic_model_v1",
+      "suggested_fix": "runtime_v7.core.omega_semantic_model_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_crdt_memory_v1",
+      "suggested_fix": "runtime_v7.core.omega_crdt_memory_v1",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_memory_graph_v2",
+      "suggested_fix": "runtime_v7.core.omega_memory_graph_v2",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_memory_graph_v2",
+      "suggested_fix": "runtime_v7.core.omega_memory_graph_v2",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "runtime_v7.core.omega_memory_graph_v2",
+      "suggested_fix": "runtime_v7.core.omega_memory_graph_v2",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_safe_import",
+      "suggested_fix": "omega_safe_import",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_worker_pool",
+      "suggested_fix": "omega_worker_pool",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_event_router",
+      "suggested_fix": "omega_event_router",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_safe_import",
+      "suggested_fix": "omega_safe_import",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_event_router_v2",
+      "suggested_fix": "omega_event_router_v2",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_event_bus_v3",
+      "suggested_fix": "omega_event_bus_v3",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_event_bus_v3",
+      "suggested_fix": "omega_event_bus_v3",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_event_bus_v3",
+      "suggested_fix": "omega_event_bus_v3",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_worker_v3",
+      "suggested_fix": "omega_worker_v3",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_event_bus_v3",
+      "suggested_fix": "omega_event_bus_v3",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_reasoning_node_v3",
+      "suggested_fix": "omega_reasoning_node_v3",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_memory_v3",
+      "suggested_fix": "omega_memory_v3",
+      "reason": "nearest version fallback heuristic"
+    },
+    {
+      "issue": "omega_planner_v3",
+      "suggested_fix": "omega_planner_v3",
+      "reason": "nearest version fallback heuristic"
+    }
+  ],
+  "coherence": 0.9945054945054945
+}

@@ -1,0 +1,273 @@
+{
+  "events": [
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776168878.6290348,
+      "_id": "30a4ecccb29f54de93e38f5766d615375823f7c1324a057f9a0fe3827f009af7",
+      "_ts": 1776168878.6410353
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776168879.4729042,
+      "_id": "a0e36a660a547e5edcac080715a5fdc0cca6c0d3e969cab693f11c033386864e",
+      "_ts": 1776168879.484548
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776168879.8006043,
+      "_id": "e0b94006d40e3b51983baf99785a59d9ed53f748d23cbb41a138069e39826afd",
+      "_ts": 1776168879.8078084
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776168879.836394,
+      "_id": "668e68b1f6531f536ab0f5a4ff22a22037eca7a107aae6333f50bc031a7335d0",
+      "_ts": 1776168879.8403077
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776168880.6301904,
+      "_id": "ee62452e34e74ffd558ea78faf15d5292db9cab705419a9a4056db18e8cb561c",
+      "_ts": 1776168880.6407318
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174375.3021154,
+      "_id": "8afd042cdaba3e6c384d6109b6c906981c66fa9e35dba1597f11809f5535193b",
+      "_ts": 1776174375.3037684
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174375.3013864,
+      "_id": "b392df4b6d06b19694a2cb08e1ebe43151593d82ca46a2c09903b034d6f7b6d7",
+      "_ts": 1776174375.3046653
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174375.4492006,
+      "_id": "bb47726b81a56b59a67b3fa9eba044e595850a9c860f7bc58e2c392ec2ff3d66",
+      "_ts": 1776174375.4552827
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174375.5164251,
+      "_id": "1cccd5f563db40bce771f1aa16b9b6671802d21a66d3a26f3ffee4e0693ec955",
+      "_ts": 1776174375.5183878
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174375.681924,
+      "_id": "eaa433ac7fabbe7a663daa950287c6e25d446e45a936c525a6ad81fc73ffbe44",
+      "_ts": 1776174375.687329
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174376.1428695,
+      "_id": "87eacd112fec894ac6c6027744c810a7178b92de32c764a3e959f295c9e67bbf",
+      "_ts": 1776174376.168315
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174376.1660182,
+      "_id": "10e672edfe2c967ceeabd173ec3f8610356989f063cb47ac71f0fc1a9a5dc278",
+      "_ts": 1776174376.2623982
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174376.1665332,
+      "_id": "a6852fa9a7c255025d7ecfebeec4f7330b8547ac806dc99eef58f6f9c9933b33",
+      "_ts": 1776174376.2643702
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174377.3025517,
+      "_id": "9dd3b6887e4f074412602c6af0ab251848248e3dbcf2a610024fd41007832e4d",
+      "_ts": 1776174377.3114212
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174377.3031366,
+      "_id": "cc803208d4ece029ba204117a664cd3036bb3388dff1a5fceabf8a62e0f4868f",
+      "_ts": 1776174377.319011
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174377.4497395,
+      "_id": "d3abfef765c735601f5ed87f970b30c639f9fa36d2d5aa2992a65570987a73bc",
+      "_ts": 1776174377.4551678
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174377.5169098,
+      "_id": "6f7b0de7b179858794a8933d90bb3dea5bfffca83c3ddfccbeac82bf42312538",
+      "_ts": 1776174377.5300264
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174377.6825323,
+      "_id": "43a10d683b0d20040267a0c062e2a31ed40e5d318d34cc8725ec6425b6c9548d",
+      "_ts": 1776174377.692414
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174378.1434913,
+      "_id": "ea55c970d0d5fc633d35c6d1de559032935e8084fa265c9ba1b74edbf12d3ca1",
+      "_ts": 1776174378.1461391
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174378.166613,
+      "_id": "8a715ffdaf096bf98c7d93380d23c00ec697d185d6ca0d4ad1f580c46eb0aa76",
+      "_ts": 1776174378.1696935
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174378.1676922,
+      "_id": "c631e673c696ef9234db878e154bf34bd061b018ba9ed316934785383f3b8498",
+      "_ts": 1776174378.1749086
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174379.303676,
+      "_id": "3b3f963a8d493bd439ef8f7a97736c25e2481ca76dc3649aa2245a418d08ab6a",
+      "_ts": 1776174379.3089054
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174379.3072464,
+      "_id": "239eb873d65b75741d9c0101fee013578d455b092945b68b9d379cb1949dd1be",
+      "_ts": 1776174379.3127117
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174379.4507222,
+      "_id": "db9a847c7af4e2a33d85e252d3b3b655db8938408850fae87730309a274ae9e7",
+      "_ts": 1776174379.45351
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174379.5173888,
+      "_id": "f33cd901d8fe37aa7fca743627ca5d2af24a4c07f0d4cd3754d69b0a47621903",
+      "_ts": 1776174379.5215795
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174379.6835773,
+      "_id": "dd223a6a83e867e1634743a8ec9dcb1d843e11a64a53eb89ce1f5f24b1cab80e",
+      "_ts": 1776174379.6953015
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174380.1440065,
+      "_id": "4d34624942b57393886d221d4a833d26a6a90ac33779e4651ba60dbe8a954efa",
+      "_ts": 1776174380.1533487
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174380.1672292,
+      "_id": "d18452764ce676cdb9b68d4348e2a40c8046259ddea427a49cd4d408ffec0b60",
+      "_ts": 1776174380.1767538
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174380.168169,
+      "_id": "f92fd26ef51e0a23ae747c2101a737262f7c3d62c00e044bf61db748266ef26a",
+      "_ts": 1776174380.1797194
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174381.3056002,
+      "_id": "a15710b1d220cc2969908875a06c18f97be19e48476ce3584d4abda2a247f5f5",
+      "_ts": 1776174381.3162599
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174381.3111436,
+      "_id": "3cadd3ec212f5eb2808686be0b3cdffc6407c613437667c9159f768e5714a14a",
+      "_ts": 1776174381.3195567
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174381.4512625,
+      "_id": "9996da45112f621ee9caf12a81a0e08938b3076e142cb0dd2f59e49e99520838",
+      "_ts": 1776174381.4568157
+    },
+    {
+      "type": "heartbeat",
+      "content": "alive",
+      "node_id": "emitter-1",
+      "timestamp": 1776174381.517955,
+      "_id": "c7d9d1b1acef4b8e0a546d8ed03f39775becc33a0581c840c939c8d6cc54793e",
+      "_ts": 1776174381.5217938
+    }
+  ],
+  "nodes": {},
+  "meta": {
+    "version": "CRDT_V1",
+    "last_update": 1776174381.5218015
+  }
+}

@@ -1,0 +1,44 @@
+import json
+import socket
+import time
+
+class SwarmNetwork:
+    def __init__(self, port=5050, memory=None):
+        self.port = int(port)
+
+        # ✅ FIX: never allow int memory
+        self.memory = memory if hasattr(memory, "store") else {}
+
+    def listen(self):
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+        try:
+            s.bind(("127.0.0.1", int(self.port)))
+            print(f"[SWARM] listening on {self.port}")
+        except OSError:
+            print(f"[SWARM] Port {self.port} busy → skipping bind")
+
+        while True:
+            try:
+                data, _ = s.recvfrom(4096)
+                msg = json.loads(data.decode(errors="ignore"))
+                print("[SWARM IN]", msg)
+
+                # ✅ SAFE STORE
+                if hasattr(self.memory, "store"):
+                    self.memory.store(msg)
+                else:
+                    self.memory[msg["time"]] = msg
+
+            except Exception as e:
+                print("[SWARM ERROR]", e)
+
+    def broadcast(self, message):
+        if isinstance(message, dict):
+            message = json.dumps(message)
+
+        if not isinstance(message, (str, bytes)):
+            message = str(message)
+
+        sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        sock.sendto(message.encode(), ("127.0.0.1", int(self.port)))

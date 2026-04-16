@@ -1,0 +1,240 @@
+[
+  {
+    "step": 1,
+    "context": 0.5,
+    "consensus": "optimize",
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "rewards": {
+      "brain_00": 0.9307339547508637,
+      "brain_01": 0.5498097141908312,
+      "brain_02": 0.26650086034240283,
+      "wink_brain": 0.8640901878432661
+    }
+  },
+  {
+    "step": 2,
+    "context": 0.025,
+    "consensus": "explore",
+    "decisions": {
+      "brain_00": "explore",
+      "brain_01": "explore",
+      "brain_02": "explore",
+      "wink_brain": "explore"
+    },
+    "rewards": {
+      "brain_00": 0.05679443417514363,
+      "brain_01": 0.18506336767177556,
+      "brain_02": 0.2288774426890513,
+      "wink_brain": 0.6827365017698066
+    }
+  },
+  {
+    "step": 3,
+    "context": 0.05,
+    "consensus": "explore",
+    "decisions": {
+      "brain_00": "explore",
+      "brain_01": "explore",
+      "brain_02": "explore",
+      "wink_brain": "explore"
+    },
+    "rewards": {
+      "brain_00": 0.8026868897156563,
+      "brain_01": 0.4314741719727292,
+      "brain_02": 0.6853120123620222,
+      "wink_brain": 0.5533795257295703
+    }
+  },
+  {
+    "step": 4,
+    "context": 0.075,
+    "consensus": "explore",
+    "decisions": {
+      "brain_00": "explore",
+      "brain_01": "explore",
+      "brain_02": "explore",
+      "wink_brain": "explore"
+    },
+    "rewards": {
+      "brain_00": 0.9965019313607271,
+      "brain_01": 0.6740749707026269,
+      "brain_02": 0.5420481387484561,
+      "wink_brain": 0.1363251580288818
+    }
+  },
+  {
+    "step": 5,
+    "context": 0.1,
+    "consensus": "explore",
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "explore",
+      "brain_02": "explore",
+      "wink_brain": "explore"
+    },
+    "rewards": {
+      "brain_00": 0.45703894501793696,
+      "brain_01": 0.663049320173058,
+      "brain_02": 0.9204099395939536,
+      "wink_brain": 0.7385833111715358
+    }
+  },
+  {
+    "step": 6,
+    "context": 0.125,
+    "consensus": "optimize",
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "rewards": {
+      "brain_00": 0.25195491047367746,
+      "brain_01": 0.8106185922306501,
+      "brain_02": 0.08176623676576278,
+      "wink_brain": 0.22014376159990068
+    }
+  },
+  {
+    "step": 7,
+    "context": 0.15,
+    "consensus": "optimize",
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "rewards": {
+      "brain_00": 0.8233370053713955,
+      "brain_01": 0.5259504968830041,
+      "brain_02": 0.23784880260788033,
+      "wink_brain": 0.9642046519983091
+    }
+  },
+  {
+    "step": 8,
+    "context": 0.175,
+    "consensus": "optimize",
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "rewards": {
+      "brain_00": 0.27022943618024065,
+      "brain_01": 0.19134102211380744,
+      "brain_02": 0.4080956950118455,
+      "wink_brain": 0.13614404918950895
+    }
+  },
+  {
+    "step": 9,
+    "context": 0.2,
+    "consensus": "optimize",
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "rewards": {
+      "brain_00": 0.7787404899921468,
+      "brain_01": 0.6223866930100028,
+      "brain_02": 0.4117441667077214,
+      "wink_brain": 0.7892199468427364
+    }
+  },
+  {
+    "step": 10,
+    "context": 0.225,
+    "consensus": "optimize",
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "rewards": {
+      "brain_00": 0.7047781730865296,
+      "brain_01": 0.2632619814068692,
+      "brain_02": 0.48165276781441047,
+      "wink_brain": 0.9447392147847314
+    }
+  },
+  {
+    "step": 11,
+    "context": 0.25,
+    "consensus": "optimize",
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "explore",
+      "wink_brain": "optimize"
+    },
+    "rewards": {
+      "brain_00": 0.808960995195546,
+      "brain_01": 0.6980555423294229,
+      "brain_02": 0.3174526801942986,
+      "wink_brain": 0.0825695361131753
+    }
+  },
+  {
+    "step": 12,
+    "context": 0.275,
+    "consensus": "optimize",
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "rewards": {
+      "brain_00": 0.9923569995132971,
+      "brain_01": 0.6066023390532113,
+      "brain_02": 0.9638828190727051,
+      "wink_brain": 0.4122932731004715
+    }
+  },
+  {
+    "step": 13,
+    "context": 0.3,
+    "consensus": "optimize",
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "rewards": {
+      "brain_00": 0.08193360693480434,
+      "brain_01": 0.659860185835788,
+      "brain_02": 0.5153274204059239,
+      "wink_brain": 0.6805400741959432
+    }
+  },
+  {
+    "step": 14,
+    "context": 0.325,
+    "consensus": "optimize",
+    "decisions": {
+      "brain_00": "optimize",
+      "brain_01": "optimize",
+      "brain_02": "optimize",
+      "wink_brain": "optimize"
+    },
+    "rewards": {
+      "brain_00": 0.16247225439851498,
+      "brain_01": 0.17594409361675956,
+      "brain_02": 0.7644448066557616,
+      "wink_brain": 0.03362438494464148
+    }
+  }
+]

@@ -1,0 +1,224 @@
+{
+  "identity": "OMEGA",
+  "version": 27,
+  "tick": 16,
+  "memory": [
+    {
+      "tick": 1,
+      "signals": {
+        "attention": 0.9789521405966319,
+        "memory": 0.6627681565444667,
+        "goal": "explore",
+        "stability": 0.3543115567960964
+      }
+    },
+    {
+      "tick": 2,
+      "signals": {
+        "attention": 0.21823571747280548,
+        "memory": 0.48385500518958413,
+        "goal": "stabilize",
+        "stability": 0.906380651283466
+      }
+    },
+    {
+      "tick": 3,
+      "signals": {
+        "attention": 0.31223060584930845,
+        "memory": 0.49388987372539667,
+        "goal": "stabilize",
+        "stability": 0.8787454958555734
+      }
+    },
+    {
+      "tick": 4,
+      "signals": {
+        "attention": 0.24947844849610246,
+        "memory": 0.9834221011976767,
+        "goal": "explore",
+        "stability": 0.9902887858732627
+      }
+    },
+    {
+      "tick": 5,
+      "signals": {
+        "attention": 0.3435735088160743,
+        "memory": 0.5946471752726736,
+        "goal": "explore",
+        "stability": 0.6068236616052901
+      }
+    },
+    {
+      "tick": 6,
+      "signals": {
+        "attention": 0.8974898501423196,
+        "memory": 0.4529139132358368,
+        "goal": "stabilize",
+        "stability": 0.8791214809818828
+      }
+    },
+    "tick_7",
+    {
+      "tick": 8,
+      "signals": {
+        "attention": 0.9076117499068832,
+        "memory": 0.9767892105825016,
+        "goal": "optimize",
+        "stability": 0.735140367005719
+      }
+    },
+    {
+      "tick": 9,
+      "signals": {
+        "attention": 0.609181300152307,
+        "memory": 0.7796851501428141,
+        "goal": "stabilize",
+        "stability": 0.29629620057333406
+      }
+    },
+    {
+      "tick": 10,
+      "signals": {
+        "attention": 0.2638388456955798,
+        "memory": 0.24478818366812327,
+        "goal": "optimize",
+        "stability": 0.4381357722844606
+      }
+    },
+    {
+      "tick": 11,
+      "signals": {
+        "attention": 0.9381332833352953,
+        "memory": 0.9537401431833727,
+        "goal": "stabilize",
+        "stability": 0.20367781044699013
+      }
+    },
+    {
+      "tick": 12,
+      "signals": {
+        "attention": 0.6884678530847759,
+        "memory": 0.41747125648905037,
+        "goal": "stabilize",
+        "stability": 0.7753972369274094
+      }
+    },
+    {
+      "tick": 13,
+      "signals": {
+        "attention": 0.5520197508859745,
+        "memory": 0.8135812978177068,
+        "goal": "stabilize",
+        "stability": 0.7375628585907981
+      }
+    },
+    {
+      "tick": 14,
+      "signals": {
+        "attention": 0.27207408317236237,
+        "memory": 0.7882095377145542,
+        "goal": "optimize",
+        "stability": 0.7593402116002532
+      }
+    },
+    {
+      "tick": 15,
+      "signals": {
+        "attention": 0.2722189760120466,
+        "memory": 0.3154459494889936,
+        "goal": "optimize",
+        "stability": 0.8878996785900524
+      }
+    },
+    {
+      "tick": 16,
+      "signals": {
+        "attention": 0.33545181341315033,
+        "memory": 0.4735306312102605,
+        "goal": "stabilize",
+        "stability": 0.8374213040782721
+      }
+    }
+  ],
+  "goals": [],
+  "events": [
+    {
+      "type": "tick",
+      "tick": 1
+    },
+    {
+      "type": "tick",
+      "tick": 2
+    },
+    {
+      "type": "tick",
+      "tick": 3
+    },
+    {
+      "type": "tick",
+      "tick": 4
+    },
+    {
+      "type": "tick",
+      "tick": 5
+    },
+    {
+      "type": "tick",
+      "tick": 6
+    },
+    {
+      "type": "heartbeat",
+      "tick": 7
+    },
+    {
+      "type": "tick",
+      "tick": 8
+    },
+    {
+      "type": "tick",
+      "tick": 9
+    },
+    {
+      "type": "tick",
+      "tick": 10
+    },
+    {
+      "type": "tick",
+      "tick": 11
+    },
+    {
+      "type": "tick",
+      "tick": 12
+    },
+    {
+      "type": "tick",
+      "tick": 13
+    },
+    {
+      "type": "tick",
+      "tick": 14
+    },
+    {
+      "type": "tick",
+      "tick": 15
+    },
+    {
+      "type": "tick",
+      "tick": 16
+    }
+  ],
+  "attention": {
+    "budget": 3,
+    "focus": null
+  },
+  "swarm": {
+    "nodes": 1,
+    "status": "online"
+  },
+  "ml": {
+    "reward": 0.0,
+    "loss": 0.0
+  },
+  "stability": 1.0,
+  "last_update": 1776170404.9274225
+}

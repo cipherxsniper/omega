@@ -1,0 +1,32 @@
+{
+  "boot": {
+    "kernel": ["omega_kernel_v15.py"]
+  },
+  "services": [
+    {
+      "name": "identity",
+      "exec": "omega_identity_kernel_v25.py",
+      "requires": ["kernel"]
+    },
+    {
+      "name": "execution",
+      "exec": "omega_execution_engine_v7.py",
+      "requires": ["kernel"]
+    },
+    {
+      "name": "meta_brain",
+      "exec": "omega_meta_brain_v10.py",
+      "requires": ["identity", "execution"]
+    },
+    {
+      "name": "swarm",
+      "exec": "omega_swarm_v23_unified.py",
+      "requires": ["meta_brain"]
+    },
+    {
+      "name": "runtime",
+      "exec": "omega_os_runtime_v1.py",
+      "requires": ["kernel"]
+    }
+  ]
+}

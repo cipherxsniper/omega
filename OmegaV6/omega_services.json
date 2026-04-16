@@ -1,0 +1,4 @@
+{
+  "omega_process_supervisor_v2.py": [],
+  "omega_execution_governor_v1.py": ["omega_process_supervisor_v2.py"]
+}

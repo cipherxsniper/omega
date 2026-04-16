@@ -1,0 +1,342 @@
+[
+  {
+    "brain": "brain_00",
+    "state": 0.7003326484010963,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_01",
+    "state": 0.1668909059625175,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.12987570024416853,
+    "decision": "optimize"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.7321839324822328,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.6840033049564576,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_01",
+    "state": 0.1337484668927056,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.11979853822915504,
+    "decision": "optimize"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.7115692231599258,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.6477395935436732,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_01",
+    "state": 0.11650377559244333,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.11477806804773778,
+    "decision": "explore"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.7002768559560575,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.6933428249865515,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_01",
+    "state": 0.10787238342223573,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.07685383986315367,
+    "decision": "optimize"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.745651701242826,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.7042084853759343,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_01",
+    "state": 0.06216640815910912,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.07095351029932023,
+    "decision": "explore"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.7655817202526533,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.66032664438177,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_01",
+    "state": 0.04840412482398908,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.03595715721133946,
+    "decision": "explore"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.7894809472020924,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.6271698701336876,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_01",
+    "state": 0.0011483201652674607,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.0799056716235423,
+    "decision": "optimize"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.8139375239486774,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.6428828582337779,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_01",
+    "state": 0.03780815269016802,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.043009979407931234,
+    "decision": "explore"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.7778512022764243,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.6751573100120494,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_01",
+    "state": 0.05712996836883921,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.005294641770886933,
+    "decision": "explore"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.7518817715285511,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.7046457289933076,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_01",
+    "state": 0.08404616204801656,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.037750557223884325,
+    "decision": "optimize"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.7626020332133348,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.6990890387751029,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_01",
+    "state": 0.047658076989558734,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.08646323583624416,
+    "decision": "explore"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.7358239019897013,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.6773805927336792,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_01",
+    "state": -0.0017093424277789815,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.04467699504983294,
+    "decision": "optimize"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.7090279554423001,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.6397586912692935,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_01",
+    "state": -0.022346932391516264,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.023303635666130355,
+    "decision": "explore"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.6883304373394409,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.6391278268808556,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_01",
+    "state": -0.020587393727945817,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.05173885732871384,
+    "decision": "explore"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.6721298701945054,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.6840189726327696,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_01",
+    "state": -0.03483183288987078,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.07407496914399578,
+    "decision": "optimize"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.6441813740073008,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.7000869955260877,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_01",
+    "state": -0.02013609238693713,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.05568800733035187,
+    "decision": "explore"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.6147198898537815,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.6887015536239127,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_01",
+    "state": -0.06988887393898406,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.0820640113102386,
+    "decision": "explore"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.6587766539346982,
+    "decision": "optimize"
+  }
+]

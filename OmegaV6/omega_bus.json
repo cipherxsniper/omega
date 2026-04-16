@@ -1,0 +1,15 @@
+{
+  "nodes": {},
+  "signals": [],
+  "last_updated": 1776170396.2756226,
+  "router_state": {
+    "trust": {
+      "attention": 1.0,
+      "memory": 1.0,
+      "goal": 1.0,
+      "stability": 1.0
+    },
+    "routed_count": 0,
+    "total_signals": 0
+  }
+}

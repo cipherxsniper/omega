@@ -1,0 +1,1872 @@
+[
+  {
+    "time": 1776033315.0658128,
+    "tag": "decision",
+    "data": "Store data: {'crypto': 'No data', 'fact': 'The average American looks at eight houses before buying one.'}"
+  },
+  {
+    "time": 1776033320.825991,
+    "tag": "decision",
+    "data": "Adjust model based on UP"
+  },
+  {
+    "time": 1776033326.570003,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033332.3189723,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033338.0826719,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033379.9167151,
+    "tag": "decision",
+    "data": "Store data: {'crypto': 'No data', 'fact': 'A shark is the only fish that can blink with both eyes.'}"
+  },
+  {
+    "time": 1776033385.6801653,
+    "tag": "decision",
+    "data": "Adjust model based on UP"
+  },
+  {
+    "time": 1776033391.4531925,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033397.2410722,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033403.0161974,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033408.774472,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033414.5480163,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033420.3078063,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033426.0835152,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033431.8383894,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033437.620217,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033443.3882446,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033449.1660821,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033454.9342313,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033460.6932337,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033466.4634817,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033472.2372737,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033477.999248,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033483.8687823,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033489.635748,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033495.3895507,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033501.832695,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033508.387153,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033514.837915,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033521.1856828,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033527.6370223,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033534.0880682,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033540.5407052,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033546.8900304,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033553.3418083,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033559.6889045,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033566.140817,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033572.5910516,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033578.9401548,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033585.4944763,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033591.740044,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033598.2953262,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033604.7448876,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033611.093648,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033617.5458174,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033623.9974174,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033630.4479957,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033637.0022557,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033643.453299,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033649.8000374,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033656.3555782,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033662.8070858,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033669.1562216,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033675.606503,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033681.8538136,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033688.304645,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033694.951456,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033701.4123113,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033707.760511,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033714.1100497,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033720.559988,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033726.908824,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033733.3600018,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033739.9149313,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033746.2626035,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033752.7153697,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776033860.5591455,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776034420.076177,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776034661.8419771,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776034667.8482842,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776034673.68992,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776034679.4775107,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776034686.0964186,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776034901.1412985,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776034941.6321285,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776034948.1417658,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776035071.5357032,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776035078.089195,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776035084.5556343,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776035091.3961802,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776035097.9544532,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776035103.7359288,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776035110.2410975,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776035116.6925166,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776035123.0414834,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776035383.6625369,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776035591.9373105,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776035942.7819726,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776036276.6903715,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776036495.7316997,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776036502.1766946,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776036508.8326263,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776036515.488423,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776036521.852035,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776036628.0396938,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776036634.068486,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776036640.6209795,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776036722.4379587,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776036824.6359057,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776036830.9845748,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776037003.1205053,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776037019.7089262,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776037415.3374498,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776037421.8388238,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776037511.6433313,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776037751.7168887,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776037757.9172456,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776037764.0306833,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776037770.4067736,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776037776.5903296,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776037783.2080967,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776037789.119183,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776037795.700663,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776037801.9478424,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776037808.625614,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776038013.303146,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776038267.790974,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776038291.369789,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776038297.1318808,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776038411.9372609,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776038745.2797387,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776038908.0806987,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776038914.3286095,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776038941.8840644,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776039152.3347158,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776039176.4026606,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776039516.6516612,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776039585.9817271,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776039592.125536,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776039598.4690685,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776039604.4766252,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776039610.961288,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776039816.8904014,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776039859.5002735,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776039893.3838542,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776039963.3370674,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776040125.0175443,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776040472.150753,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776040586.4423058,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776040753.9609854,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776041081.3376184,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776041118.7690349,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776041124.5557091,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776041372.2909138,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776041732.0145123,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776042072.7797747,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776042367.7962162,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776042512.0950356,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776042817.643214,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043051.6304839,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043216.8982134,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043222.9113061,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043228.972923,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043234.9706573,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043241.2828941,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043247.3909376,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043253.4766364,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043259.3137476,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043265.3537145,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043271.6884584,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043277.5919344,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043284.0770206,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043290.5290549,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043297.1858726,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043303.5594344,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043472.804563,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043489.292017,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043605.3268008,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776043856.192666,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776044085.2710137,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776044521.8348005,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776044595.4466498,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776044645.9445026,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776044691.2715292,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776044705.6199381,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776044743.8124216,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776044842.4138534,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776045019.6850622,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776045073.4413972,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776045169.7891977,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776045260.9279258,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776045602.0483027,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776045658.6493266,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776045866.0096357,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776046114.8492548,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776046140.3634975,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776046304.2064073,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776046413.9601953,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776046651.376362,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776047075.8802254,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776047313.4249504,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776047342.1311631,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776047387.6856744,
+    "tag": "decision",
+    "data": "Idle"
+  },
+  {
+    "time": 1776048085.3127997,
+    "tag": "decision",
+    "data": "Store data: {'crypto': 'No data', 'fact': 'Dreamt is the only English word that ends in the letters \u201cMT\u201d.'}"
+  },
+  {
+    "time": 1776048091.0734766,
+    "tag": "decision",
+    "data": "Adjust model based on DOWN"
+  },
+  {
+    "time": 1776098904.6972024,
+    "tag": "decision",
+    "data": "Store data: {'crypto': 'No data', 'fact': 'Lithuania has the highest suicide rate in the world.'}"
+  },
+  {
+    "time": 1776098910.4847553,
+    "tag": "decision",
+    "data": "Adjust model based on DOWN"
+  },
+  {
+    "time": 1776098916.3210394,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776098922.1602294,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'The first streetlights in America were installed in Philadelphia around 1757.'}"
+  },
+  {
+    "time": 1776098927.9322588,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776098933.7045043,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776098939.4545448,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Residents of Houston, Texas lead the U.S. in eating out - approximately 4.6 times per week.'}"
+  },
+  {
+    "time": 1776098945.2030773,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776098950.9533868,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'On an American one-dollar bill, there is an owl in the upper left-hand corner of the \"1\"encased in the \"shield\" and a spider hidden in the front upper right-hand corner.'}"
+  },
+  {
+    "time": 1776098956.6926064,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Months that begin on a Sunday will always have a `Friday the 13th`.'}"
+  },
+  {
+    "time": 1776098962.5438075,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'It takes more calories to eat a piece of celery than the celery has in it to begin with.'}"
+  },
+  {
+    "time": 1776098968.883767,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776098975.3718472,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776099025.8674664,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Tehran is the most expensive city on earth.'}"
+  },
+  {
+    "time": 1776099085.9032834,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776099134.5258634,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'When the Titanic sank, 2228 people were on it. Only 706 survived.'}"
+  },
+  {
+    "time": 1776099152.2958324,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'The sound of E.T. walking was made by someone squishing her hands in jelly.'}"
+  },
+  {
+    "time": 1776099197.9913847,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Humans use a total of 72 different muscles in speech.'}"
+  },
+  {
+    "time": 1776099210.7892206,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'All polar bears are left-handed.'}"
+  },
+  {
+    "time": 1776099265.1968393,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776099271.8211796,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776099320.4761739,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'The first novel ever written on a typewriter is Tom Sawyer.'}"
+  },
+  {
+    "time": 1776099383.2332003,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'The average lead pencil will draw a line 35 miles long or write approximately 50,000 English words.\\xa0 More than 2 billion pencils are manufactured each year in the United States. If these were laid end to end they would circle the world nine times.'}"
+  },
+  {
+    "time": 1776099389.7018309,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776099595.0002046,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'The past-tense of the English word \u201cdare\u201d is \u201cdurst\u201d'}"
+  },
+  {
+    "time": 1776100133.319401,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': '0.3% of all road accidents in Canada involve a Moose.'}"
+  },
+  {
+    "time": 1776100139.4885678,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'The Human eyes never grow, but nose and ears never stop growing.'}"
+  },
+  {
+    "time": 1776100146.0169208,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776100152.5704007,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Simplistic passwords contribute to over 80% of all computer password break-ins.'}"
+  },
+  {
+    "time": 1776100158.9194293,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'A \u201cjiffy\u201d is the scientific name for 1/100th of a second.'}"
+  },
+  {
+    "time": 1776100221.196748,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': '\u201cIthyphallophobia\" is a morbid fear of seeing, thinking about or having an erect penis.'}"
+  },
+  {
+    "time": 1776100677.7167046,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'The average person falls asleep in seven minutes.'}"
+  },
+  {
+    "time": 1776100683.490401,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'They NEVER said \u201cBeam me up, Scotty\u201d on Star Trek.'}"
+  },
+  {
+    "time": 1776100689.2308102,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776100695.009187,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Hot water is heavier than cold.'}"
+  },
+  {
+    "time": 1776100700.7877676,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Barbie\\'s full name is \"Babara Millicent Roberts.\"'}"
+  },
+  {
+    "time": 1776100706.5622203,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Butte County, South Dakota is the geographical center of the U.S.'}"
+  },
+  {
+    "time": 1776100712.3297515,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'The longest recorded flight  of a chicken is 13 seconds'}"
+  },
+  {
+    "time": 1776100718.0942023,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'The U.S. city with the highest rate of lightning strikes per capita is Clearwater, Florida.'}"
+  },
+  {
+    "time": 1776100723.8608904,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'A crocodiles tongue is attached to the roof of its mouth.'}"
+  },
+  {
+    "time": 1776100729.638623,
+    "tag": "decision",
+    "data": "Execute optimization: reinforce positive outcome"
+  },
+  {
+    "time": 1776100735.4086423,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Dolphins sleep with one eye open!'}"
+  },
+  {
+    "time": 1776100741.1726775,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'For every 230 cars that are made, 1 will be stolen.'}"
+  },
+  {
+    "time": 1776100748.4515722,
+    "tag": "decision",
+    "data": "Execute optimization: reinforce positive outcome"
+  },
+  {
+    "time": 1776100812.4077919,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Honking of car horns for a couple that just got married is an old superstition to insure great sex.'}"
+  },
+  {
+    "time": 1776100818.2248473,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'The average American looks at eight houses before buying one.'}"
+  },
+  {
+    "time": 1776100823.9985821,
+    "tag": "decision",
+    "data": "Execute optimization: reinforce positive outcome"
+  },
+  {
+    "time": 1776100829.7782984,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776100835.5434718,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': '`Stewardesses` is the longest word that is typed with only the left hand.'}"
+  },
+  {
+    "time": 1776100841.3101945,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Chameleons can move their eyes in two directions at the same time.'}"
+  },
+  {
+    "time": 1776100847.0772855,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'If the population of China walked past you in single file, the line would never end because of the rate of reproduction.'}"
+  },
+  {
+    "time": 1776100852.867377,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Slugs have four noses.'}"
+  },
+  {
+    "time": 1776100858.6795244,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Peter Falk, who played \"Columbo,\" has a glass eye.'}"
+  },
+  {
+    "time": 1776100864.5102606,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'One quarter of the bones in your body, are in your feet!'}"
+  },
+  {
+    "time": 1776100870.288638,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Americans on average eat 18 acres of pizza every day.'}"
+  },
+  {
+    "time": 1776100876.1009579,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Poland is the \"stolen car capital of the world\".'}"
+  },
+  {
+    "time": 1776100881.8920622,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'The toothbrush was invented in China in 1498.'}"
+  },
+  {
+    "time": 1776100887.7808754,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Gary, Indiana is the murder capital of the U.S. - probably the world.'}"
+  },
+  {
+    "time": 1776100893.5364912,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Steely Dan got their name from a sexual device depicted in the book `The Naked Lunch`. \\xa0'}"
+  },
+  {
+    "time": 1776100899.310026,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'There are 336 dimples on a regulation golf ball.'}"
+  },
+  {
+    "time": 1776100905.0873551,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'The world record for spitting a watermelon seed is 65 feet 4 inches.'}"
+  },
+  {
+    "time": 1776100910.8427649,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'The surface of the Earth is about 60% water and 10% ice.'}"
+  },
+  {
+    "time": 1776100916.678629,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': \"A lion's roar can be heard from five miles away.\"}"
+  },
+  {
+    "time": 1776100923.239488,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776100929.4832559,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'The electric chair was invented by a dentist.'}"
+  },
+  {
+    "time": 1776100938.2282822,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'The first CD pressed in the US was Bruce Springsteen\u2019s \u201cBorn in the USA\u201d.'}"
+  },
+  {
+    "time": 1776100964.9275486,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'There was once an undersea post office in the Bahamas.'}"
+  },
+  {
+    "time": 1776101009.6231785,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'On average, 100 people choke to death on ball-point pens every year.'}"
+  },
+  {
+    "time": 1776101015.3918304,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Truck driving is the most dangerous occupation by accidental deaths (799 in 2001).'}"
+  },
+  {
+    "time": 1776101021.3574934,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101027.2118592,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Thirty-five percent of people who use personal ads for dating are already married.'}"
+  },
+  {
+    "time": 1776101033.0249183,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Columbia University is the second largest landowner in New York City, after the Catholic Church.'}"
+  },
+  {
+    "time": 1776101038.7665021,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Grapes explode when you put them in the microwave. Go on, try it then'}"
+  },
+  {
+    "time": 1776101044.549216,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': '\"Venus observa\" is the technical term for the \"missionary position.\"'}"
+  },
+  {
+    "time": 1776101050.4190319,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'The amount of computer Memory required to run WordPerfect for Win95 is 8 times the amount needed aboard the space shuttle.'}"
+  },
+  {
+    "time": 1776101056.2159235,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Greenland is the largest island in the world.'}"
+  },
+  {
+    "time": 1776101062.043718,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101067.8208237,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101073.602771,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101079.3596535,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'There is approximately one chicken for every human being in the world.'}"
+  },
+  {
+    "time": 1776101085.1732686,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101090.9459279,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'On average, Americans` favorite smell is banana.'}"
+  },
+  {
+    "time": 1776101096.809077,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Pearls melt in vinegar.'}"
+  },
+  {
+    "time": 1776101103.2585056,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'There are 293 ways to make change for a dollar.'}"
+  },
+  {
+    "time": 1776101111.4647644,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'The number \"four\" is considered unlucky in Japan because it is pronounced the same as \"death\".'}"
+  },
+  {
+    "time": 1776101130.4356089,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101136.212549,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101141.9897559,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Babies are most likely to be born on Tuesdays.'}"
+  },
+  {
+    "time": 1776101149.0307548,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Beethoven dipped his head in cold water before he composed.'}"
+  },
+  {
+    "time": 1776101180.4711437,
+    "tag": "decision",
+    "data": "Execute optimization: reinforce positive outcome"
+  },
+  {
+    "time": 1776101192.7570398,
+    "tag": "decision",
+    "data": "Execute optimization: reinforce positive outcome"
+  },
+  {
+    "time": 1776101198.528227,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Two-thirds of the world\u2019s eggplant is grown in New Jersey.'}"
+  },
+  {
+    "time": 1776101204.2913349,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'In 1778, fashionable women of Paris never went out in blustery weather without a lightning rod attached to their hats.'}"
+  },
+  {
+    "time": 1776101210.102536,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Owls are one of the only birds who can see the color blue!'}"
+  },
+  {
+    "time": 1776101215.887908,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Q is the only letter in the alphabet that does not appear in the name of any of the United States!'}"
+  },
+  {
+    "time": 1776101221.725679,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101227.5751112,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Dueling is legal in Paraguay as long as both parties are registered blood donors.'}"
+  },
+  {
+    "time": 1776101233.3314178,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101239.0787723,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Nearly 80% of all animals on earth have six legs.'}"
+  },
+  {
+    "time": 1776101244.8575294,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101250.6663888,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101256.437186,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101263.1206827,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'The angel falls in Venezuela are nearly 20 times taller than Niagara Falls.'}"
+  },
+  {
+    "time": 1776101283.6897068,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101289.9398215,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101302.6848204,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'The site with the highest number of women visitors between the age of 35 and 44 years old: Alka-Seltzer.com'}"
+  },
+  {
+    "time": 1776101309.288042,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'The people of Israel consume more turkeys per capita than any other country.'}"
+  },
+  {
+    "time": 1776101320.6670706,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Kelsey Grammar sings and plays the piano for the theme song of Fraiser.'}"
+  },
+  {
+    "time": 1776101347.5828464,
+    "tag": "decision",
+    "data": "Execute optimization: reinforce positive outcome"
+  },
+  {
+    "time": 1776101353.366918,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'There are 293 ways to make change for a dollar.'}"
+  },
+  {
+    "time": 1776101359.1219673,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'The Philippines has about 7,100 islands, of which only about 460 are more than 1 square mile in area.'}"
+  },
+  {
+    "time": 1776101365.4085612,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'There are more psychoanalysts per capita in Buenos Aires than any other place in the world.'}"
+  },
+  {
+    "time": 1776101375.5882478,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101415.8878899,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'To escape the grip of a crocodile`s jaws, push your thumbs into its eyeballs - it will let you go instantly.'}"
+  },
+  {
+    "time": 1776101425.6191137,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Tigers have striped skin, not just striped fur.'}"
+  },
+  {
+    "time": 1776101451.523807,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'The HyperMart outside of Garland Texas has 58 check-outs.'}"
+  },
+  {
+    "time": 1776101495.4052646,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101501.2136078,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': '\u201dJudge Judy\u201d has a $25,000,000 salary, while Supreme Court Justice Ginsberg has a $190,100 salary.'}"
+  },
+  {
+    "time": 1776101507.0734518,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'The first contraceptive was crocodile dung used by the ancient Egyptians.'}"
+  },
+  {
+    "time": 1776101512.932061,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'What is called a \"French kiss\" in the English speaking world is known as an \"English kiss\" in France.'}"
+  },
+  {
+    "time": 1776101518.7371728,
+    "tag": "decision",
+    "data": "Execute optimization: reinforce positive outcome"
+  },
+  {
+    "time": 1776101524.4976697,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'The San Francisco Cable cars are the only mobile National Monuments.'}"
+  },
+  {
+    "time": 1776101530.2834551,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101536.103184,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Montpelier, Vermont is the only state capital without a McDonalds.'}"
+  },
+  {
+    "time": 1776101541.9160855,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'The name Jeep comes from \u201cGP\u201d, the army abbreviation for General Purpose.'}"
+  },
+  {
+    "time": 1776101547.6929195,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Virginia Woolf wrote all her books standing.'}"
+  },
+  {
+    "time": 1776101553.4815524,
+    "tag": "decision",
+    "data": "Execute optimization: reinforce positive outcome"
+  },
+  {
+    "time": 1776101559.2814043,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Seattle\u2019s Fremont Bridge rises up and down more than any drawbridge in the world.'}"
+  },
+  {
+    "time": 1776101565.1355863,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101570.8998883,
+    "tag": "decision",
+    "data": "Execute optimization: reinforce positive outcome"
+  },
+  {
+    "time": 1776101577.1369376,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Only female mosquitoes bite.'}"
+  },
+  {
+    "time": 1776101582.9409714,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101588.6724946,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Slugs have four noses.'}"
+  },
+  {
+    "time": 1776101594.481702,
+    "tag": "decision",
+    "data": "Execute optimization: reinforce positive outcome"
+  },
+  {
+    "time": 1776101600.2587132,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101606.0399723,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Isaac Asimov is the only author to have a book in every Dewey-decimal category.'}"
+  },
+  {
+    "time": 1776101611.8148286,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101617.607743,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': \"The world's youngest parents were 8 and 9 and lived in China in 1910.\"}"
+  },
+  {
+    "time": 1776101623.3836455,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Americans are responsible for about 1/5 of the world\u2019s garbage annually.'}"
+  },
+  {
+    "time": 1776101629.1287644,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101634.884,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101640.6536212,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Lizards can self-amputate their tails for protection. It grows back after a few months.'}"
+  },
+  {
+    "time": 1776101646.4446044,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101652.2398365,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': \"Tina Turner's real name is Annie Mae Bullock.\"}"
+  },
+  {
+    "time": 1776101657.987148,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Mr. Rogers is an ordained minister.'}"
+  },
+  {
+    "time": 1776101664.2119875,
+    "tag": "decision",
+    "data": "Execute optimization: reinforce positive outcome"
+  },
+  {
+    "time": 1776101683.7712326,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101739.8313932,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'The very first song played on MTV was `Video Killed The Radio Star` by the Buggles.'}"
+  },
+  {
+    "time": 1776101746.552355,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Coca-Cola contained Coca (whose active ingredient is cocaine) from 1885 to 1903.'}"
+  },
+  {
+    "time": 1776101773.713336,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'The word \"Checkmate\" in chess comes from the Persian phrase \"Shah Mat,\" which means \"the king is dead.\"'}"
+  },
+  {
+    "time": 1776101779.5097237,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'An average human scalp has 100,000 hairs.'}"
+  },
+  {
+    "time": 1776101832.365712,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101866.3457215,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Benjamin Franklin was the fifth in a series of the youngest son of the youngest son.'}"
+  },
+  {
+    "time": 1776101872.3915744,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101946.8976088,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776101952.6779435,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': '38% of American men say they love their cars more than women'}"
+  },
+  {
+    "time": 1776101963.0413728,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Most American car horns honk in the key of F.'}"
+  },
+  {
+    "time": 1776101980.6301398,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Every time you lick a stamp you consume 1/10 of a calorie.'}"
+  },
+  {
+    "time": 1776102107.913476,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': \"The Bible, the world's best-selling book, is also the world's most shoplifted book.\"}"
+  },
+  {
+    "time": 1776102114.2624454,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Russians generally answer the phone by saying, \"I\\'m listening\".'}"
+  },
+  {
+    "time": 1776102125.42108,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Ingrown toenails are hereditary. \\xa0'}"
+  },
+  {
+    "time": 1776102131.2093422,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Rats and horses can\u2019t vomit.'}"
+  },
+  {
+    "time": 1776102145.169018,
+    "tag": "decision",
+    "data": "Execute optimization: reinforce positive outcome"
+  },
+  {
+    "time": 1776102150.9641588,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': '\u201cIthyphallophobia\" is a morbid fear of seeing, thinking about or having an erect penis.'}"
+  },
+  {
+    "time": 1776102219.3416963,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'The word Pennsylvania is misspelled on the Liberty Bell.'}"
+  },
+  {
+    "time": 1776102225.0821414,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'No word in the English language rhymes with month, orange, silver, or purple.'}"
+  },
+  {
+    "time": 1776102230.834367,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Stephen Hawking was born exactly 300 years after Galileo died.'}"
+  },
+  {
+    "time": 1776102236.5846832,
+    "tag": "decision",
+    "data": "Execute optimization: reinforce positive outcome"
+  },
+  {
+    "time": 1776102242.3292625,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776102248.3867803,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'The sun is 330,330 times larger than the earth.'}"
+  },
+  {
+    "time": 1776102254.9809961,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'Who`s that playing the piano on the \"Mad About You\" theme? Paul Reiser himself.'}"
+  },
+  {
+    "time": 1776102273.1213791,
+    "tag": "decision",
+    "data": "Adjust strategy due to negative prediction"
+  },
+  {
+    "time": 1776102278.8486805,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'On average, Americans` favorite smell is banana.'}"
+  },
+  {
+    "time": 1776102284.6059115,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Mr. Rogers was an ordained minister. '}"
+  },
+  {
+    "time": 1776102290.4369931,
+    "tag": "decision",
+    "data": "Integrate knowledge into memory: {'crypto': 'No data', 'fact': 'A cat has 32 muscles in each ear.'}"
+  },
+  {
+    "time": 1776102296.2118258,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'Jupiter is bigger than all the other planets in our solar system combined.'}"
+  },
+  {
+    "time": 1776102301.9798694,
+    "tag": "decision",
+    "data": "Analyze incoming data: {'crypto': 'No data', 'fact': 'About 14% of injecting drug users are HIV positive.'}"
+  },
+  {
+    "time": 1776102956.4843714,
+    "tag": "decision",
+    "data": "Store data: {'crypto': None, 'fact': 'A `jiffy` is a unit of time for 1/100th of a second.'}"
+  },
+  {
+    "time": 1776103234.0896764,
+    "tag": "decision",
+    "data": "Store data: {'crypto': None, 'fact': 'You spend 7 years of your life in the bathroom.'}"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "node_id": "6a69d3d51f2a4f144429255ca69b8c705e2268923f07a3b633d1554c3d1e3a44",
+  "hostname": "localhost",
+  "created": 1776145971.9349818,
+  "version": 76,
+  "capabilities": [
+    "mesh",
+    "cognition",
+    "sync"
+  ]
+}

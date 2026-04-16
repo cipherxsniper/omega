@@ -1,0 +1,47 @@
+{
+  "tick": 480,
+  "global_reward": 0.5395929863932631,
+  "entropy": 0.48349926811790134,
+  "stability": 0.5165007318820987,
+  "signals": {
+    "memory_fabric": {
+      "coherence": 0.16211867778760403,
+      "efficiency": 0.5449986903708228,
+      "stability": 0.9841403308301733
+    },
+    "kernel": {
+      "coherence": 0.5564095321528575,
+      "efficiency": 0.014294775808068039,
+      "stability": 0.2643179308249526
+    },
+    "swarm": {
+      "coherence": 0.6961411263251401,
+      "efficiency": 0.40355256700322806,
+      "stability": 0.46220622488828866
+    },
+    "cognition": {
+      "coherence": 0.9715140786055673,
+      "efficiency": 0.18060115085649064,
+      "stability": 0.43330966881478206
+    },
+    "internet": {
+      "coherence": 0.36192752555598207,
+      "efficiency": 0.6800795873957353,
+      "stability": 0.16404367014392418
+    },
+    "mesh": {
+      "coherence": 0.9932771385300552,
+      "efficiency": 0.8836716573608877,
+      "stability": 0.7881260349583015
+    }
+  },
+  "module_scores": {
+    "memory_fabric": 0.5243893679212366,
+    "kernel": 0.3178198929281599,
+    "swarm": 0.5382545330122986,
+    "cognition": 0.5711195827960915,
+    "internet": 0.4050872374297393,
+    "mesh": 0.8808873042720531
+  },
+  "learning_rate": 0.05
+}

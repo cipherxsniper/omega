@@ -1,0 +1,38 @@
+import json
+import time
+
+def load_registry():
+    try:
+        with open("omega_neural_registry.json", "r") as f:
+            return json.load(f)
+    except:
+        return None
+
+
+def chat():
+    print("\n[Ω CHAT ASSISTANT ONLINE]")
+    print("Type 'exit' to quit\n")
+
+    registry = load_registry()
+
+    while True:
+        msg = input("you > ")
+
+        if msg == "exit":
+            break
+
+        # simple swarm reflection layer
+        nodes = registry["nodes"] if registry else []
+
+        response = {
+            "input": msg,
+            "active_nodes": len(nodes),
+            "swarm_thought": "distributed_processing_simulated",
+            "confidence": round(len(nodes) * 0.01, 2)
+        }
+
+        print("omega >", response)
+
+
+if __name__ == "__main__":
+    chat()

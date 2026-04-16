@@ -1,0 +1,20 @@
+{
+  "services": {
+    "kernel": {
+      "cmd": "python omega_kernel_v55.py",
+      "restart": true
+    },
+    "chat": {
+      "cmd": "python omega_chat_assistant_v9_bus.py",
+      "restart": true
+    },
+    "ml_core": {
+      "cmd": "python omega_ml_core_v12.py",
+      "restart": true
+    },
+    "memory": {
+      "cmd": "python omega_memory_federation_v28.py",
+      "restart": true
+    }
+  }
+}

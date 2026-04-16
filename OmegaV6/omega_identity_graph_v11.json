@@ -1,0 +1,42 @@
+{
+  "nodes": {
+    "brain_0": {
+      "role": "compressor",
+      "strength": 1.4640465361737105,
+      "experience": 124,
+      "bias": "link",
+      "reward": 9.640465361737103
+    },
+    "brain_1": {
+      "role": "explorer",
+      "strength": 1.2642247682413328,
+      "experience": 117,
+      "bias": "compress",
+      "reward": 7.642247682413328
+    },
+    "brain_2": {
+      "role": "mutator",
+      "strength": 1.1357635750822088,
+      "experience": 116,
+      "bias": "mutate",
+      "reward": 6.357635750822089
+    },
+    "brain_3": {
+      "role": "explorer",
+      "strength": 1.0490106016988272,
+      "experience": 125,
+      "bias": "mutate",
+      "reward": 5.490106016988271
+    },
+    "brain_4": {
+      "role": "mutator",
+      "strength": 1.2404591459587517,
+      "experience": 118,
+      "bias": "compress",
+      "reward": 7.404591459587516
+    }
+  },
+  "edges": {},
+  "global_entropy": 0.6038102708943187,
+  "tick": 600
+}

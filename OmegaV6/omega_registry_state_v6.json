@@ -1,0 +1,201 @@
+{
+  "services": {
+    "run_omega_v5.py": {
+      "cmd": "run_omega_v5.py",
+      "role": "task",
+      "pid": 6032,
+      "status": "quarantined",
+      "last_heartbeat": 1776172129.0794926
+    },
+    "omega_orchestrator_v5.py": {
+      "cmd": "omega_orchestrator_v5.py",
+      "role": "service",
+      "pid": 6033,
+      "status": "quarantined",
+      "last_heartbeat": 1776172129.1444674
+    },
+    "omega_identity_kernel_v25.py": {
+      "cmd": "omega_identity_kernel_v25.py",
+      "role": "kernel",
+      "pid": 6035,
+      "status": "quarantined",
+      "last_heartbeat": 1776172129.2081668
+    },
+    "omega_execution_engine_v7.py": {
+      "cmd": "omega_execution_engine_v7.py",
+      "role": "engine",
+      "pid": 6042,
+      "status": "quarantined",
+      "last_heartbeat": 1776172129.2563272
+    },
+    "omega_meta_brain_v10.py": {
+      "cmd": "omega_meta_brain_v10.py",
+      "role": "brain",
+      "pid": 6046,
+      "status": "quarantined",
+      "last_heartbeat": 1776172129.318979
+    },
+    "omega_unified_kernel_v15.py": {
+      "cmd": "omega_unified_kernel_v15.py",
+      "role": "kernel",
+      "pid": 6053,
+      "status": "quarantined",
+      "last_heartbeat": 1776172129.3721468
+    },
+    "omega_swarm_memory_bridge_v9.py": {
+      "cmd": "omega_swarm_memory_bridge_v9.py",
+      "role": "swarm",
+      "pid": 6055,
+      "status": "quarantined",
+      "last_heartbeat": 1776172129.4673853
+    },
+    "omega_mesh_superintelligence_v12.py": {
+      "cmd": "omega_mesh_superintelligence_v12.py",
+      "role": "mesh",
+      "pid": 6062,
+      "status": "quarantined",
+      "last_heartbeat": 1776172129.5612643
+    },
+    "omega_process_supervisor_v2.py": {
+      "cmd": "omega_process_supervisor_v2.py",
+      "role": "service",
+      "pid": 6065,
+      "status": "quarantined",
+      "last_heartbeat": 1776172129.6295202
+    },
+    "omega_os_runtime_v1.py": {
+      "cmd": "omega_os_runtime_v1.py",
+      "role": "runtime",
+      "pid": 6067,
+      "status": "running",
+      "last_heartbeat": 1776172129.727201
+    },
+    "omega_decision_engine_v5.py": {
+      "cmd": "omega_decision_engine_v5.py",
+      "role": "service",
+      "pid": 6076,
+      "status": "running",
+      "last_heartbeat": 1776172129.9126787
+    },
+    "omega_data_stream_v5.py": {
+      "cmd": "omega_data_stream_v5.py",
+      "role": "service",
+      "pid": 6080,
+      "status": "quarantined",
+      "last_heartbeat": 1776172129.9315693
+    },
+    "omega_event_mesh_v5.py": {
+      "cmd": "omega_event_mesh_v5.py",
+      "role": "daemon",
+      "pid": 6082,
+      "status": "quarantined",
+      "last_heartbeat": 1776172130.097422
+    },
+    "omega_brain_node_v5.py": {
+      "cmd": "omega_brain_node_v5.py",
+      "role": "daemon",
+      "pid": 6091,
+      "status": "quarantined",
+      "last_heartbeat": 1776172130.1678689
+    },
+    "omega_learning_engine_v11.py": {
+      "cmd": "omega_learning_engine_v11.py",
+      "role": "service",
+      "pid": 6101,
+      "status": "running",
+      "last_heartbeat": 1776172130.197402
+    },
+    "omega_learning_convergence_v12.py": {
+      "cmd": "omega_learning_convergence_v12.py",
+      "role": "service",
+      "pid": 6102,
+      "status": "running",
+      "last_heartbeat": 1776172130.396652
+    },
+    "omega_global_memory_cloud_v9.py": {
+      "cmd": "omega_global_memory_cloud_v9.py",
+      "role": "daemon",
+      "pid": 6110,
+      "status": "quarantined",
+      "last_heartbeat": 1776172130.511913
+    },
+    "omega_sensor_interface_v11.py": {
+      "cmd": "omega_sensor_interface_v11.py",
+      "role": "daemon",
+      "pid": 6118,
+      "status": "quarantined",
+      "last_heartbeat": 1776172130.5599267
+    },
+    "omega_swarm_evolver_v11.py": {
+      "cmd": "omega_swarm_evolver_v11.py",
+      "role": "daemon",
+      "pid": 6120,
+      "status": "quarantined",
+      "last_heartbeat": 1776172130.6116893
+    },
+    "omega_economy_engine_v5.py": {
+      "cmd": "omega_economy_engine_v5.py",
+      "role": "service",
+      "pid": 6123,
+      "status": "running",
+      "last_heartbeat": 1776172130.6875591
+    },
+    "omega_adaptive_optimizer_v5.py": {
+      "cmd": "omega_adaptive_optimizer_v5.py",
+      "role": "service",
+      "pid": 6130,
+      "status": "running",
+      "last_heartbeat": 1776172130.8188534
+    },
+    "omega_identity_engine_v5.py": {
+      "cmd": "omega_identity_engine_v5.py",
+      "role": "service",
+      "pid": 6138,
+      "status": "running",
+      "last_heartbeat": 1776172130.9987025
+    },
+    "omega_cognitive_node_v6.py": {
+      "cmd": "omega_cognitive_node_v6.py",
+      "role": "service",
+      "pid": 6154,
+      "status": "running",
+      "last_heartbeat": 1776172131.092088
+    },
+    "omega_brain_factory_v11.py": {
+      "cmd": "omega_brain_factory_v11.py",
+      "role": "daemon",
+      "pid": 6160,
+      "status": "running",
+      "last_heartbeat": 1776172131.2652633
+    }
+  },
+  "dead": {
+    "run_omega_v5.py": 16,
+    "omega_orchestrator_v5.py": 16,
+    "omega_identity_kernel_v25.py": 16,
+    "omega_execution_engine_v7.py": 16,
+    "omega_meta_brain_v10.py": 16,
+    "omega_unified_kernel_v15.py": 16,
+    "omega_swarm_memory_bridge_v9.py": 16,
+    "omega_mesh_superintelligence_v12.py": 16,
+    "omega_decision_engine_v5.py": 13,
+    "omega_data_stream_v5.py": 16,
+    "omega_event_mesh_v5.py": 16,
+    "omega_brain_node_v5.py": 16,
+    "omega_learning_engine_v11.py": 10,
+    "omega_learning_convergence_v12.py": 10,
+    "omega_global_memory_cloud_v9.py": 13,
+    "omega_sensor_interface_v11.py": 13,
+    "omega_swarm_evolver_v11.py": 13,
+    "omega_economy_engine_v5.py": 10,
+    "omega_adaptive_optimizer_v5.py": 10,
+    "omega_identity_engine_v5.py": 10,
+    "omega_cognitive_node_v6.py": 10,
+    "omega_brain_factory_v11.py": 10,
+    "omega_process_supervisor_v2.py": 6,
+    "omega_os_runtime_v1.py": 3
+  },
+  "restarts": {},
+  "health": "green",
+  "tick": 19
+}
