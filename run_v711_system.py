@@ -69,3 +69,25 @@ def main():
             print("\n⚠️ Omega runtime exception captured:", flush=True)
             print(observer.narrate(error_event, prev, None), flush=True)
 
+
+# === v7.12 RUNTIME SAFETY GUARANTEE ===
+def _bootstrap_runtime():
+    global continuity, observer, self_model, kernel
+
+    from omega_continuity_v712 import OmegaContinuityV712
+    from omega_self_model_v78 import OmegaSelfModelV78
+
+    continuity = OmegaContinuityV712()
+    self_model = OmegaSelfModelV78()
+
+    # SAFE observer import (defensive)
+    mod = __import__("omega_observer_v75")
+    observer = getattr(mod, "OmegaObserverV75", None) or getattr(mod, "OmegaOmegaObserverV75", None)
+
+    if observer is None:
+        raise Exception("[BOOT FAILURE] No valid observer found")
+
+    observer = observer()
+
+    return True
+
