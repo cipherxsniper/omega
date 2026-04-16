@@ -1,5 +1,8 @@
 _dist/
 _dist/
+<<<<<<< HEAD
 __pycache__/
 *.log
 nohup.out
+=======
+>>>>>>> 71d54e39cdfcdd1862cc6c05708474c3317e4251

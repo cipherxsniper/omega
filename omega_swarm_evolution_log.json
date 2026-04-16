@@ -1,0 +1,1630 @@
+[
+  {
+    "file": "run_omega_v5.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/run_omega_v5.py",
+      "patch": "reduce_sleep",
+      "risk": 0.23592573679350093
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "approve",
+      "brain_02": "approve",
+      "wink_brain": "approve"
+    },
+    "decision": "APPLY"
+  },
+  {
+    "file": "omega_orchestrator_v5.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_orchestrator_v5.py",
+      "patch": "reduce_sleep",
+      "risk": 0.3321946448124481
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_orchestrator_v6.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_orchestrator_v6.py",
+      "patch": "reduce_sleep",
+      "risk": 0.8229140256014423
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "run_omega.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/run_omega.py",
+      "patch": "no_change_safe",
+      "risk": 0.84974309186124
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_event_mesh_v5.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_event_mesh_v5.py",
+      "patch": "no_change_safe",
+      "risk": 0.16397335718776818
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "approve",
+      "wink_brain": "approve"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_brain_node_v5.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_brain_node_v5.py",
+      "patch": "reduce_sleep",
+      "risk": 0.4791702289636506
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "Brain_00_v10.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/Brain_00_v10.py",
+      "patch": "reduce_sleep",
+      "risk": 0.921711316872706
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "Brain_11_v10.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/Brain_11_v10.py",
+      "patch": "no_change_safe",
+      "risk": 0.6369033799347718
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "Brain_22_v10.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/Brain_22_v10.py",
+      "patch": "reduce_sleep",
+      "risk": 0.7960978043416742
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "ParallelBrain.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/ParallelBrain.py",
+      "patch": "reduce_sleep",
+      "risk": 0.4379446405799542
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_data_stream_v5.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_data_stream_v5.py",
+      "patch": "no_change_safe",
+      "risk": 0.6081816043495591
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_decision_engine_v5.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_decision_engine_v5.py",
+      "patch": "improve_logging",
+      "risk": 0.3410004299871161
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_adaptive_optimizer_v5.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_adaptive_optimizer_v5.py",
+      "patch": "no_change_safe",
+      "risk": 0.48709254082880304
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_economy_engine_v5.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_economy_engine_v5.py",
+      "patch": "optimize_loop",
+      "risk": 0.8916497004952467
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_identity_engine_v5.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_identity_engine_v5.py",
+      "patch": "improve_logging",
+      "risk": 0.6028044413051847
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_cognitive_node_v6.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_cognitive_node_v6.py",
+      "patch": "improve_logging",
+      "risk": 0.10672117456968133
+    },
+    "votes": {
+      "brain_00": "approve",
+      "brain_01": "approve",
+      "brain_02": "approve",
+      "wink_brain": "modify"
+    },
+    "decision": "APPLY"
+  },
+  {
+    "file": "omega_execution_engine_v7.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_execution_engine_v7.py",
+      "patch": "no_change_safe",
+      "risk": 0.6239753116270373
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_swarm_mesh_v8.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_swarm_mesh_v8.py",
+      "patch": "reduce_sleep",
+      "risk": 0.2680896406346317
+    },
+    "votes": {
+      "brain_00": "approve",
+      "brain_01": "approve",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_swarm_node_v8.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_swarm_node_v8.py",
+      "patch": "optimize_loop",
+      "risk": 0.469937483078114
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_global_memory_cloud_v9.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_global_memory_cloud_v9.py",
+      "patch": "no_change_safe",
+      "risk": 0.646718756370598
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_swarm_memory_bridge_v9.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_swarm_memory_bridge_v9.py",
+      "patch": "no_change_safe",
+      "risk": 0.8212606088047371
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_intelligence_economy_v10.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_intelligence_economy_v10.py",
+      "patch": "no_change_safe",
+      "risk": 0.2983363452033818
+    },
+    "votes": {
+      "brain_00": "approve",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "approve"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_meta_brain_v10.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_meta_brain_v10.py",
+      "patch": "improve_logging",
+      "risk": 0.29200494539310506
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "approve",
+      "brain_02": "approve",
+      "wink_brain": "approve"
+    },
+    "decision": "APPLY"
+  },
+  {
+    "file": "omega_brain_factory_v11.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_brain_factory_v11.py",
+      "patch": "no_change_safe",
+      "risk": 0.5942321806129128
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_sensor_interface_v11.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_sensor_interface_v11.py",
+      "patch": "no_change_safe",
+      "risk": 0.25737382721947233
+    },
+    "votes": {
+      "brain_00": "approve",
+      "brain_01": "approve",
+      "brain_02": "modify",
+      "wink_brain": "approve"
+    },
+    "decision": "APPLY"
+  },
+  {
+    "file": "omega_swarm_evolver_v11.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_swarm_evolver_v11.py",
+      "patch": "no_change_safe",
+      "risk": 0.5270900247695985
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_orchestrator_v5_fixed.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_orchestrator_v5_fixed.py",
+      "patch": "optimize_loop",
+      "risk": 0.24675370145723474
+    },
+    "votes": {
+      "brain_00": "approve",
+      "brain_01": "approve",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "run_omega_v6.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/run_omega_v6.py",
+      "patch": "improve_logging",
+      "risk": 0.4181614163596922
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_learning_engine_v11.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_learning_engine_v11.py",
+      "patch": "optimize_loop",
+      "risk": 0.08431882239334798
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "approve",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_learning_convergence_v12.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_learning_convergence_v12.py",
+      "patch": "improve_logging",
+      "risk": 0.9435148785690395
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_recursive_intelligence_v13.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_recursive_intelligence_v13.py",
+      "patch": "optimize_loop",
+      "risk": 0.38019485924858953
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "run_omega_v9.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/run_omega_v9.py",
+      "patch": "improve_logging",
+      "risk": 0.18829024742289424
+    },
+    "votes": {
+      "brain_00": "approve",
+      "brain_01": "approve",
+      "brain_02": "approve",
+      "wink_brain": "approve"
+    },
+    "decision": "APPLY"
+  },
+  {
+    "file": "omega_memory_patch_v1.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_memory_patch_v1.py",
+      "patch": "improve_logging",
+      "risk": 0.10304038484349931
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "approve",
+      "brain_02": "approve",
+      "wink_brain": "approve"
+    },
+    "decision": "APPLY"
+  },
+  {
+    "file": "omega_learning_engine_patch_v1.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_learning_engine_patch_v1.py",
+      "patch": "optimize_loop",
+      "risk": 0.002588359180769828
+    },
+    "votes": {
+      "brain_00": "approve",
+      "brain_01": "modify",
+      "brain_02": "approve",
+      "wink_brain": "approve"
+    },
+    "decision": "APPLY"
+  },
+  {
+    "file": "omega_adaptive_convergence_v14.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_adaptive_convergence_v14.py",
+      "patch": "improve_logging",
+      "risk": 0.7184653322970314
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "run_omega_all_v1.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/run_omega_all_v1.py",
+      "patch": "no_change_safe",
+      "risk": 0.479657817233883
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_unified_kernel_v15.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_unified_kernel_v15.py",
+      "patch": "no_change_safe",
+      "risk": 0.5357588438798523
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "run_omega_kernel_v15.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/run_omega_kernel_v15.py",
+      "patch": "reduce_sleep",
+      "risk": 0.8432597792985644
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "run_omega_unified.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/run_omega_unified.py",
+      "patch": "reduce_sleep",
+      "risk": 0.7993994948341561
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_unified_interface_spec_v1.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_unified_interface_spec_v1.py",
+      "patch": "no_change_safe",
+      "risk": 0.9236243555419776
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "run_omega_unified_v2.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/run_omega_unified_v2.py",
+      "patch": "optimize_loop",
+      "risk": 0.2504535367272821
+    },
+    "votes": {
+      "brain_00": "approve",
+      "brain_01": "approve",
+      "brain_02": "modify",
+      "wink_brain": "approve"
+    },
+    "decision": "APPLY"
+  },
+  {
+    "file": "run_omega_v14.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/run_omega_v14.py",
+      "patch": "reduce_sleep",
+      "risk": 0.8644436045332387
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_adaptive_convergence_v15.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_adaptive_convergence_v15.py",
+      "patch": "no_change_safe",
+      "risk": 0.781293740612736
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "run_omega_v15.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/run_omega_v15.py",
+      "patch": "optimize_loop",
+      "risk": 0.14108907595690545
+    },
+    "votes": {
+      "brain_00": "approve",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "approve"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "run_omega_v16.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/run_omega_v16.py",
+      "patch": "no_change_safe",
+      "risk": 0.7715711038533347
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "brain_01.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/brain_01.py",
+      "patch": "improve_logging",
+      "risk": 0.4536295926609052
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_adaptive_convergence_v16.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_adaptive_convergence_v16.py",
+      "patch": "no_change_safe",
+      "risk": 0.009064062113282478
+    },
+    "votes": {
+      "brain_00": "approve",
+      "brain_01": "modify",
+      "brain_02": "approve",
+      "wink_brain": "approve"
+    },
+    "decision": "APPLY"
+  },
+  {
+    "file": "omega_adaptive_convergence_v17.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_adaptive_convergence_v17.py",
+      "patch": "no_change_safe",
+      "risk": 0.8159617908073462
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_swarm_network_v18.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_swarm_network_v18.py",
+      "patch": "improve_logging",
+      "risk": 0.9161535470685517
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_swarm_network_v19.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_swarm_network_v19.py",
+      "patch": "no_change_safe",
+      "risk": 0.7824218314272706
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_swarm_consciousness_v20.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_swarm_consciousness_v20.py",
+      "patch": "optimize_loop",
+      "risk": 0.1395750956051124
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "approve",
+      "brain_02": "approve",
+      "wink_brain": "approve"
+    },
+    "decision": "APPLY"
+  },
+  {
+    "file": "omega_self_reflection_v21.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_self_reflection_v21.py",
+      "patch": "reduce_sleep",
+      "risk": 0.6180110306477953
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_goal_emergence_v22.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_goal_emergence_v22.py",
+      "patch": "improve_logging",
+      "risk": 0.4580770211165893
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_self_model_v23.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_self_model_v23.py",
+      "patch": "no_change_safe",
+      "risk": 0.6748017408154596
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_intention_v24.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_intention_v24.py",
+      "patch": "reduce_sleep",
+      "risk": 0.9155540636509
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_identity_kernel_v25.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_identity_kernel_v25.py",
+      "patch": "no_change_safe",
+      "risk": 0.34880502790616763
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_recursive_self_mod_v26.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_recursive_self_mod_v26.py",
+      "patch": "reduce_sleep",
+      "risk": 0.12593907798264514
+    },
+    "votes": {
+      "brain_00": "approve",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "brain_02.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/brain_02.py",
+      "patch": "improve_logging",
+      "risk": 0.9922445100365122
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "wink_brain.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/wink_brain.py",
+      "patch": "no_change_safe",
+      "risk": 0.11180204915710246
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "approve",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_conflict_resolver_v27.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_conflict_resolver_v27.py",
+      "patch": "reduce_sleep",
+      "risk": 0.26811465069476326
+    },
+    "votes": {
+      "brain_00": "approve",
+      "brain_01": "approve",
+      "brain_02": "approve",
+      "wink_brain": "approve"
+    },
+    "decision": "APPLY"
+  },
+  {
+    "file": "omega_memory_federation_v28.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_memory_federation_v28.py",
+      "patch": "no_change_safe",
+      "risk": 0.5177723406327203
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_cluster_core_v2.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_cluster_core_v2.py",
+      "patch": "reduce_sleep",
+      "risk": 0.8200506376282299
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_cluster_core_v1.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_cluster_core_v1.py",
+      "patch": "improve_logging",
+      "risk": 0.7078913678407069
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_cluster_core_v7.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_cluster_core_v7.py",
+      "patch": "improve_logging",
+      "risk": 0.9499975104510696
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "iot_brain.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/iot_brain.py",
+      "patch": "no_change_safe",
+      "risk": 0.8109891721086705
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_ml_core_v8.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_ml_core_v8.py",
+      "patch": "reduce_sleep",
+      "risk": 0.09180154499816207
+    },
+    "votes": {
+      "brain_00": "approve",
+      "brain_01": "modify",
+      "brain_02": "approve",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_cluster_core_v8.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_cluster_core_v8.py",
+      "patch": "improve_logging",
+      "risk": 0.881596810510652
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_superintelligence_v9.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_superintelligence_v9.py",
+      "patch": "optimize_loop",
+      "risk": 0.17264848154042756
+    },
+    "votes": {
+      "brain_00": "approve",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_code_backup.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_code_backup.py",
+      "patch": "optimize_loop",
+      "risk": 0.21255139294484682
+    },
+    "votes": {
+      "brain_00": "approve",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "approve"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_mesh_superintelligence_v12.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_mesh_superintelligence_v12.py",
+      "patch": "reduce_sleep",
+      "risk": 0.712395274166391
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_code_backup_v12.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_code_backup_v12.py",
+      "patch": "optimize_loop",
+      "risk": 0.43220239883121725
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_unified_superintelligence_v13.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_unified_superintelligence_v13.py",
+      "patch": "improve_logging",
+      "risk": 0.424879624018606
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_cross_brain_v15.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_cross_brain_v15.py",
+      "patch": "reduce_sleep",
+      "risk": 0.357898273227946
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_cross_brain_v16.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_cross_brain_v16.py",
+      "patch": "no_change_safe",
+      "risk": 0.7388864224458486
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_mesh_v16.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_mesh_v16.py",
+      "patch": "no_change_safe",
+      "risk": 0.3720497156191179
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_swarm_v23_unified.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_swarm_v23_unified.py",
+      "patch": "optimize_loop",
+      "risk": 0.8514178936282034
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_swarm_v24_persistent.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_swarm_v24_persistent.py",
+      "patch": "optimize_loop",
+      "risk": 0.5824115466459875
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_swarm_v25_neural.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_swarm_v25_neural.py",
+      "patch": "no_change_safe",
+      "risk": 0.7456237655650677
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_swarm_v26_shared_mesh.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_swarm_v26_shared_mesh.py",
+      "patch": "optimize_loop",
+      "risk": 0.5269708430103942
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_swarm_v27_internet_mesh.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_swarm_v27_internet_mesh.py",
+      "patch": "no_change_safe",
+      "risk": 0.6501460598210483
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_autorewrite_v28_engine.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_autorewrite_v28_engine.py",
+      "patch": "improve_logging",
+      "risk": 0.13486809790343945
+    },
+    "votes": {
+      "brain_00": "approve",
+      "brain_01": "modify",
+      "brain_02": "approve",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_self_patch_v29_engine.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_self_patch_v29_engine.py",
+      "patch": "improve_logging",
+      "risk": 0.42903414695060216
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_ml_core_v9.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_ml_core_v9.py",
+      "patch": "improve_logging",
+      "risk": 0.21035493929483706
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "approve",
+      "brain_02": "approve",
+      "wink_brain": "approve"
+    },
+    "decision": "APPLY"
+  },
+  {
+    "file": "omega_ml_core_v11.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_ml_core_v11.py",
+      "patch": "optimize_loop",
+      "risk": 0.620656824074051
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_ml_core_v12.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_ml_core_v12.py",
+      "patch": "improve_logging",
+      "risk": 0.9629974550444853
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "fix_v12_tail.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/fix_v12_tail.py",
+      "patch": "no_change_safe",
+      "risk": 0.9772198923958454
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_daemon_supervisor_v13.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_daemon_supervisor_v13.py",
+      "patch": "reduce_sleep",
+      "risk": 0.29017429991653554
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "approve",
+      "brain_02": "approve",
+      "wink_brain": "approve"
+    },
+    "decision": "APPLY"
+  },
+  {
+    "file": "omega_mesh_supervisor_v15.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_mesh_supervisor_v15.py",
+      "patch": "improve_logging",
+      "risk": 0.4074073178232297
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_temporal_prediction_v17.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_temporal_prediction_v17.py",
+      "patch": "no_change_safe",
+      "risk": 0.5981387407417278
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_attention_swarm_v18.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_attention_swarm_v18.py",
+      "patch": "optimize_loop",
+      "risk": 0.34534266057851215
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_self_model_v19.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_self_model_v19.py",
+      "patch": "optimize_loop",
+      "risk": 0.7522585985403734
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_goal_emergence_v20.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_goal_emergence_v20.py",
+      "patch": "optimize_loop",
+      "risk": 0.5437159947407679
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_unified_brain_v22.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_unified_brain_v22.py",
+      "patch": "no_change_safe",
+      "risk": 0.9691267471552848
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_kernel.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel.py",
+      "patch": "no_change_safe",
+      "risk": 0.7244420477325949
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "fix_swarm_core.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/fix_swarm_core.py",
+      "patch": "no_change_safe",
+      "risk": 0.1756600104150804
+    },
+    "votes": {
+      "brain_00": "approve",
+      "brain_01": "approve",
+      "brain_02": "approve",
+      "wink_brain": "approve"
+    },
+    "decision": "APPLY"
+  },
+  {
+    "file": "omega_kernel_v4.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v4.py",
+      "patch": "no_change_safe",
+      "risk": 0.5685394076280046
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_kernel_v8.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v8.py",
+      "patch": "optimize_loop",
+      "risk": 0.4779066337008254
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_kernel_v9.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v9.py",
+      "patch": "reduce_sleep",
+      "risk": 0.6329514951296312
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_kernel_v12.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v12.py",
+      "patch": "improve_logging",
+      "risk": 0.8766619838367047
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_kernel_v13.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v13.py",
+      "patch": "improve_logging",
+      "risk": 0.2911283171687373
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "approve",
+      "brain_02": "approve",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_kernel_v16.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v16.py",
+      "patch": "optimize_loop",
+      "risk": 0.8859162246129483
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_kernel_v18.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v18.py",
+      "patch": "improve_logging",
+      "risk": 0.8563816704639919
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "omega_kernel_v19.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v19.py",
+      "patch": "optimize_loop",
+      "risk": 0.46823730758832405
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_kernel_v20.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v20.py",
+      "patch": "improve_logging",
+      "risk": 0.45232262785761224
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_kernel_v26.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v26.py",
+      "patch": "no_change_safe",
+      "risk": 0.07883327647901617
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "approve",
+      "brain_02": "approve",
+      "wink_brain": "approve"
+    },
+    "decision": "APPLY"
+  },
+  {
+    "file": "omega_state.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_state.py",
+      "patch": "reduce_sleep",
+      "risk": 0.373411056179936
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "omega_kernel_v32.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/omega_kernel_v32.py",
+      "patch": "optimize_loop",
+      "risk": 0.4824454132141045
+    },
+    "votes": {
+      "brain_00": "modify",
+      "brain_01": "modify",
+      "brain_02": "modify",
+      "wink_brain": "modify"
+    },
+    "decision": "MODIFY"
+  },
+  {
+    "file": "node_attention.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/node_attention.py",
+      "patch": "improve_logging",
+      "risk": 0.9584847222296092
+    },
+    "votes": {
+      "brain_00": "reject",
+      "brain_01": "reject",
+      "brain_02": "reject",
+      "wink_brain": "reject"
+    },
+    "decision": "REJECT"
+  },
+  {
+    "file": "node_goal.py",
+    "patch": {
+      "file": "/data/data/com.termux/files/home/Omega/node_goal.py",
+      "patch": "optimize_loop",
+      "risk": 0.023942386996264386
+    },
+    "votes": {
+      "brain_00"

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import math
 
 def clamp(x, min_val=-1000, max_val=1000):
@@ -6,6 +7,8 @@ def clamp(x, min_val=-1000, max_val=1000):
 def squash(x):
     return math.tanh(x)
 
+=======
+>>>>>>> 71d54e39cdfcdd1862cc6c05708474c3317e4251
 import json
 import os
 import time
@@ -83,6 +86,7 @@ class PersistentLearner:
             tick = self.state["tick"]
 
             reward = self.compute_reward(tick)
+<<<<<<< HEAD
     # OMEGA_STABILIZED
     reward *= 0.95
     bias *= 0.95
@@ -91,6 +95,8 @@ class PersistentLearner:
     reward = squash(reward)
     bias = squash(bias)
 
+=======
+>>>>>>> 71d54e39cdfcdd1862cc6c05708474c3317e4251
             self.update_learning(reward)
 
             event = {
@@ -106,6 +112,7 @@ class PersistentLearner:
             self.save()
 
             print(f"[V7] tick {tick} | reward={reward:.3f} | bias={self.state['reward_bias']:.4f}")
+<<<<<<< HEAD
     # OMEGA_STABILIZED
     reward *= 0.95
     bias *= 0.95
@@ -114,6 +121,8 @@ class PersistentLearner:
     reward = squash(reward)
     bias = squash(bias)
 
+=======
+>>>>>>> 71d54e39cdfcdd1862cc6c05708474c3317e4251
 
             time.sleep(2)
 

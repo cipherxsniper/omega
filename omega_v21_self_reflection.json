@@ -1,0 +1,49 @@
+{
+  "tick": 2,
+  "attention_budget": 3,
+  "focus": 0.5,
+  "signals": [
+    {
+      "source": "ml",
+      "value": 0.02965832674183133,
+      "score": 0.4278132757204651
+    },
+    {
+      "source": "swarm",
+      "value": 0.9262966303557005,
+      "score": 0.5956646815070132
+    },
+    {
+      "source": "memory",
+      "value": 0.15986025226018763,
+      "score": 0.8637433203481852
+    }
+  ],
+  "selected": [
+    {
+      "source": "memory",
+      "value": 0.15986025226018763,
+      "score": 0.8637433203481852
+    },
+    {
+      "source": "swarm",
+      "value": 0.9262966303557005,
+      "score": 0.5956646815070132
+    },
+    {
+      "source": "ml",
+      "value": 0.02965832674183133,
+      "score": 0.4278132757204651
+    }
+  ],
+  "goals": [
+    {
+      "name": "swarm",
+      "strength": 0.35,
+      "hits": 2,
+      "score": 0.41999999999999993
+    }
+  ],
+  "stability_score": 1.0,
+  "identity_strength": 0.5
+}

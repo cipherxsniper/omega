@@ -1,0 +1,122 @@
+[
+  {
+    "brain": "brain_00",
+    "state": 0.6663247618600114,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_01",
+    "state": 0.34735468774150396,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.4343385418771978,
+    "decision": "explore"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.2644856698207957,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.6880494285591117,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_01",
+    "state": 0.33400681323649295,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.4252898870904239,
+    "decision": "explore"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.2208097557600713,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.6900070914421773,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_01",
+    "state": 0.3334211280123671,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.4355533779281978,
+    "decision": "explore"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.18548165121700122,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.662528425631164,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_01",
+    "state": 0.29998001560448107,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.4326486264468349,
+    "decision": "optimize"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.22650908759495592,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.6230728848462526,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_01",
+    "state": 0.3470089985639962,
+    "decision": "explore"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.38903642201344774,
+    "decision": "explore"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.2104221805084166,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_00",
+    "state": 0.6639266578515884,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_01",
+    "state": 0.3802790281140941,
+    "decision": "optimize"
+  },
+  {
+    "brain": "brain_02",
+    "state": 0.3429080557137224,
+    "decision": "optimize"
+  },
+  {
+    "brain": "wink_brain",
+    "state": 0.1723905739428846,
+    "decision": "optimize"
+  }
+]

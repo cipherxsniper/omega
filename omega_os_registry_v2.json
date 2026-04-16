@@ -1,0 +1,131 @@
+{
+  "services": {
+    "omega_boot_resolver_v1.py": {
+      "restarts": 0,
+      "last_seen": 1776174372.7166562,
+      "status": "unknown"
+    },
+    "omega_causal_runtime_linker_v1.py": {
+      "restarts": 0,
+      "last_seen": 1776174372.8032877,
+      "status": "unknown"
+    },
+    "omega_execution_type_registry_v1.py": {
+      "restarts": 0,
+      "last_seen": 1776174372.8041265,
+      "status": "unknown"
+    },
+    "omega_semantic_lifecycle_interpreter_v1.py": {
+      "restarts": 0,
+      "last_seen": 1776174373.046632,
+      "status": "unknown"
+    },
+    "omega_runtime_introspection_layer_v1.py": {
+      "restarts": 0,
+      "last_seen": 1776174373.0470343,
+      "status": "unknown"
+    },
+    "omega_cross_layer_truth_reconciler_v1.py": {
+      "restarts": 0,
+      "last_seen": 1776174373.047454,
+      "status": "unknown"
+    },
+    "omega_self_aware_system_health_model_v1.py": {
+      "restarts": 0,
+      "last_seen": 1776174373.0483854,
+      "status": "unknown"
+    },
+    "omega_causal_health_graph_v1.py": {
+      "restarts": 0,
+      "last_seen": 1776174373.048853,
+      "status": "unknown"
+    },
+    "omega_predictive_collapse_engine_v1.py": {
+      "restarts": 0,
+      "last_seen": 1776174373.0492644,
+      "status": "unknown"
+    },
+    "omega_autonomous_self_healing_policy_engine_v1.py": {
+      "restarts": 0,
+      "last_seen": 1776174373.04967,
+      "status": "unknown"
+    },
+    "omega_autonomous_repair_orchestrator_v1.py": {
+      "restarts": 0,
+      "last_seen": 1776174373.0500672,
+      "status": "unknown"
+    },
+    "omega_self_stabilizing_kernel_v1.py": {
+      "restarts": 0,
+      "last_seen": 1776174373.0504718,
+      "status": "unknown"
+    },
+    "omega_causal_kernel_graph_v2.py": {
+      "restarts": 0,
+      "last_seen": 1776174373.052043,
+      "status": "unknown"
+    },
+    "omega_causal_repair_engine_v3.py": {
+      "restarts": 0,
+      "last_seen": 1776174373.0525992,
+      "status": "unknown"
+    },
+    "omega_predictive_graph_evolution_v4_v5_v6.py": {
+      "restarts": 0,
+      "last_seen": 1776174373.5165114,
+      "status": "unknown"
+    },
+    "omega_causal_memory_graph_v7.py": {
+      "restarts": 0,
+      "last_seen": 1776174373.5217128,
+      "status": "unknown"
+    },
+    "omega_self_aware_causal_identity_v8.py": {
+      "restarts": 0,
+      "last_seen": 1776174373.5234058,
+      "status": "unknown"
+    },
+    "omega_module_identity_registry_v1.py": {
+      "restarts": 0,
+      "last_seen": 1776174373.7125125,
+      "status": "unknown"
+    },
+    "omega_self_verifying_boot_compiler_v3.py": {
+      "restarts": 0,
+      "last_seen": 1776174374.211066,
+      "status": "unknown"
+    },
+    "omega_boot_compiler_v2.py": {
+      "restarts": 0,
+      "last_seen": 1776174374.3917947,
+      "status": "unknown"
+    },
+    "omega_code_backup_v12.py": {
+      "restarts": 0,
+      "last_seen": 1776174374.5036142,
+      "status": "unknown"
+    },
+    "omega_process_supervisor_v2.py": {
+      "restarts": 0,
+      "last_seen": 1776174374.735784,
+      "status": "unknown"
+    },
+    "omega_dependency_graph_scheduler_v1.py": {
+      "restarts": 0,
+      "last_seen": 1776174375.0777097,
+      "status": "unknown"
+    },
+    "omega_os_runtime_v1.py": {
+      "restarts": 0,
+      "last_seen": 1776174375.4963684,
+      "status": "unknown"
+    },
+    "omega_control_plane_v6_registry_kernel.py": {
+      "restarts": 0,
+      "last_seen": 1776174375.9038334,
+      "status": "unknown"
+    }
+  },
+  "dead": {},
+  "history": {}
+}
