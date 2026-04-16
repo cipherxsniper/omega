@@ -1,13 +1,21 @@
 #!/bin/bash
 
-cd ~/Omega/Omega_v9/omega_v10
-
-redis-server --daemonize yes
+cd ~/Omega
 
 mkdir -p logs
 
-nohup node core/orchestrator.js > logs/core.log 2>&1 &
-nohup node node/worker.js > logs/node.log 2>&1 &
-nohup python3 python/node.py > logs/python.log 2>&1 &
+echo "🧠 Starting Omega Ecosystem..."
 
-echo "🧠 Omega MANUAL START COMPLETE"
+# CORE SYSTEM
+node Omega/Omega_v9/omega_v10/core/orchestrator.js > logs/core.log 2>&1 &
+
+# WORKERS (SAFE CHECKS)
+if [ -f Omega/Omega_v9/omega_v10/node/worker.js ]; then
+  node Omega/Omega_v9/omega_v10/node/worker.js > logs/node.log 2>&1 &
+fi
+
+if [ -f Omega/Omega_v9/omega_v10/python/node.py ]; then
+  python3 Omega/Omega_v9/omega_v10/python/node.py > logs/python.log 2>&1 &
+fi
+
+echo "🧠 OMEGA SYSTEM STARTED"
