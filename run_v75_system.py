@@ -32,3 +32,6 @@ if __name__ == "__main__":
 
 # FIXED OBSERVER IMPORT (v7.5)
 observer = __import__("omega_observer_v75").OmegaObserverV75()
+
+# FIXED OBSERVER IMPORT (v7.5 correct class name)
+observer = __import__("omega_observer_v75").OmegaObserverV75()
