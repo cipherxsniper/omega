@@ -1,13 +1,16 @@
 from omega_bootstrap_v75 import get_execution_layer
 from omega_kernel_v79 import OmegaKernelV79
 
+from omega_kernel_adapter_v723 import OmegaKernelAdapterV723
 from omega_causal_memory_v723 import OmegaCausalMemoryV723
 from omega_causal_infer_v723 import OmegaCausalInferV723
 
 print("[Ω] booting v7.23 causal memory engine...", flush=True)
 
 layer = get_execution_layer()
-kernel = OmegaKernelV79(layer)
+
+# 🧠 FIX: unified kernel interface
+kernel = OmegaKernelAdapterV723(OmegaKernelV79(layer))
 
 memory = OmegaCausalMemoryV723()
 infer = OmegaCausalInferV723()
@@ -18,6 +21,7 @@ prev_event = None
 
 while True:
 
+    # 🧠 unified execution call (NO version drift possible now)
     raw = kernel.step(tick, {"drift": 40})
 
     event = {
@@ -29,7 +33,6 @@ while True:
 
     event_id = memory.add_event(event)
 
-    # CAUSAL LINKING
     if prev_event_id:
         confidence = infer.score_relation(prev_event, event)
         memory.link(prev_event_id, event_id, confidence)
