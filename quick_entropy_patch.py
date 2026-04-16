@@ -1,14 +1,9 @@
-def apply_entropy_patch(kernel):
-    # Safety guard
-    if not hasattr(kernel, "entropy") or not hasattr(kernel, "policy"):
-        return kernel
+def apply_entropy_patch(self):
+    # ENTROPY REGULATOR (hard stop)
+    if self.entropy > 0.85:
+        self.policy["exploration_bias"] *= 0.9
+        self.policy["stability_bias"] *= 1.1
 
-    # 🔒 Entropy regulator
-    if kernel.entropy > 0.85:
-        kernel.policy["exploration_bias"] *= 0.9
-        kernel.policy["stability_bias"] *= 1.1
-
-    # Clamp entropy
-    kernel.entropy = min(kernel.entropy, 0.9)
-
-    return kernel
+    # HARD CLAMP
+    if self.entropy > 0.9:
+        self.entropy = 0.9
