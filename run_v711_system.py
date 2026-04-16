@@ -104,3 +104,42 @@ def _safe_event(event):
 
     return event
 
+
+# === v7.12 SAFE MAIN LOOP WRAPPER ===
+if __name__ == "__main__":
+    print("[Ω] booting v7.12 safe runtime...", flush=True)
+
+    _bootstrap_runtime()
+
+    tick = 0
+
+    while True:
+        try:
+            packet = kernel.step(tick, {"drift": 40})
+
+            event = _safe_event(packet)
+
+            state_view = {
+                "node": packet.get("node") if isinstance(packet, dict) else "unknown",
+                "event_type": event.get("event_type"),
+                "tick": tick
+            }
+
+            should_emit, meta = continuity.should_emit(event, state_view)
+
+            if should_emit:
+                compressed = continuity.compress_state(state_view)
+                narration = observer.narrate(event)
+
+                print(f"\n[Ω v7.12 | TICK {tick}]", flush=True)
+                print("STATE:", compressed, flush=True)
+                print("MODE:", meta.get("mode"), flush=True)
+                print(narration, flush=True)
+            else:
+                print(f"[Ω v7.12 | TICK {tick}] ⟲ suppressed", flush=True)
+
+            tick += 1
+
+        except Exception as e:
+            print(f"[Ω ERROR SAFE-CATCH] {e}", flush=True)
+
