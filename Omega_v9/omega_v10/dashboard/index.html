@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Omega v10 Swarm</title>
+</head>
+<body style="background:black;color:lime;font-family:monospace;">
+  <h2>🧠 Omega Swarm Live Stream</h2>
+  <pre id="out"></pre>
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+const socket = io();
+
+socket.on("stream", (data) => {
+  document.getElementById("out").innerText = data.join("\n");
+});
+</script>
+
+</body>
+</html>
