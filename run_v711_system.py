@@ -32,3 +32,8 @@ while True:
     print("🧠 Self-model:", stability, flush=True)
 
     tick += 1
+
+# === v7.12 CONTINUITY ENGINE INIT ===
+from omega_continuity_v712 import OmegaContinuityV712
+continuity = OmegaContinuityV712()
+
