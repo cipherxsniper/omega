@@ -7,7 +7,7 @@ class OmegaKernelV78:
         self.bus = bus
 
     def step(self, tick, payload):
-        trace = self.layer.route("temporal", payload, steps=4)
+        trace = self.layer.route("temporal", payload, 4)
 
         packet = CognitionPacketV78(
             tick=tick,
