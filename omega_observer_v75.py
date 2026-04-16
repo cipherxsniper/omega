@@ -1,30 +1,18 @@
+from omega_schema_v76 import normalize_trace
+
 class OmegaObserverV75:
-    def narrate(self, tick, trace, memory):
-        try:
-            gm = memory.global_memory
-        except Exception:
-            gm = {}
+    def narrate(self, tick, trace, field):
 
-        nodes = gm.get("nodes", {}) if isinstance(gm, dict) else {}
+        trace = normalize_trace(trace)
 
-        if trace:
-            dominant = trace[-1]["node"]
-        else:
-            dominant = "unknown"
+        dominant = trace.final_node
 
-        health = 0
-        if dominant in nodes:
-            health = nodes[dominant].get("avg_health", 0)
+        stability = getattr(field.global_memory, "health", 0.5) \
+            if hasattr(field, "global_memory") else 0.5
 
         return (
-            f"[Ω v7.5 | TICK {tick}]\n"
-            f"Final node: {dominant}\n"
-            f"System stability: {health:.2f}\n"
-            f"Trace length: {len(trace)}\n"
+            f"System stability: {stability:.2f}\n"
+            f"Trace length: {trace.steps}\n"
+            f"Path: {' -> '.join(trace.path)}\n"
+            f"Dominant node: {dominant}"
         )
-
-def narrate(self, tick, trace, field):
-    if isinstance(trace, dict) and "trace" in trace:
-        trace = trace["trace"]
-    dominant = trace[-1]["node"]
-    return f"[OBS] node={dominant}"
