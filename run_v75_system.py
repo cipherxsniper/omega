@@ -26,3 +26,31 @@ if __name__ == "__main__":
         print(observer.narrate(tick, __import__("patch_observer_v75").normalize_trace(trace), field), flush=True)
 
         tick += 1
+
+from omega_schema_v76 import OmegaFieldV76, normalize_trace
+
+if __name__ == "__main__":
+
+    print("[Ω] booting v7.6 schema layer...", flush=True)
+
+    layer = OmegaExecutionLayerV73()
+
+    from omega_node_safety_v75 import OmegaNodeSafetyV75
+    safety = OmegaNodeSafetyV75()
+    safety.ensure_nodes(layer)
+
+    observer = __import__("omega_observer_v75").OmegaObserverV75()
+
+    tick = 0
+
+    while True:
+        raw_trace = layer.route("temporal", {"drift": 40}, steps=4)
+        trace = normalize_trace(raw_trace)
+
+        field = OmegaFieldV76(layer.memory)
+
+        print(f"\n[Ω v7.6 | TICK {tick}]", flush=True)
+        print("Final node:", trace.final_node, flush=True)
+        print(observer.narrate(tick, trace, field), flush=True)
+
+        tick += 1
