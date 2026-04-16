@@ -60,3 +60,11 @@ from omega_self_model_v78 import OmegaSelfModelV78
 self_model = OmegaSelfModelV78()
 prev = None
 
+
+# === v7.8 SELF-MODEL LOOP PATCH ===
+curr = self_model.snapshot(layer, trace, tick)
+
+print(self_model.narrate(prev, curr), flush=True)
+
+prev = curr
+
