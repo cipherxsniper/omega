@@ -1,12 +1,17 @@
 class OmegaObserverV77:
-    def narrate(self, tick, trace, field):
+    def narrate(self, tick, trace, model):
+        dominant = trace[-1]["node"] if trace else "unknown"
 
-        final = trace.get("final_node", "unknown")
-
-        return (
-            f"[Ω v7.7 OBSERVER]\n"
-            f"Tick: {tick}\n"
-            f"Final Node: {final}\n"
-            f"Trace Keys: {list(trace.keys()) if isinstance(trace, dict) else type(trace)}\n"
-            f"Field Snapshot: {field.get('global_memory', 'N/A')}"
-        )
+        return {
+            "tick": tick,
+            "thought": f"Node {dominant} dominated last cycle.",
+            "self_view": {
+                "entropy": model.behavior["entropy_preference"],
+                "coherence": model.memory["confidence"],
+                "strategy": model.behavior["dominant_strategy"]
+            },
+            "trace_summary": [
+                {"node": t["node"], "health": t["result"]["health"]}
+                for t in trace
+            ]
+        }
