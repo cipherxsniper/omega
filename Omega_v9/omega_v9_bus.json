@@ -1,1 +1,1 @@
-{"node": "python_worker", "confidence": 0.6865026830105113, "reward": 0.8954663575391969, "action": "explore"}
+{"node":"js_worker","confidence":0.3206388682279626,"payload":{"value":48.057882302877545}}
