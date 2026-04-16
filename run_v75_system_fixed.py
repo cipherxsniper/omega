@@ -13,13 +13,6 @@ from omega_node_safety_v75 import OmegaNodeSafetyV75
 safety = OmegaNodeSafetyV75()
 safety.ensure_nodes(layer)
 
-
-# === v7.5 NODE SAFETY BOOT PATCH ===
-from omega_node_safety_v75 import OmegaNodeSafetyV75
-
-safety = OmegaNodeSafetyV75()
-safety.ensure_nodes(layer)
-
 field = OmegaKnowledgeFieldV75()
 observer = OmegaObserverV75()
 fusion = OmegaFusionV75()
@@ -48,7 +41,7 @@ while True:
     fusion.fuse(field)
 
     print("\n" + "="*40)
-    print(observer.narrate(tick, trace, field))
+    print(observer.narrate(tick, trace, field), flush=True)
 
     tick += 1
     time.sleep(1)
