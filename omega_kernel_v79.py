@@ -1,4 +1,4 @@
-from omega_ucp_v79 import UCPV79
+from omega_event_contract_v79 import OmegaEventContractV79
 
 class OmegaKernelV79:
 
@@ -6,27 +6,26 @@ class OmegaKernelV79:
         self.layer = layer
 
     def safe_step(self, tick, payload):
-        try:
-            trace = self.layer.route("temporal", payload, 4)
 
-            packet = UCPV79.build(
-                tick=tick,
-                node=trace.get("final_node", "unknown"),
-                trace=trace if isinstance(trace, list) else [trace],
-                state={"ok": True},
-                memory=getattr(self.layer, "memory", {}),
-                events=[]
+        try:
+            trace = self.layer.route("temporal", payload, steps=4)
+
+            event = OmegaEventContractV79.build(
+                event_type="success",
+                source="kernel",
+                raw=trace,
+                system_state={"tick": tick},
+                severity=0.1
             )
 
-            UCPV79.validate(packet)
-            return packet
+            return event
 
         except Exception as e:
-            return {
-                "tick": tick,
-                "node": "RECOVERY_NODE",
-                "trace": [],
-                "state": {"recovered": True, "error": str(e)},
-                "memory": getattr(self.layer, "memory", {}),
-                "events": ["self_heal_triggered"]
-            }
+
+            return OmegaEventContractV79.build(
+                event_type="route_error",
+                source="kernel",
+                raw=str(e),
+                system_state={"tick": tick},
+                severity=0.9
+            )
