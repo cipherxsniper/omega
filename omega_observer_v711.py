@@ -26,3 +26,17 @@ class OmegaObserverV711:
             "system_state": {},
             "severity": 0.3
         }
+
+# === Ω v7.11 EVENT GUARD (PREVENT None EVENTS) ===
+def safe_event(event):
+    if event is None:
+        return {
+            "event_type": "null_event",
+            "source": "system",
+            "raw": "None event intercepted",
+            "interpretation": "No execution output was produced this tick",
+            "system_state": {},
+            "severity": 0.2
+        }
+    return event
+
