@@ -1,35 +1,35 @@
-import json
 import time
-import os
 
-print("👁️ OMEGA OBSERVER ONLINE\n")
+files = {
+    "core": "Omega/Omega_v9/omega_v10/logs/core.log",
+    "node": "Omega/Omega_v9/omega_v10/logs/node.log",
+    "python": "Omega/Omega_v9/omega_v10/logs/python.log"
+}
 
-def read_file(path):
+def tail(path):
     try:
         with open(path) as f:
-            return f.readlines()[-10:]
+            return f.readlines()[-5:]
     except:
         return []
 
 while True:
-    core = read_file("logs/core.log")
-    node = read_file("logs/node.log")
-    py = read_file("logs/python.log")
+    print("\n🧠 OMEGA OBSERVER (TRANSLATED INTELLIGENCE)")
+    print("=====================================")
 
-    print("\n================ OMEGA STATUS ================")
+    for name, path in files.items():
+        print(f"\n🔹 {name.upper()} SYSTEM:")
+        for line in tail(path):
+            clean = line.strip()
 
-    print("🧠 CORE INTELLIGENCE:")
-    for line in core:
-        print(" - Swarm Activity:", line.strip())
+            # BASIC TRANSLATION LAYER
+            if "Swarm" in clean:
+                print("➡️ Swarm intelligence update detected:", clean)
+            elif "ONLINE" in clean:
+                print("➡️ System status:", clean)
+            else:
+                print("➡️ Activity:", clean)
 
-    print("\n⚙️ NODE ACTIVITY:")
-    for line in node:
-        print(" - JS Worker:", line.strip())
-
-    print("\n🐍 PYTHON INTELLIGENCE:")
-    for line in py:
-        print(" - AI Brain:", line.strip())
-
-    print("==============================================\n")
+    print("\n=====================================\n")
 
     time.sleep(2)
