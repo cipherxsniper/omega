@@ -6,7 +6,6 @@ from omega_execution_gate_v714 import OmegaExecutionGateV714
 
 print("[Ω] booting v7.14 unified execution contract layer...", flush=True)
 
-# --- SINGLE SOURCE OF TRUTH ---
 layer = get_execution_layer()
 kernel = OmegaExecutionGateV714(OmegaKernelV79(layer))
 observer = OmegaObserverV75()
@@ -15,8 +14,12 @@ tick = 0
 
 while True:
 
-    # 1. RAW EXECUTION
     raw = kernel.step(tick, {"drift": 40})
+
+    field = {
+        "global_memory": getattr(layer, "memory", {}),
+        "kernel_state": "active"
+    }
 
     if not raw["ok"]:
         event = {
@@ -34,7 +37,6 @@ while True:
             raw["data"]
         )
 
-    # 2. VALIDATION
     valid, err = OmegaContractV714.validate(event)
 
     if not valid:
@@ -45,11 +47,11 @@ while True:
             "raw": err
         }
 
-    # 3. OUTPUT
     print(f"\n[Ω v7.14 | TICK {tick}]", flush=True)
     print("EVENT:", event["event_type"], flush=True)
     print("NODE:", event.get("node"), flush=True)
 
-    print(observer.narrate(event, raw), flush=True)
+    # FIX: PASS FIELD (THIS WAS YOUR CRASH)
+    print(observer.narrate(event, raw, field), flush=True)
 
     tick += 1
