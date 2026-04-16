@@ -1,21 +1,24 @@
 class OmegaObserverV75:
     def narrate(self, tick, trace, memory):
-        lines = []
-        lines.append(f"Tick {tick} analysis:")
+        try:
+            gm = memory.global_memory
+        except Exception:
+            gm = {}
 
-        for step in trace:
-            node = step["node"]
-            health = step["result"].get("health", 0)
+        nodes = gm.get("nodes", {}) if isinstance(gm, dict) else {}
 
-            lines.append(
-                f"- Node '{node}' executed with health {health:.2f}"
-            )
+        if trace:
+            dominant = trace[-1]["node"]
+        else:
+            dominant = "unknown"
 
-        dominant = max(trace, key=lambda x: x["result"].get("health", 0))["node"]
+        health = 0
+        if dominant in nodes:
+            health = nodes[dominant].get("avg_health", 0)
 
-        lines.append(f"Dominant node this tick: {dominant}")
-        lines.append(
-            f"System stability: {memory['global_memory']['nodes'].get(dominant, {}).get('avg_health', 0):.2f}"
+        return (
+            f"[Ω v7.5 | TICK {tick}]\n"
+            f"Final node: {dominant}\n"
+            f"System stability: {health:.2f}\n"
+            f"Trace length: {len(trace)}\n"
         )
-
-        return "\n".join(lines)
