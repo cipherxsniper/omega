@@ -20,6 +20,28 @@ bus.subscribe(lambda e: None)
 tick = 0
 
 while True:
+        event = kernel_event  # adjust if needed
+
+        state_view = {
+            "node": packet.get("node"),
+            "event_type": event.get("event_type") if event else None,
+            "tick": tick
+        }
+
+        should_emit, meta = continuity.should_emit(event, state_view)
+
+        if should_emit:
+            compressed = continuity.compress_state(state_view)
+
+            narration = observer.narrate(event)
+
+            print(f"\n[Ω v7.12 | TICK {tick}]", flush=True)
+            print("STATE:", compressed, flush=True)
+            print("MODE:", meta["mode"], flush=True)
+            print(narration, flush=True)
+
+        else:
+            print(f"[Ω v7.12 | TICK {tick}] ⟲ suppressed (no change)", flush=True)
 
     event = kernel.step(tick, {"drift": 40})[0]
 
