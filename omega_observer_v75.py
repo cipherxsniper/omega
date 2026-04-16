@@ -22,3 +22,9 @@ class OmegaObserverV75:
             f"System stability: {health:.2f}\n"
             f"Trace length: {len(trace)}\n"
         )
+
+def narrate(self, tick, trace, field):
+    if isinstance(trace, dict) and "trace" in trace:
+        trace = trace["trace"]
+    dominant = trace[-1]["node"]
+    return f"[OBS] node={dominant}"
