@@ -41,7 +41,7 @@ while True:
     fusion.fuse(field)
 
     print("\n" + "="*40)
-    print(observer.narrate(tick, trace, field))
+    print(observer.narrate(tick, trace, field), flush=True)
 
     tick += 1
     time.sleep(1)
