@@ -51,7 +51,7 @@ if __name__ == "__main__":
 
         print(f"\n[Ω v7.6 | TICK {tick}]", flush=True)
         print("Final node:", trace.final_node, flush=True)
-        print(observer.narrate(tick, trace, field), flush=True)
+        print(observer.narrate(tick, __import__("omega_trace_normalizer_v77").OmegaTraceNormalizerV77.normalize(trace), field), flush=True)
 
         tick += 1
 
