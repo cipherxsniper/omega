@@ -45,3 +45,15 @@ while True:
 
     tick += 1
     time.sleep(1)
+
+# === v7.5 FORCE BASE CONNECTIVITY ===
+if not hasattr(layer, "weights") or not layer.weights:
+    layer.weights = {}
+
+    base_nodes = ["temporal", "diagnostic", "repair"]
+
+    for a in base_nodes:
+        for b in base_nodes:
+            if a != b:
+                layer.weights[(a, b)] = 0.5
+
