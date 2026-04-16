@@ -17,6 +17,14 @@ bus.subscribe(observer.handle)
 tick = 0
 
 while True:
-    bus.publish(kernel.step(tick, {"drift": 40}))
+
+    events = kernel.step(tick, {"drift": 40})
+
+    print(f"\n[Ω v7.10 | TICK {tick}]", flush=True)
+
+    # 🔥 THIS IS THE MISSING PIECE (NARRATION OUTPUT)
+    for event in events:
+        narration = observer.handle(event)
+        print(narration, flush=True)
 
     tick += 1
