@@ -13,7 +13,7 @@ if __name__ == "__main__":
     safety = OmegaNodeSafetyV75()
     safety.ensure_nodes(layer)
 
-    observer = __import__("omega_observer_v75").ObserverV75()
+    observer = __import__("omega_observer_v75").OmegaObserverV75()
 
     tick = 0
 
@@ -31,7 +31,7 @@ if __name__ == "__main__":
         tick += 1
 
 # FIXED OBSERVER IMPORT (v7.5)
-observer = __import__("omega_observer_v75").OmegaObserverV75()
+observer = __import__("omega_observer_v75").OmegaOmegaObserverV75()
 
 # FIXED OBSERVER IMPORT (v7.5 correct class name)
-observer = __import__("omega_observer_v75").OmegaObserverV75()
+observer = __import__("omega_observer_v75").OmegaOmegaObserverV75()
