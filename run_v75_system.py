@@ -13,7 +13,7 @@ if __name__ == "__main__":
     safety = OmegaNodeSafetyV75()
     safety.ensure_nodes(layer)
 
-    observer = __import__("omega_observer_v75").OmegaObserverV75()
+    observer = __import__("omega_observer_v75").OmegaOmegaObserverV75()
 
     tick = 0
 
