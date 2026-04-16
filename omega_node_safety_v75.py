@@ -3,6 +3,7 @@ class OmegaNodeSafetyV75:
         required = ["temporal", "diagnostic", "repair"]
 
         for node in required:
+            # ensure node exists
             if node not in graph.nodes:
                 graph.nodes[node] = lambda m, p: {
                     "health": 0.5,
@@ -10,9 +11,12 @@ class OmegaNodeSafetyV75:
                     "signals": {"fallback": True}
                 }
 
-            if node not in graph.memory.data:
-                graph.memory.data[node] = {
-                    "avg_health": 0.5,
-                    "runs": 0,
-                    "history": []
-                }
+            # ensure memory exists using SAFE access
+            try:
+                mem = graph.memory.get(node)
+            except Exception:
+                mem = None
+
+            if not mem:
+                # create memory using record system
+                graph.memory.record(node, {}, {"health": 0.5})
