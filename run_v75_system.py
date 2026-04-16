@@ -29,3 +29,6 @@ if __name__ == "__main__":
         print(observer.narrate(tick, trace, field), flush=True)
 
         tick += 1
+
+# FIXED OBSERVER IMPORT (v7.5)
+observer = __import__("omega_observer_v75").OmegaObserverV75()
