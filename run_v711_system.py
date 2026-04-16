@@ -1,62 +1,71 @@
 from omega_bootstrap_v75 import get_execution_layer
-from omega_bus_v710 import OmegaBusV710
-from omega_kernel_v710 import OmegaKernelV710
 
-from omega_observer_v711 import OmegaObserverV711
-from omega_self_model_v711 import OmegaSelfModelV711
+print("[Ω] booting v7.11 safe runtime...", flush=True)
 
-print("[Ω] booting v7.11 cognitive language renderer...", flush=True)
-
-layer = get_execution_layer()
-
-bus = OmegaBusV710()
-kernel = OmegaKernelV710(layer, bus)
-
-observer = OmegaObserverV711()
-self_model = OmegaSelfModelV711()
-
-bus.subscribe(lambda e: None)
-
-tick = 0
+def safe_imports():
+    from omega_observer_v75 import OmegaObserverV75
+    from omega_continuity_v712 import OmegaContinuityV712
+    from omega_self_model_v78 import OmegaSelfModelV78
+    return OmegaObserverV75, OmegaContinuityV712, OmegaSelfModelV78
 
 
-if __name__ == "__main__":
+def main():
+    # --- ALWAYS initialize inside runtime boundary ---
+    OmegaObserverV75, OmegaContinuityV712, OmegaSelfModelV78 = safe_imports()
 
+    layer = get_execution_layer()
+
+    observer = OmegaObserverV75()
+    continuity = OmegaContinuityV712()
+    self_model = OmegaSelfModelV78()
+
+    prev = None
     tick = 0
 
     while True:
-
-        event = None
         try:
-            packet = kernel.step(tick, {"drift": 40})
-            event = packet
+            packet = layer.route("temporal", {"drift": 40}, steps=4)
 
-        except Exception as e:
             event = {
-                "event_type": "route_error",
-                "raw": str(e)
+                "event_type": "state_update",
+                "node": packet.get("final_node"),
+                "trace": packet.get("trace", []),
+                "raw": packet,
             }
 
-        state_view = {
-            "node": getattr(packet, "node", None) if 'packet' in locals() else None,
-            "event_type": event.get("event_type") if isinstance(event, dict) else None,
-            "tick": tick
-        }
+            state_view = {
+                "node": event["node"],
+                "event_type": event["event_type"],
+                "tick": tick
+            }
 
-        should_emit, meta = continuity.should_emit(event, state_view)
+            should_emit, meta = continuity.should_emit(event, state_view)
 
-        if should_emit:
+            if should_emit:
+                compressed = continuity.compress_state(state_view)
 
-            compressed = continuity.compress_state(state_view)
-            narration = observer.narrate(event)
+                curr = self_model.snapshot(layer, packet, tick)
 
-            print(f"\n[Ω v7.12 | TICK {tick}]", flush=True)
-            print("STATE:", compressed, flush=True)
-            print("MODE:", meta.get("mode"), flush=True)
-            print(narration, flush=True)
+                print(f"\n[Ω v7.11 | TICK {tick}]", flush=True)
+                print("STATE:", compressed, flush=True)
+                print("MODE:", meta.get("mode", "default"), flush=True)
 
-        else:
-            print(f"[Ω v7.12 | TICK {tick}] ⟲ suppressed", flush=True)
+                print(observer.narrate(event, prev, curr), flush=True)
 
-        tick += 1
+                prev = curr
+            else:
+                print(f"[Ω v7.11 | TICK {tick}] ⟲ suppressed", flush=True)
+
+            tick += 1
+
+        except Exception as e:
+            # CRASH PREVENTION LAYER
+            error_event = {
+                "event_type": "route_error",
+                "raw": str(e),
+                "node": None
+            }
+
+            print("\n⚠️ Omega runtime exception captured:", flush=True)
+            print(observer.narrate(error_event, prev, None), flush=True)
 
