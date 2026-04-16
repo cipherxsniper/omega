@@ -19,3 +19,44 @@ bus.subscribe(lambda e: None)
 
 tick = 0
 
+
+if __name__ == "__main__":
+
+    tick = 0
+
+    while True:
+
+        event = None
+        try:
+            packet = kernel.step(tick, {"drift": 40})
+            event = packet
+
+        except Exception as e:
+            event = {
+                "event_type": "route_error",
+                "raw": str(e)
+            }
+
+        state_view = {
+            "node": getattr(packet, "node", None) if 'packet' in locals() else None,
+            "event_type": event.get("event_type") if isinstance(event, dict) else None,
+            "tick": tick
+        }
+
+        should_emit, meta = continuity.should_emit(event, state_view)
+
+        if should_emit:
+
+            compressed = continuity.compress_state(state_view)
+            narration = observer.narrate(event)
+
+            print(f"\n[Ω v7.12 | TICK {tick}]", flush=True)
+            print("STATE:", compressed, flush=True)
+            print("MODE:", meta.get("mode"), flush=True)
+            print(narration, flush=True)
+
+        else:
+            print(f"[Ω v7.12 | TICK {tick}] ⟲ suppressed", flush=True)
+
+        tick += 1
+
