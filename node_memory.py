@@ -1,9 +1,9 @@
 import random
-from omega_bus import OmegaBus
+from omega_bus import BUS
 
 class MemoryNode:
     def __init__(self):
-        self.bus = OmegaBus()
+        self.bus = BUS
         self.memory = []
 
     def step(self, tick):

@@ -1,0 +1,33 @@
+def respond(tokens, memory):
+
+    update_concepts(memory, tokens)
+
+    A = agent_A(tokens, memory)
+    B = agent_B(tokens, memory)
+    C = agent_C(tokens, memory)
+
+    votes = {
+        "A": len(A),
+        "B": len(B),
+        "C": len(C)
+    }
+
+    winner = max(votes, key=votes.get)
+
+    question = generate_question(tokens, memory)
+
+    return {
+        "reply": f"""
+🧠 Omega v21 Dynamic Cognition
+
+A: {A}
+B: {B}
+C: {C}
+
+🏁 Consensus: {winner}
+🗳️ Votes: {votes}
+
+❓ Evolving Question:
+{question}
+"""
+    }

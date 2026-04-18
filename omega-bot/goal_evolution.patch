@@ -1,0 +1,31 @@
+import random
+
+def evolve_goals(memory):
+
+    init_goals(memory)
+
+    goals = memory["goals"]
+
+    for g in list(goals.keys()):
+
+        # decay unused goals
+        goals[g]["priority"] *= 0.99
+
+        # mutation trigger
+        if goals[g]["progress"] > 0.7:
+            goals[g]["priority"] = min(1.0, goals[g]["priority"] + 0.1)
+
+        # split condition (high activity goal)
+        if goals[g]["progress"] > 0.85:
+            new_goal = g + "_refined"
+            goals[new_goal] = {
+                "priority": goals[g]["priority"] * 0.8,
+                "progress": 0.0
+            }
+
+    # occasional new goal creation
+    if random.random() < 0.2:
+        goals["reduce_ambiguity"] = {
+            "priority": 0.6,
+            "progress": 0.0
+        }

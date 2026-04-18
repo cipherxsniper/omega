@@ -42,7 +42,7 @@ class Module:
 # =========================
 class OmegaKernelV26:
     def __init__(self):
-        self.bus = OmegaBus()
+        self.bus = BUS
         self.modules = []
         self.tick = 0
 

@@ -1,0 +1,17 @@
+import random
+
+def generate_question(tokens, memory):
+
+    if any(memory["concepts"].get(t, {}).get("trend", 0) > 5 for t in tokens):
+        return "Why is this concept increasing in significance over time?"
+
+    if "zeus" in tokens and "athena" in memory["concepts"]:
+        return "What is the relationship between authority and intelligence in this system?"
+
+    questions = [
+        "What changed in the system state to produce this interpretation?",
+        "Is this pattern converging or diverging?",
+        "Why does this concept dominate current reasoning?"
+    ]
+
+    return random.choice(questions)

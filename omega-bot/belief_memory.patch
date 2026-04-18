@@ -1,0 +1,29 @@
+def init_beliefs(memory):
+
+    if "beliefs" not in memory:
+        memory["beliefs"] = {}
+
+def update_beliefs(memory, tokens, winner):
+
+    init_beliefs(memory)
+
+    for t in tokens:
+
+        if t not in memory["beliefs"]:
+            memory["beliefs"][t] = {
+                "model": winner,
+                "confidence": 0.5
+            }
+        else:
+            b = memory["beliefs"][t]
+
+            # reinforce if consistent
+            if b["model"] == winner:
+                b["confidence"] = min(1.0, b["confidence"] + 0.05)
+            else:
+                # drift if contradiction
+                b["confidence"] -= 0.03
+
+                if b["confidence"] < 0.3:
+                    b["model"] = winner
+                    b["confidence"] = 0.5

@@ -1,0 +1,29 @@
+file = "omega_process_supervisor_v3.py"
+
+with open(file, "r") as f:
+    content = f.read()
+
+main_block = """
+
+def main():
+    print("[Ω] BOOT SEQUENCE START")
+    
+    print("[Ω] Starting Observer + System Threads")
+
+    threading.Thread(target=observer_loop, daemon=True).start()
+    threading.Thread(target=health_monitor, daemon=True).start()
+    threading.Thread(target=heartbeat, daemon=True).start()
+
+    print("[Ω] All systems online")
+
+    while True:
+        time.sleep(1)
+"""
+
+if "def main" not in content:
+    content += main_block
+
+with open(file, "w") as f:
+    f.write(content)
+
+print("[FIXED] main() restored")

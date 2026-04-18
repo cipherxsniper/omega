@@ -1,0 +1,15 @@
+def select_active_goal(memory):
+
+    init_goals(memory)
+
+    goals = memory["goals"]
+
+    scored = []
+
+    for g, v in goals.items():
+        score = v["priority"] * (1 - v["progress"])
+        scored.append((g, score))
+
+    scored.sort(key=lambda x: x[1], reverse=True)
+
+    return scored[0][0]

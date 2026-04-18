@@ -1,0 +1,19 @@
+def omega_reason(tokens):
+
+    intent = "analysis"
+
+    plan = build_plan(intent, tokens)
+
+    execution = execute_plan(plan)
+
+    reflection = f"""
+Omega Reflection:
+- intent classified as {intent}
+- plan steps: {plan}
+- execution outcome: {execution}
+
+Question:
+What is the next highest-value transformation of this input?
+"""
+
+    return reflection

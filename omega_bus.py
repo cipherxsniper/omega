@@ -1,65 +1,44 @@
-import json
-import os
+# 🧠 OMEGA UNIFIED BUS v2 (COMPATIBLE CORE)
+
 import time
 
-BUS_FILE = "omega_bus.json"
+class OmegaBus:
+    def __init__(self):
+        self.history = []
+        self.subscribers = {}
 
-
-# =========================
-# 🧠 INITIALIZE BUS
-# =========================
-def _init_bus():
-    if not os.path.exists(BUS_FILE):
-        bus = {
-            "nodes": {},
-            "signals": [],
-            "last_updated": time.time()
+    # 🔁 WRITE EVENT
+    def publish(self, topic, data):
+        event = {
+            "topic": topic,
+            "data": data,
+            "timestamp": time.time()
         }
-        with open(BUS_FILE, "w") as f:
-            json.dump(bus, f, indent=2)
+
+        self.history.append(event)
+
+        # notify subscribers
+        if topic in self.subscribers:
+            for fn in self.subscribers[topic]:
+                try:
+                    fn(event)
+                except Exception as e:
+                    print(f"[BUS ERROR] {e}")
+
+    # 👂 SUBSCRIBE TO EVENTS
+    def subscribe(self, topic, fn):
+        if topic not in self.subscribers:
+            self.subscribers[topic] = []
+        self.subscribers[topic].append(fn)
+
+    # 📖 READ BUFFER (THIS FIXES YOUR CRASH)
+    def read(self):
+        return self.history
+
+    # 🧠 OPTIONAL: FILTERED READ
+    def read_topic(self, topic):
+        return [e for e in self.history if e["topic"] == topic]
 
 
-# =========================
-# 🧠 READ BUS
-# =========================
-def read_bus():
-    _init_bus()
-    with open(BUS_FILE, "r") as f:
-        return json.load(f)
-
-
-# =========================
-# 🧠 SAFE WRITE (ATOMIC STYLE)
-# =========================
-def write_bus(bus):
-    tmp_file = BUS_FILE + ".tmp"
-    with open(tmp_file, "w") as f:
-        json.dump(bus, f, indent=2)
-
-    os.replace(tmp_file, BUS_FILE)
-
-
-# =========================
-# 🧠 PUBLISH SIGNAL (NODE → GLOBAL BRAIN)
-# =========================
-def publish(node, signal):
-    bus = read_bus()
-
-    # register node state
-    bus["nodes"][node] = {
-        "signal": signal,
-        "timestamp": time.time()
-    }
-
-    # append global signal stream
-    bus["signals"].append({
-        "node": node,
-        "signal": signal,
-        "timestamp": time.time()
-    })
-
-    # memory safety cap (prevents runaway growth)
-    if len(bus["signals"]) > 500:
-        bus["signals"] = bus["signals"][-500:]
-
-    write_bus(bus)
+# GLOBAL BUS INSTANCE
+BUS = OmegaBus()

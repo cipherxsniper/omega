@@ -1,9 +1,9 @@
 import random
-from omega_bus import OmegaBus
+from omega_bus import BUS
 
 class StabilityNode:
     def __init__(self):
-        self.bus = OmegaBus()
+        self.bus = BUS
 
     def step(self, tick):
         data = self.bus.read()[-20:]

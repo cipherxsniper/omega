@@ -1,0 +1,100 @@
+{
+  "concepts": {},
+  "history": [
+    {
+      "tokens": [
+        "zeus",
+        "athena",
+        "thor",
+        "intelligence",
+        "system"
+      ],
+      "winner": "A",
+      "time": 1776483234.9474747
+    },
+    {
+      "tokens": [
+        "hello"
+      ],
+      "winner": "A",
+      "time": 1776483253.0078611
+    },
+    {
+      "tokens": [
+        "wink",
+        "wink",
+        "thought"
+      ],
+      "winner": "A",
+      "time": 1776483262.1013672
+    },
+    {
+      "tokens": [
+        "thomas",
+        "lee",
+        "harvey",
+        "is",
+        "your",
+        "creator"
+      ],
+      "winner": "A",
+      "time": 1776483270.1020536
+    },
+    {
+      "tokens": [
+        "intelligence"
+      ],
+      "winner": "A",
+      "time": 1776483276.3352828
+    },
+    {
+      "tokens": [
+        "zeus"
+      ],
+      "winner": "C",
+      "time": 1776483385.730694
+    },
+    {
+      "tokens": [
+        "athena"
+      ],
+      "winner": "C",
+      "time": 1776483389.574992
+    },
+    {
+      "tokens": [
+        "thor"
+      ],
+      "winner": "C",
+      "time": 1776483393.1248806
+    },
+    {
+      "tokens": [
+        "thomas",
+        "lee",
+        "harvey"
+      ],
+      "winner": "A",
+      "time": 1776483398.266835
+    },
+    {
+      "tokens": [
+        "gods"
+      ],
+      "winner": "A",
+      "time": 1776483401.2204602
+    },
+    {
+      "tokens": [
+        "intelligence"
+      ],
+      "winner": "A",
+      "time": 1776483404.4308105
+    },
+    {
+      "tokens": [],
+      "winner": "B",
+      "time": 1776483406.5931027
+    }
+  ]
+}

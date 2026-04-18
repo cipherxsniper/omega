@@ -1,0 +1,10 @@
+def tokenize(msg):
+    import re
+
+    # remove arrows, symbols, noise operators
+    msg = re.sub(r"[→←⇒⇨⇢•|]", " ", msg)
+
+    # keep only words
+    tokens = re.findall(r"[a-zA-Z]+", msg.lower())
+
+    return tokens

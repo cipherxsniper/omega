@@ -1,0 +1,6 @@
+
+# ADD THIS INSIDE render() BEFORE PARTICLES ARE DRAWN:
+
+for s in sparks:
+    if 0 <= s["x"] < SIZE and 0 <= s["y"] < SIZE:
+        grid[s["y"]][s["x"]] = s["color"]

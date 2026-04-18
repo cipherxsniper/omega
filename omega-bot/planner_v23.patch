@@ -1,0 +1,24 @@
+def build_plan(goal, tokens):
+
+    if goal == "understand_input":
+        return [
+            "parse intent",
+            "extract entities",
+            "map semantic meaning"
+        ]
+
+    if goal == "maintain_coherence":
+        return [
+            "check context consistency",
+            "align with past beliefs",
+            "normalize output structure"
+        ]
+
+    if goal == "reduce_uncertainty":
+        return [
+            "identify ambiguous tokens",
+            "generate clarifying question",
+            "refine interpretation"
+        ]
+
+    return ["default reasoning step"]

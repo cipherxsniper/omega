@@ -1,0 +1,53 @@
+{
+  "concepts": {
+    "zeus": {
+      "strength": 0.5,
+      "visits": 1
+    },
+    "\u2192": {
+      "strength": 0.52,
+      "visits": 2
+    },
+    "athena": {
+      "strength": 0.5,
+      "visits": 1
+    },
+    "thor": {
+      "strength": 0.5,
+      "visits": 1
+    }
+  },
+  "edges": {
+    "zeus->\u2192": {
+      "weight": 0.5,
+      "count": 1
+    },
+    "\u2192->athena": {
+      "weight": 0.5,
+      "count": 1
+    },
+    "athena->\u2192": {
+      "weight": 0.5,
+      "count": 1
+    },
+    "\u2192->thor": {
+      "weight": 0.5,
+      "count": 1
+    }
+  },
+  "history": [
+    {
+      "msg": "zeus \u2192 athena \u2192 thor",
+      "tokens": [
+        "zeus",
+        "\u2192",
+        "athena",
+        "\u2192",
+        "thor"
+      ],
+      "time": 1776482866.498158,
+      "continuity": "moderate-pattern-continuity"
+    }
+  ],
+  "last_session": 1776482859.06583
+}

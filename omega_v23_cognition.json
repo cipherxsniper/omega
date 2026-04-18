@@ -1,10 +1,10 @@
 {
-  "tick": 2748,
+  "tick": 2776,
   "goals": [],
   "meta_goals": [],
   "rules": {
     "attention_gain": 0.5,
-    "goal_decay": 0.7268391302802665,
+    "goal_decay": 0.7328922769792037,
     "merge_threshold": 0.9,
     "stability_weight": 1.0
   },
@@ -22312,8 +22312,232 @@
         "stability_weight": 1.0
       },
       "reason": "adaptive tuning"
+    },
+    {
+      "tick": 2751,
+      "before": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "after": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "reason": "adaptive tuning"
+    },
+    {
+      "tick": 2755,
+      "before": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "after": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "reason": "adaptive tuning"
+    },
+    {
+      "tick": 2756,
+      "before": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "after": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "reason": "adaptive tuning"
+    },
+    {
+      "tick": 2758,
+      "before": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "after": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "reason": "adaptive tuning"
+    },
+    {
+      "tick": 2759,
+      "before": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "after": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "reason": "adaptive tuning"
+    },
+    {
+      "tick": 2760,
+      "before": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "after": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "reason": "adaptive tuning"
+    },
+    {
+      "tick": 2761,
+      "before": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "after": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "reason": "adaptive tuning"
+    },
+    {
+      "tick": 2764,
+      "before": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "after": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "reason": "adaptive tuning"
+    },
+    {
+      "tick": 2766,
+      "before": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "after": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "reason": "adaptive tuning"
+    },
+    {
+      "tick": 2767,
+      "before": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "after": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "reason": "adaptive tuning"
+    },
+    {
+      "tick": 2768,
+      "before": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "after": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "reason": "adaptive tuning"
+    },
+    {
+      "tick": 2771,
+      "before": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "after": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "reason": "adaptive tuning"
+    },
+    {
+      "tick": 2773,
+      "before": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7268391302802665,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "after": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7328922769792037,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "reason": "adaptive tuning"
+    },
+    {
+      "tick": 2775,
+      "before": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7328922769792037,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "after": {
+        "attention_gain": 0.5,
+        "goal_decay": 0.7328922769792037,
+        "merge_threshold": 0.9,
+        "stability_weight": 1.0
+      },
+      "reason": "adaptive tuning"
     }
   ],
-  "stability_score": 0.5865553709937181,
-  "reward_avg": 0.3091906407455133
+  "stability_score": 0.592795376645426,
+  "reward_avg": 0.4420468413241097
 }

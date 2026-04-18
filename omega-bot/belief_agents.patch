@@ -1,0 +1,8 @@
+def agent_A(tokens, memory):
+    return f"structural interpretation bias active"
+
+def agent_B(tokens, memory):
+    return f"semantic interpretation influenced by beliefs"
+
+def agent_C(tokens, memory):
+    return f"symbolic interpretation weighted by ideology drift"

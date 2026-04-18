@@ -1,0 +1,14 @@
+def update_concepts(memory, tokens):
+
+    for t in tokens:
+        if t not in memory["concepts"]:
+            memory["concepts"][t] = {
+                "strength": 0.5,
+                "trend": 0
+            }
+        else:
+            memory["concepts"][t]["strength"] = min(
+                1.0,
+                memory["concepts"][t]["strength"] + 0.03
+            )
+            memory["concepts"][t]["trend"] += 1

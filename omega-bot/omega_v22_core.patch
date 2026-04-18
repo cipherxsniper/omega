@@ -1,0 +1,39 @@
+def respond(tokens, memory):
+
+    init_beliefs(memory)
+
+    A = agent_A(tokens, memory)
+    B = agent_B(tokens, memory)
+    C = agent_C(tokens, memory)
+
+    votes = {
+        "A": len(A),
+        "B": len(B),
+        "C": len(C)
+    }
+
+    winner = max(votes, key=votes.get)
+
+    update_beliefs(memory, tokens, winner)
+
+    belief_view = apply_beliefs(tokens, memory)
+    drift = detect_drift(memory)
+
+    return {
+        "reply": f"""
+🧠 Omega v22 Belief Cognition System
+
+A: {A}
+B: {B}
+C: {C}
+
+🏁 Consensus: {winner}
+🗳️ Votes: {votes}
+
+🧠 Active Beliefs:
+{belief_view}
+
+🌊 Ideology Drift:
+{drift if drift else "stable system state"}
+"""
+    }

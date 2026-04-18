@@ -1,0 +1,8 @@
+# STEP 3 — FIX MASTER CHECK (PID-BASED, NOT GREP)
+
+if ! kill -0 $(cat logs/brain.pid 2>/dev/null) 2>/dev/null; then
+  echo "⚠️ Brain died — restarting..."
+
+  nohup python3 omega_v32_brain.py > logs/brain.log 2>&1 &
+  echo $! > logs/brain.pid
+fi

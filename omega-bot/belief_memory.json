@@ -1,0 +1,17 @@
+{
+  "concepts": {
+    "zeus": {"power": 0.8, "control": 0.9},
+    "athena": {"reasoning": 0.9, "strategy": 0.8},
+    "thor": {"force": 0.9, "execution": 0.8}
+  },
+  "associations": {
+    "zeus-athena-thor": {
+      "meaning": "hierarchical intelligence system",
+      "strength": 0.7
+    }
+  },
+  "global_bias": {
+    "abstract_reasoning": 0.6,
+    "symbolic_thinking": 0.7
+  }
+}

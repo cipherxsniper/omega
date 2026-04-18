@@ -1,0 +1,10 @@
+def apply_beliefs(tokens, memory):
+
+    responses = []
+
+    for t in tokens:
+        if t in memory["beliefs"]:
+            b = memory["beliefs"][t]
+            responses.append(f"{t} → {b['model']} ({b['confidence']:.2f})")
+
+    return responses

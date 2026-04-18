@@ -1,0 +1,4 @@
+
+# ADD THIS INSIDE Particle.step() AT THE END:
+
+emit_spark(int(self.x), int(self.y))

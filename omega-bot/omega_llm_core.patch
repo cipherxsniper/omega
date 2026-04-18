@@ -1,0 +1,21 @@
+def respond(tokens):
+
+    A = agent_A(tokens)
+    B = agent_B(tokens)
+    C = agent_C(tokens)
+
+    winner, votes = resolve(A, B, C)
+
+    reflection = reflect(tokens, winner)
+    question = generate_question(tokens)
+
+    prompt = build_prompt(tokens, f"A:{A} | B:{B} | C:{C}", reflection, question)
+
+    final_text = llm_generate(prompt)
+
+    return {
+        "reply": "🧠 Omega Hybrid Output:\n\n" + final_text,
+        "votes": votes,
+        "reflection": reflection,
+        "question": question
+    }

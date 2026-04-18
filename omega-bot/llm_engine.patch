@@ -1,0 +1,7 @@
+def llm_generate(prompt):
+    global llm
+
+    with llm.chat_session():
+        output = llm.generate(prompt, max_tokens=220)
+
+    return output

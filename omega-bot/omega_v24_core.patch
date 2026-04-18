@@ -1,0 +1,36 @@
+def respond(tokens, memory):
+
+    init_goals(memory)
+
+    evolve_goals(memory)
+
+    goal = select_active_goal(memory)
+
+    plan = build_plan(goal, tokens, memory)
+
+    execution = execute(plan)
+
+    score = evaluate_action_success(goal, plan, execution)
+
+    apply_learning(memory, goal, score)
+
+    return {
+        "reply": f"""
+🧠 Omega v24 Recursive Goal Evolution
+
+🎯 Active Goal:
+{goal}
+
+🧠 Plan:
+{plan}
+
+⚙️ Execution:
+{execution}
+
+📊 Performance Score:
+{score}
+
+📈 Evolved Goals:
+{memory["goals"]}
+"""
+    }

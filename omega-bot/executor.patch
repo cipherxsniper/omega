@@ -1,0 +1,15 @@
+def execute_plan(plan):
+
+    results = []
+
+    for step in plan:
+        if "symbolic" in step:
+            results.append("mapped symbolic structure")
+        elif "semantic" in step:
+            results.append("semantic graph updated")
+        elif "generate" in step:
+            results.append("response synthesized")
+        else:
+            results.append(f"executed: {step}")
+
+    return results

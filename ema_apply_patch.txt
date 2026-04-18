@@ -1,0 +1,17 @@
+# =========================
+# APPLY EMA SMOOTHING PATCH
+# =========================
+
+# REMOVE THIS LINE:
+# avg = sum(signals) / len(signals)
+
+# REPLACE WITH:
+
+if "prev_avg" not in globals():
+    prev_avg = 0
+
+raw_avg = sum(signals) / len(signals)
+
+avg = 0.2 * raw_avg + 0.8 * prev_avg
+prev_avg = avg
+

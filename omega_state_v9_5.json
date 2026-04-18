@@ -1,0 +1,37 @@
+{
+  "nodes": {
+    "node_memory": {
+      "weight": 0.4990005,
+      "stability": 0.5,
+      "history": [
+        0.4543129984254246,
+        0.45127221866244505
+      ]
+    },
+    "node_goal": {
+      "weight": 0.4990005,
+      "stability": 0.5,
+      "history": [
+        0.4542350435618522,
+        0.4675837218478501
+      ]
+    },
+    "node_attention": {
+      "weight": 0.4990005,
+      "stability": 0.5,
+      "history": [
+        0.46530789929148386,
+        0.4839967236360885
+      ]
+    },
+    "node_stability": {
+      "weight": 0.4990005,
+      "stability": 0.5,
+      "history": [
+        0.4574969855768029,
+        0.4614115038623819
+      ]
+    }
+  },
+  "global_step": 8
+}

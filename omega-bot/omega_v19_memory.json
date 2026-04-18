@@ -1,0 +1,133 @@
+{
+  "concepts": {
+    "symbolic": {
+      "strength": 0.5
+    },
+    "role": {
+      "strength": 0.51
+    },
+    "zeus": {
+      "strength": 0.53
+    },
+    "athena": {
+      "strength": 0.51
+    },
+    "the": {
+      "strength": 0.5
+    },
+    "system": {
+      "strength": 0.51
+    },
+    "interprets": {
+      "strength": 0.51
+    },
+    "as": {
+      "strength": 0.51
+    },
+    "form": {
+      "strength": 0.51
+    },
+    "of": {
+      "strength": 0.51
+    }
+  },
+  "relations": {
+    "symbolic->role": {
+      "a": "symbolic",
+      "b": "role",
+      "type": "associative-link",
+      "weight": 0.5
+    },
+    "role->zeus": {
+      "a": "role",
+      "b": "zeus",
+      "type": "associative-link",
+      "weight": 0.5
+    },
+    "zeus->athena": {
+      "a": "zeus",
+      "b": "athena",
+      "type": "symbolic-role",
+      "weight": 0.5
+    },
+    "the->system": {
+      "a": "the",
+      "b": "system",
+      "type": "system-design",
+      "weight": 0.5
+    },
+    "system->interprets": {
+      "a": "system",
+      "b": "interprets",
+      "type": "associative-link",
+      "weight": 0.5
+    },
+    "interprets->zeus": {
+      "a": "interprets",
+      "b": "zeus",
+      "type": "associative-link",
+      "weight": 0.5
+    },
+    "zeus->as": {
+      "a": "zeus",
+      "b": "as",
+      "type": "symbolic-role",
+      "weight": 0.5
+    },
+    "as->form": {
+      "a": "as",
+      "b": "form",
+      "type": "associative-link",
+      "weight": 0.5
+    },
+    "form->of": {
+      "a": "form",
+      "b": "of",
+      "type": "associative-link",
+      "weight": 0.5
+    },
+    "of->athena": {
+      "a": "of",
+      "b": "athena",
+      "type": "associative-link",
+      "weight": 0.5
+    }
+  },
+  "history": [
+    {
+      "tokens": [
+        "symbolic",
+        "role",
+        "zeus",
+        "athena"
+      ],
+      "concepts": [
+        "role",
+        "zeus",
+        "symbolic",
+        "athena"
+      ],
+      "time": 1776483033.1864316
+    },
+    {
+      "tokens": [
+        "the",
+        "system",
+        "interprets",
+        "zeus",
+        "as",
+        "form",
+        "of",
+        "athena"
+      ],
+      "concepts": [
+        "zeus",
+        "system",
+        "interprets",
+        "as",
+        "form"
+      ],
+      "time": 1776483042.9794214
+    }
+  ]
+}

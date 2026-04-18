@@ -6,7 +6,7 @@ import time
 
 class OmegaMeshOSV2:
     def __init__(self):
-        self.bus = OmegaBus()
+        self.bus = BUS
         self.graph = IdentityGraph()
         self.tick = 0
         self.messages = []

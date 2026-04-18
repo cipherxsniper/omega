@@ -1,0 +1,414 @@
+{
+  "long_term": [],
+  "version_log": {
+    "v22": 58
+  },
+  "state_history": [
+    {
+      "signal": 0.5219712769938658,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.522 under STABLE EXPLORATION conditions.",
+      "reward": 0.5,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5233207209424476,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.523 under STABLE EXPLORATION conditions.",
+      "reward": 0.9986505560514182,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5237686939329902,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.524 under STABLE EXPLORATION conditions.",
+      "reward": 0.9988773050351665,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5256524439781156,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.526 under STABLE EXPLORATION conditions.",
+      "reward": 0.9973677866449856,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5259971562907805,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Causal mesh evaluation indicates STABLE EXPLORATION, with reinforcement score 0.998.",
+      "reward": 0.9976811276710743,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5265514761306267,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.527 under STABLE EXPLORATION conditions.",
+      "reward": 0.9975905822970133,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5280308861860087,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.528 under STABLE EXPLORATION conditions.",
+      "reward": 0.9965127418587958,
+      "version": "v22"
+    },
+    {
+      "signal": 0.527378005601101,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Self-analysis: system stability trends toward STABLE EXPLORATION with signal intensity 0.527.",
+      "reward": 0.9976638021781611,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5259802345553666,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Causal mesh evaluation indicates STABLE EXPLORATION, with reinforcement score 0.999.",
+      "reward": 0.9993535979516255,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5249282109233993,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.525 under STABLE EXPLORATION conditions.",
+      "reward": 0.9995225559665879,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5257362809207339,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Causal mesh evaluation indicates STABLE EXPLORATION, with reinforcement score 1.0.",
+      "reward": 0.9996216296327364,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5253151109469442,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Self-analysis: system stability trends toward STABLE EXPLORATION with signal intensity 0.525.",
+      "reward": 0.9995807000007871,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5249927216186784,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Omega simulation reflects STABLE EXPLORATION dynamics influenced by prior memory states.",
+      "reward": 0.9990588716720717,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5266706466064217,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Structural awareness layer reports STABLE EXPLORATION behavior across node interactions.",
+      "reward": 0.9993856061087537,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5270132249994395,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.527 under STABLE EXPLORATION conditions.",
+      "reward": 0.9991448479785666,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5271615108948243,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Causal mesh evaluation indicates STABLE EXPLORATION, with reinforcement score 0.999.",
+      "reward": 0.9990981689540477,
+      "version": "v22"
+    },
+    {
+      "signal": 0.525770981162238,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Self-analysis: system stability trends toward STABLE EXPLORATION with signal intensity 0.526.",
+      "reward": 0.9994502978369462,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5259535738905531,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.526 under STABLE EXPLORATION conditions.",
+      "reward": 0.9998588810676384,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5262551694675752,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Causal mesh evaluation indicates STABLE EXPLORATION, with reinforcement score 1.0.",
+      "reward": 0.9996970801842847,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5264425290840423,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Self-analysis: system stability trends toward STABLE EXPLORATION with signal intensity 0.526.",
+      "reward": 0.9995372140590384,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5261350708396287,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Omega simulation reflects STABLE EXPLORATION dynamics influenced by prior memory states.",
+      "reward": 0.9999961041195163,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5264706004523906,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Structural awareness layer reports STABLE EXPLORATION behavior across node interactions.",
+      "reward": 0.999700453498644,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5254467760961188,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.525 under STABLE EXPLORATION conditions.",
+      "reward": 0.9991601731945396,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5276877581166732,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Self-analysis: system stability trends toward STABLE EXPLORATION with signal intensity 0.528.",
+      "reward": 0.99864425023265,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5267084368857075,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Self-analysis: system stability trends toward STABLE EXPLORATION with signal intensity 0.527.",
+      "reward": 0.9997252826146409,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5268369604766276,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.527 under STABLE EXPLORATION conditions.",
+      "reward": 0.9995662802123475,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5255633900895388,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.526 under STABLE EXPLORATION conditions.",
+      "reward": 0.9991926044423832,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5247709051297105,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Causal mesh evaluation indicates STABLE EXPLORATION, with reinforcement score 0.998.",
+      "reward": 0.998420878589825,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5258959623562898,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Causal mesh evaluation indicates STABLE EXPLORATION, with reinforcement score 1.0.",
+      "reward": 0.9996642026924885,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5263598303326953,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.526 under STABLE EXPLORATION conditions.",
+      "reward": 0.9998360086199776,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5256806208590857,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Causal mesh evaluation indicates STABLE EXPLORATION, with reinforcement score 0.999.",
+      "reward": 0.9994930517815477,
+      "version": "v22"
+    },
+    {
+      "signal": 0.52379748746587,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.524 under STABLE EXPLORATION conditions.",
+      "reward": 0.9976553633863862,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5235855701772331,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Self-analysis: system stability trends toward STABLE EXPLORATION with signal intensity 0.524.",
+      "reward": 0.9977107573964014,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5246786712437337,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Self-analysis: system stability trends toward STABLE EXPLORATION with signal intensity 0.525.",
+      "reward": 0.9989899790547906,
+      "version": "v22"
+    },
+    {
+      "signal": 0.524766507357708,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.525 under STABLE EXPLORATION conditions.",
+      "reward": 0.9993787238560589,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5258714758151393,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Causal mesh evaluation indicates STABLE EXPLORATION, with reinforcement score 0.999.",
+      "reward": 0.99932211473371,
+      "version": "v22"
+    },
+    {
+      "signal": 0.524974364655681,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.525 under STABLE EXPLORATION conditions.",
+      "reward": 0.9998773225729807,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5258178679591926,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Self-analysis: system stability trends toward STABLE EXPLORATION with signal intensity 0.526.",
+      "reward": 0.999220271580122,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5277112483259576,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.528 under STABLE EXPLORATION conditions.",
+      "reward": 0.9974315874963052,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5274534284210387,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Causal mesh evaluation indicates STABLE EXPLORATION, with reinforcement score 0.998.",
+      "reward": 0.9978709359981909,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5268422404299739,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.527 under STABLE EXPLORATION conditions.",
+      "reward": 0.9985914837980902,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5275761650748564,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.528 under STABLE EXPLORATION conditions.",
+      "reward": 0.9979737211102965,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5275940711266892,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Self-analysis: system stability trends toward STABLE EXPLORATION with signal intensity 0.528.",
+      "reward": 0.9983336828193622,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5265483379269731,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Self-analysis: system stability trends toward STABLE EXPLORATION with signal intensity 0.527.",
+      "reward": 0.9997802661140239,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5253927137994417,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Self-analysis: system stability trends toward STABLE EXPLORATION with signal intensity 0.525.",
+      "reward": 0.9988771430901208,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5258455183103299,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Self-analysis: system stability trends toward STABLE EXPLORATION with signal intensity 0.526.",
+      "reward": 0.9992673269568355,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5266687096853946,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Omega simulation reflects STABLE EXPLORATION dynamics influenced by prior memory states.",
+      "reward": 0.9999068859176188,
+      "version": "v22"
+    },
+    {
+      "signal": 0.526675818139092,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Structural awareness layer reports STABLE EXPLORATION behavior across node interactions.",
+      "reward": 0.9999307880331073,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5256268736244218,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Omega simulation reflects STABLE EXPLORATION dynamics influenced by prior memory states.",
+      "reward": 0.9987960485004471,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5263010186631945,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Causal mesh evaluation indicates STABLE EXPLORATION, with reinforcement score 1.0.",
+      "reward": 0.9996786310093734,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5271496389495172,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Self-analysis: system stability trends toward STABLE EXPLORATION with signal intensity 0.527.",
+      "reward": 0.9993575077285195,
+      "version": "v22"
+    },
+    {
+      "signal": 0.529140594963627,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.529 under STABLE EXPLORATION conditions.",
+      "reward": 0.997397291566364,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5288591374187771,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Self-analysis: system stability trends toward STABLE EXPLORATION with signal intensity 0.529.",
+      "reward": 0.997835192100091,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5293791173013557,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Causal mesh evaluation indicates STABLE EXPLORATION, with reinforcement score 0.997.",
+      "reward": 0.9974417188467212,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5270957381893043,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.527 under STABLE EXPLORATION conditions.",
+      "reward": 0.9999918241037892,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5269619757081225,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Causal mesh evaluation indicates STABLE EXPLORATION, with reinforcement score 1.0.",
+      "reward": 0.9996877591836211,
+      "version": "v22"
+    },
+    {
+      "signal": 0.525841638444011,
+      "state": "STABLE EXPLORATION",
+      "sentence": "The system is observing internal drift with signal 0.526 under STABLE EXPLORATION conditions.",
+      "reward": 0.9984557761797304,
+      "version": "v22"
+    },
+    {
+      "signal": 0.5253948324637283,
+      "state": "STABLE EXPLORATION",
+      "sentence": "Causal mesh evaluation indicates STABLE EXPLORATION, with reinforcement score 0.998.",
+      "reward": 0.9980916773235861,
+      "version": "v22"
+    }
+  ]
+}

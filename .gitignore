@@ -8,3 +8,5 @@ nohup.out
 >>>>>>> 71d54e39cdfcdd1862cc6c05708474c3317e4251
 _dist/
 _omega_v5/
+__pycache__/
+v28_backups/

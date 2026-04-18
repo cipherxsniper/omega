@@ -3,8 +3,8 @@ import time
 
 omega = OmegaOrchestratorV4()
 
+print("🧠 OMEGA v12.2 SWARM MEMORY ONLINE")
+
 while True:
     omega.run_cycle()
-    time.sleep(5)
-
-# OPTIMIZED BY v29 ENGINE
+    time.sleep(2)

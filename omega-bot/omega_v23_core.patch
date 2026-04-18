@@ -1,0 +1,29 @@
+def respond(tokens, memory):
+
+    init_goals(memory)
+
+    goal = select_active_goal(memory)
+
+    plan = build_plan(goal, tokens)
+
+    execution = execute(plan)
+
+    update_goal_progress(memory, goal, 0.1)
+
+    return {
+        "reply": f"""
+🧠 Omega v23 Autonomous Planner
+
+🎯 Active Goal:
+{goal}
+
+🧠 Plan:
+{plan}
+
+⚙️ Execution:
+{execution}
+
+📊 Goal State:
+{memory["goals"]}
+"""
+    }

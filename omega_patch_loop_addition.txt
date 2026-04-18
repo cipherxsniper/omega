@@ -1,0 +1,4 @@
+
+# ADD THIS INSIDE MAIN LOOP EACH FRAME:
+
+decay_sparks()

@@ -1,0 +1,9 @@
+def detect_drift(memory):
+
+    drifting = []
+
+    for k, v in memory.get("beliefs", {}).items():
+        if v["confidence"] < 0.4:
+            drifting.append(k)
+
+    return drifting

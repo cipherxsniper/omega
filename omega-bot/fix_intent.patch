@@ -1,0 +1,19 @@
+def detect_intent(msg):
+    msg = msg.lower()
+
+    # HIGH PRIORITY FIRST
+    if "thought" in msg or "think" in msg:
+        return "thought"
+
+    elif "why" in msg or "how" in msg or "deeper" in msg:
+        return "deep"
+
+    elif "?" in msg or "what" in msg:
+        return "question"
+
+    # GREETING LAST (LOW PRIORITY)
+    elif msg.strip() in ["hello", "hi", "hey"]:
+        return "greeting"
+
+    else:
+        return "general"

@@ -1,2265 +1,3987 @@
 {
-  "total_nodes": 377,
+  "total_nodes": 664,
   "nodes": [
     {
       "id": "node_0",
-      "file": "run_omega_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_1",
-      "file": "omega_orchestrator_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_2",
-      "file": "omega_orchestrator_v6.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_3",
-      "file": "omega_event_mesh_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_4",
-      "file": "omega_brain_node_v5.py",
-      "role": "brain",
-      "status": "idle"
-    },
-    {
-      "id": "node_5",
-      "file": "omega_data_stream_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_6",
-      "file": "omega_decision_engine_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_7",
-      "file": "omega_adaptive_optimizer_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_8",
-      "file": "omega_economy_engine_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_9",
-      "file": "omega_identity_engine_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_10",
-      "file": "omega_cognitive_node_v6.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_11",
-      "file": "omega_execution_engine_v7.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_12",
-      "file": "omega_swarm_mesh_v8.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_13",
-      "file": "omega_swarm_node_v8.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_14",
-      "file": "omega_global_memory_cloud_v9.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_15",
-      "file": "omega_swarm_memory_bridge_v9.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_16",
-      "file": "omega_intelligence_economy_v10.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_17",
-      "file": "omega_meta_brain_v10.py",
-      "role": "brain",
-      "status": "idle"
-    },
-    {
-      "id": "node_18",
-      "file": "omega_brain_factory_v11.py",
-      "role": "brain",
-      "status": "idle"
-    },
-    {
-      "id": "node_19",
-      "file": "omega_sensor_interface_v11.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_20",
-      "file": "omega_swarm_evolver_v11.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_21",
-      "file": "omega_orchestrator_v5_fixed.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_22",
-      "file": "run_omega_v6.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_23",
-      "file": "omega_learning_engine_v11.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_24",
-      "file": "omega_learning_convergence_v12.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_25",
-      "file": "omega_recursive_intelligence_v13.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_26",
-      "file": "run_omega_v9.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_27",
-      "file": "omega_memory_patch_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_28",
-      "file": "omega_learning_engine_patch_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_29",
-      "file": "omega_adaptive_convergence_v14.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_30",
-      "file": "run_omega_all_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_31",
-      "file": "omega_unified_kernel_v15.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_32",
-      "file": "run_omega_kernel_v15.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_33",
-      "file": "run_omega_unified.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_34",
-      "file": "omega_unified_interface_spec_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_35",
-      "file": "run_omega_unified_v2.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_36",
-      "file": "run_omega_v14.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_37",
-      "file": "omega_adaptive_convergence_v15.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_38",
-      "file": "run_omega_v15.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_39",
-      "file": "run_omega_v16.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_40",
       "file": "brain_01.py",
       "role": "brain",
       "status": "idle"
     },
     {
-      "id": "node_41",
-      "file": "omega_adaptive_convergence_v16.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_42",
-      "file": "omega_adaptive_convergence_v17.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_43",
-      "file": "omega_swarm_network_v18.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_44",
-      "file": "omega_swarm_network_v19.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_45",
-      "file": "omega_swarm_consciousness_v20.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_46",
-      "file": "omega_self_reflection_v21.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_47",
-      "file": "omega_goal_emergence_v22.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_48",
-      "file": "omega_self_model_v23.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_49",
-      "file": "omega_intention_v24.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_50",
-      "file": "omega_identity_kernel_v25.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_51",
-      "file": "omega_recursive_self_mod_v26.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_52",
+      "id": "node_1",
       "file": "brain_02.py",
       "role": "brain",
       "status": "idle"
     },
     {
-      "id": "node_53",
-      "file": "wink_brain.py",
-      "role": "brain",
-      "status": "idle"
-    },
-    {
-      "id": "node_54",
-      "file": "omega_conflict_resolver_v27.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_55",
-      "file": "omega_memory_federation_v28.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_56",
-      "file": "omega_cluster_core_v2.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_57",
-      "file": "omega_cluster_core_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_58",
-      "file": "omega_cluster_core_v7.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_59",
-      "file": "iot_brain.py",
-      "role": "brain",
-      "status": "idle"
-    },
-    {
-      "id": "node_60",
-      "file": "omega_ml_core_v8.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_61",
-      "file": "omega_cluster_core_v8.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_62",
-      "file": "omega_superintelligence_v9.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_63",
-      "file": "omega_code_backup.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_64",
-      "file": "omega_mesh_superintelligence_v12.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_65",
-      "file": "omega_code_backup_v12.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_66",
-      "file": "omega_unified_superintelligence_v13.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_67",
-      "file": "omega_cross_brain_v15.py",
-      "role": "brain",
-      "status": "idle"
-    },
-    {
-      "id": "node_68",
-      "file": "omega_cross_brain_v16.py",
-      "role": "brain",
-      "status": "idle"
-    },
-    {
-      "id": "node_69",
-      "file": "omega_mesh_v16.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_70",
-      "file": "omega_swarm_v23_unified.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_71",
-      "file": "omega_os_v7.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_72",
-      "file": "omega_swarm_v24_persistent.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_73",
-      "file": "omega_swarm_v25_neural.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_74",
-      "file": "omega_swarm_v26_shared_mesh.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_75",
-      "file": "omega_swarm_v27_internet_mesh.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_76",
-      "file": "omega_autorewrite_v28_engine.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_77",
-      "file": "omega_self_patch_v29_engine.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_78",
-      "file": "omega_swarm_v30_synchronized_evolution.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_79",
-      "file": "omega_interactive_assistant_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_80",
-      "file": "omega_ml_core_v9.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_81",
-      "file": "omega_ml_core_v11.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_82",
-      "file": "omega_ml_core_v12.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_83",
-      "file": "omega_cognitive_chatbot_v2.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_84",
-      "file": "omega_daemon_supervisor_v13.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_85",
-      "file": "omega_mesh_supervisor_v15.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_86",
-      "file": "omega_temporal_prediction_v17.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_87",
-      "file": "omega_attention_swarm_v18.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_88",
-      "file": "omega_self_model_v19.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_89",
-      "file": "omega_goal_emergence_v20.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_90",
-      "file": "omega_unified_brain_v22.py",
-      "role": "brain",
-      "status": "idle"
-    },
-    {
-      "id": "node_91",
-      "file": "omega_kernel.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_92",
-      "file": "omega_kernel_v54.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_93",
-      "file": "omega_kernel_v4.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_94",
-      "file": "omega_kernel_v55.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_95",
-      "file": "omega_kernel_v8.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_96",
-      "file": "omega_kernel_v9.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_97",
-      "file": "omega_kernel_v12.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_98",
-      "file": "omega_kernel_v13.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_99",
-      "file": "omega_kernel_v16.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_100",
-      "file": "omega_kernel_v18.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_101",
-      "file": "omega_kernel_v19.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_102",
-      "file": "omega_kernel_v20.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_103",
-      "file": "omega_kernel_v26.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_104",
-      "file": "omega_state.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_105",
-      "file": "omega_kernel_v32.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_106",
-      "file": "node_attention.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_107",
-      "file": "node_goal.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_108",
-      "file": "omega_router_v35.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_109",
-      "file": "omega_bus_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_110",
-      "file": "omega_kernel_v37.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_111",
-      "file": "omega_router_v37.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_112",
-      "file": "omega_kernel_v39.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_113",
-      "file": "omega_kernel_v41.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_114",
-      "file": "omega_kernel_v42.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_115",
-      "file": "omega_graph_memory_patch_queue.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_116",
-      "file": "omega_consensus_v43.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_117",
-      "file": "omega_kernel_v47.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_118",
-      "file": "omega_kernel_v48.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_119",
-      "file": "omega_kernel_v49.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_120",
-      "file": "omega_kernel_v50.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_121",
-      "file": "omega_v54_federation.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_122",
-      "file": "omega_v56_identity_core.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_123",
-      "file": "omega_v58_hierarchy.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_124",
-      "file": "omega_v59_specialization.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_125",
-      "file": "omega_v60_cognitive_economy.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_126",
-      "file": "omega_v61_cognitive_market.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_127",
-      "file": "omega_unified_field_os.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_128",
-      "file": "omega_cognitive_feedback_identity_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_129",
-      "file": "omega_os_v2.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_130",
-      "file": "omega_os_v3.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_131",
-      "file": "omega_os_v4.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_132",
-      "file": "omega_os_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_133",
-      "file": "omega_mesh_os_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_134",
-      "file": "omega_mesh_os_v2.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_135",
-      "file": "omega_reinforcement_v3.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_136",
-      "file": "omega_bus_v4.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_137",
-      "file": "omega_crdt_memory_v4.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_138",
-      "file": "omega_lang_v4.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_139",
-      "file": "omega_bus_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_140",
-      "file": "omega_lang_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_141",
-      "file": "omega_gravity_v6.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_142",
-      "file": "omega_mesh_os_v6.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_143",
-      "file": "omega_v6_pruning_patch.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_144",
-      "file": "omega_cluster_v61.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_145",
-      "file": "omega_identity_v62.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_146",
-      "file": "omega_self_reflective_kernel_v6_3.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_147",
-      "file": "omega_mesh_os_v11.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_148",
-      "file": "omega_crdt_consensus_v14.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_149",
-      "file": "omega_olang_compiler_v15.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_150",
-      "file": "omega_cognitive_reality_v18.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_151",
-      "file": "omega_stabilization_patch.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_152",
-      "file": "omega_v20_bridge.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_153",
-      "file": "omega_kernel_v56_patch.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_154",
-      "file": "omega_unified_launcher_v4.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_155",
-      "file": "omega_unified_launcher_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_156",
-      "file": "omega_unified_launcher_v6.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_157",
-      "file": "omega_unified_launcher_v7.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_158",
-      "file": "omega_unified_launcher_v10.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_159",
-      "file": "omega_run_all.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_160",
-      "file": "omega_ml_core_v10.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_161",
-      "file": "omega_daemon_supervisor_v14.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_162",
-      "file": "omega_kernel_v53.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_163",
-      "file": "omega_shared_neural_matrix_v16.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_164",
-      "file": "omega_kernel_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_165",
+      "id": "node_2",
       "file": "fix_kernel_lock.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_166",
-      "file": "omega_kernel_v2.py",
+      "id": "node_3",
+      "file": "iot_brain.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_4",
+      "file": "node_attention.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_167",
-      "file": "omega_kernel_v3.py",
+      "id": "node_5",
+      "file": "node_goal.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_168",
-      "file": "omega_kernel_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_169",
-      "file": "omega_kernel_v6.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_170",
-      "file": "omega_kernel_v7.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_171",
-      "file": "omega_kernel_v10.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_172",
-      "file": "omega_kernel_v10_1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_173",
-      "file": "omega_kernel_v11.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_174",
-      "file": "omega_kernel_v14.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_175",
-      "file": "omega_kernel_v15.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_176",
-      "file": "omega_kernel_v17.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_177",
-      "file": "omega_kernel_v21.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_178",
-      "file": "omega_kernel_v22.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_179",
-      "file": "omega_kernel_v23.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_180",
-      "file": "omega_kernel_v24.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_181",
-      "file": "omega_kernel_v25.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_182",
-      "file": "omega_kernel_v27.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_183",
-      "file": "omega_kernel_v28.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_184",
-      "file": "omega_kernel_v29.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_185",
-      "file": "omega_kernel_v30.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_186",
-      "file": "omega_kernel_v31.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_187",
-      "file": "omega_kernel_v33.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_188",
-      "file": "omega_bus.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_189",
+      "id": "node_6",
       "file": "node_memory.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_190",
+      "id": "node_7",
       "file": "node_stability.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_191",
-      "file": "omega_graph_memory_v36.py",
+      "id": "node_8",
+      "file": "omega_adaptive_convergence_v14.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_192",
-      "file": "omega_kernel_v38.py",
+      "id": "node_9",
+      "file": "omega_adaptive_convergence_v15.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_193",
-      "file": "omega_kernel_v40.py",
+      "id": "node_10",
+      "file": "omega_adaptive_convergence_v16.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_194",
-      "file": "omega_kernel_v40_patch.py",
+      "id": "node_11",
+      "file": "omega_adaptive_convergence_v17.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_195",
-      "file": "omega_graph_memory_patch_atomic.py",
+      "id": "node_12",
+      "file": "omega_adaptive_optimizer_v5.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_196",
-      "file": "omega_graph_memory_patch_init.py",
+      "id": "node_13",
+      "file": "omega_attention_swarm_v18.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_197",
-      "file": "omega_kernel_v44.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_198",
-      "file": "omega_kernel_v45.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_199",
-      "file": "omega_kernel_v46.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_200",
-      "file": "omega_kernel_v51.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_201",
-      "file": "omega_kernel_v52.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_202",
-      "file": "omega_v53_main.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_203",
-      "file": "omega_v55_civilization.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_204",
-      "file": "omega_v55_civilization_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_205",
-      "file": "omega_v57_cognitive_society.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_206",
-      "file": "omega_memorycore_v3.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_207",
-      "file": "omega_v62_cognitive_physics.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_208",
-      "file": "omega_memory_persistence_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_209",
-      "file": "omega_unified_field_os_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_210",
-      "file": "omega_cognitive_society_mesh_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_211",
-      "file": "omega_os_kernel_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_212",
-      "file": "omega_os_v6.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_213",
-      "file": "omega_mesh_bus_v2.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_214",
-      "file": "omega_identity_graph_v2.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_215",
-      "file": "omega_mesh_node_v2.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_216",
-      "file": "omega_shared_state_v3.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_217",
-      "file": "omega_bus_v3.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_218",
-      "file": "omega_mesh_os_v4.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_219",
-      "file": "omega_crdt_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_220",
-      "file": "omega_reinforcement_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_221",
-      "file": "omega_mutation_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_222",
-      "file": "omega_mesh_os_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_223",
-      "file": "omega_thought_export_v6.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_224",
-      "file": "omega_reflection_v6.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_225",
-      "file": "quantum_brain.py",
-      "role": "brain",
-      "status": "idle"
-    },
-    {
-      "id": "node_226",
-      "file": "omega_brain_bridge_v1.py",
-      "role": "brain",
-      "status": "idle"
-    },
-    {
-      "id": "node_227",
-      "file": "omega_mesh_os_v7.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_228",
-      "file": "omega_mesh_os_v8.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_229",
-      "file": "omega_mesh_os_v9.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_230",
-      "file": "omega_mesh_os_v10.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_231",
-      "file": "omega_swarm_control_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_232",
-      "file": "omega_event_bus_v12.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_233",
-      "file": "omega_identity_graph_v13.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_234",
-      "file": "omega_autonomous_brain_generator_v16.py",
-      "role": "brain",
-      "status": "idle"
-    },
-    {
-      "id": "node_235",
-      "file": "omega_cognitive_physics_v17.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_236",
-      "file": "omega_self_awareness_v19.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_237",
-      "file": "omega_recursive_improvement_v20.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_238",
-      "file": "omega_unified_launcher_STABLE.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_239",
-      "file": "run_omega_shk_v2.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_240",
-      "file": "omega_unified_kernel_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_241",
-      "file": "omega_boot_resolver_v11.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_242",
-      "file": "omega_boot_resolver_v14.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_243",
-      "file": "omega_execution_type_registry_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_244",
-      "file": "omega_execution_governor_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_245",
-      "file": "omega_dependency_graph_scheduler_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_246",
-      "file": "omega_os_runtime_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_247",
-      "file": "omega_control_plane_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_248",
-      "file": "omega_systemd_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_249",
-      "file": "omega_systemd_v2.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_250",
-      "file": "omega_systemd_v7_kernel.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_251",
-      "file": "omega_service_agent.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_252",
-      "file": "omega_memorycore_v9.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_253",
-      "file": "omega_memorycore_v11.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_254",
-      "file": "omega_mesh_kernel_v7.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_255",
-      "file": "omega_mesh_kernel_v7_unified.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_256",
-      "file": "omega_mesh_v10_semantic_cognition_engine.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_257",
-      "file": "omega_mesh_v13_v15_unified_cognition.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_258",
-      "file": "omega_mesh_v14_internet.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_259",
-      "file": "omega_os_v4_shell.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_260",
-      "file": "omega_os_v6_async_kernel.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_261",
-      "file": "omega_process_supervisor_v3.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_262",
-      "file": "omega_swarm_balancer_v9.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_263",
-      "file": "omega_unified_launcher_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_264",
-      "file": "omega_cognitive_os_v2.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_265",
-      "file": "omega_mesh_node_v3.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_266",
-      "file": "omega_civilization_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_267",
-      "file": "omega_self_healing_boot_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_268",
-      "file": "omega_boot_resolver_v7.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_269",
-      "file": "omega_boot_resolver_v8.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_270",
-      "file": "omega_import_canonicalizer_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_271",
-      "file": "omega_import_resolution_kernel_v3.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_272",
-      "file": "omega_module_identity_graph_v2.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_273",
-      "file": "omega_boot_compiler_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_274",
-      "file": "omega_unified_boot_compiler_v3.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_275",
-      "file": "omega_governance_boot_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_276",
-      "file": "omega_systemd_v3.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_277",
-      "file": "omega_systemd_v4_execution_governor.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_278",
-      "file": "omega_systemd_v5_control_plane.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_279",
-      "file": "omega_init_system.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_280",
-      "file": "omega_service_whitelist.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_281",
-      "file": "omega_systemd_v4_runtime.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_282",
-      "file": "omega_systemd_v5_os_kernel.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_283",
-      "file": "omega_memorycore_v7.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_284",
-      "file": "omega_memorycore_v12.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_285",
-      "file": "omega_mesh_kernel_v2.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_286",
-      "file": "omega_mesh_kernel_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_287",
-      "file": "omega_mesh_v11_node_cognition_mesh.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_288",
-      "file": "omega_mesh_v12_swarm_cognition.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_289",
-      "file": "omega_v19_memory_fabric.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_290",
-      "file": "omega_mesh_v13_core.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_291",
-      "file": "omega_mesh_v16_recursive_scoring.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_292",
-      "file": "omega_v18_shared_field.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_293",
-      "file": "omega_v22_swarm_kernel.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_294",
-      "file": "omega_v24_cognitive_swarm_scheduler.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_295",
-      "file": "omega_v24_patch_core.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_296",
-      "file": "omega_learning_gradient_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_297",
-      "file": "omega_shell_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_298",
-      "file": "omega_commands.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_299",
-      "file": "omega_language_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_300",
-      "file": "omega_os_v7_core.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_301",
-      "file": "omega_node_adapter_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_302",
-      "file": "omega_nexus_core_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_303",
-      "file": "omega_neural_bus_v8.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_304",
-      "file": "omega_go_shell.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_305",
-      "file": "omega_self_healing_boot_v6.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_306",
-      "file": "omega_boot_resolver_v9.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_307",
-      "file": "omega_boot_resolver_v12.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_308",
-      "file": "omega_boot_resolver_v13.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_309",
+      "id": "node_14",
       "file": "omega_auto_import_repair_v10.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_310",
-      "file": "omega_boot_sequence_master_v1.py",
+      "id": "node_15",
+      "file": "omega_autonomous_brain_generator_v16.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_16",
+      "file": "omega_autorewrite_v28_engine.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_311",
+      "id": "node_17",
+      "file": "omega_boot_compiler_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_18",
       "file": "omega_boot_compiler_v2.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_312",
-      "file": "omega_system_root_map_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_313",
-      "file": "omega_process_supervisor_v2.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_314",
-      "file": "omega_systemd_v6_control_plane.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_315",
-      "file": "omega_mesh_kernel_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_316",
-      "file": "omega_mesh_kernel_v3.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_317",
-      "file": "omega_mesh_kernel_v4.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_318",
-      "file": "omega_mesh_kernel_v6.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_319",
-      "file": "omega_mesh_kernel_v8_swarm_intelligence.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_320",
-      "file": "omega_mesh_v16_cognition_core.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_321",
-      "file": "omega_mesh_v17_physics.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_322",
-      "file": "omega_v21_swarm_os.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_323",
-      "file": "omega_v23_unified_bootstrap_kernel.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_324",
-      "file": "omega_gradient_integration_bridge_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_325",
-      "file": "omega_unified_patch_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_326",
-      "file": "omega_kernel_mesh_node_v3.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_327",
-      "file": "omega_command_registry_v2.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_328",
-      "file": "omega_os_v6_shell.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_329",
-      "file": "omega_v9_intelligent_kernel.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_330",
-      "file": "omega_v3_stabilizer_patch.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_331",
-      "file": "omega_node_template_v8.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_332",
-      "file": "omega_start_nexus_v9.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_333",
-      "file": "omega_neural_registry_v9.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_334",
-      "file": "omega_memorycore_v2.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_335",
-      "file": "omega_unified_launcher_v3.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_336",
-      "file": "omega_unified_launcher_v11.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_337",
-      "file": "run_omega_uks1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_338",
-      "file": "run_omega_shk_v3.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_339",
-      "file": "run_omega_shk_v4.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_340",
-      "file": "omega_mesh_orchestrator_v3.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_341",
-      "file": "omega_cognitive_internet_v4.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_342",
+      "id": "node_19",
       "file": "omega_boot_resolver_v1.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_343",
-      "file": "omega_boot_resolver_v2.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_344",
-      "file": "omega_boot_resolver_v3.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_345",
-      "file": "omega_boot_resolver_v4.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_346",
+      "id": "node_20",
       "file": "omega_boot_resolver_v10.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_347",
+      "id": "node_21",
+      "file": "omega_boot_resolver_v11.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_22",
+      "file": "omega_boot_resolver_v12.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_23",
+      "file": "omega_boot_resolver_v13.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_24",
+      "file": "omega_boot_resolver_v14.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_25",
+      "file": "omega_boot_resolver_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_26",
+      "file": "omega_boot_resolver_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_27",
+      "file": "omega_boot_resolver_v4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_28",
+      "file": "omega_boot_resolver_v7.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_29",
+      "file": "omega_boot_resolver_v8.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_30",
+      "file": "omega_boot_resolver_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_31",
+      "file": "omega_boot_sequence_master_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_32",
+      "file": "omega_boot_validator.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_33",
+      "file": "omega_brain_bridge_v1.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_34",
+      "file": "omega_brain_factory_v11.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_35",
+      "file": "omega_brain_node_v5.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_36",
+      "file": "omega_bus.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_37",
+      "file": "omega_bus_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_38",
+      "file": "omega_bus_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_39",
+      "file": "omega_bus_v4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_40",
+      "file": "omega_bus_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_41",
+      "file": "omega_chat_assistant_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_42",
+      "file": "omega_chat_assistant_v9_bus.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_43",
+      "file": "omega_chat_assistant_v9_online.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_44",
+      "file": "omega_chat_assistant_v9_patch.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_45",
+      "file": "omega_chat_controller_v9_2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_46",
+      "file": "omega_chat_mesh_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_47",
+      "file": "omega_civilization_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_48",
+      "file": "omega_cluster_core_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_49",
+      "file": "omega_cluster_core_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_50",
+      "file": "omega_cluster_core_v7.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_51",
+      "file": "omega_cluster_core_v8.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_52",
+      "file": "omega_cluster_v61.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_53",
+      "file": "omega_cluster_v9_6.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_54",
+      "file": "omega_code_backup.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_55",
+      "file": "omega_code_backup_v12.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_56",
+      "file": "omega_cognitive_chatbot_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_57",
       "file": "omega_cognitive_consensus_v10.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_348",
-      "file": "omega_import_resolution_kernel_v1.py",
+      "id": "node_58",
+      "file": "omega_cognitive_feedback_identity_v1.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_349",
-      "file": "omega_graph_cognition_v3.py",
+      "id": "node_59",
+      "file": "omega_cognitive_internet_v4.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_350",
+      "id": "node_60",
+      "file": "omega_cognitive_mesh_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_61",
+      "file": "omega_cognitive_node_v6.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_62",
       "file": "omega_cognitive_organism_v4.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_351",
-      "file": "omega_process_supervisor_v1.py",
+      "id": "node_63",
+      "file": "omega_cognitive_os_v2.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_352",
-      "file": "omega_governance_boot_v2.py",
+      "id": "node_64",
+      "file": "omega_cognitive_physics_v17.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_353",
-      "file": "omega_systemd_v3_kernel.py",
+      "id": "node_65",
+      "file": "omega_cognitive_reality_v18.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_354",
-      "file": "omega_service_priority.py",
+      "id": "node_66",
+      "file": "omega_cognitive_society_mesh_v1.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_355",
-      "file": "omega_memorycore_v4.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_356",
-      "file": "omega_memorycore_v5.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_357",
-      "file": "omega_memorycore_v6.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_358",
-      "file": "omega_memorycore_v8.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_359",
-      "file": "omega_memorycore_v10.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_360",
-      "file": "omega_mesh_v9_internet_knowledge.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_361",
-      "file": "omega_mesh_v10_semantic_cognition.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_362",
-      "file": "omega_mesh_v17_cognitive_physics_engine.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_363",
-      "file": "omega_mesh_unified_core_v1.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_364",
-      "file": "omega_mesh_v15_goals.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_365",
-      "file": "omega_v18_swarm_nodes.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_366",
-      "file": "omega_v18_revision_engine.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_367",
-      "file": "omega_v20_daemon_supervisor.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_368",
-      "file": "omega_os_v5_shell.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_369",
-      "file": "omega_run_safe_patch.py",
-      "role": "node",
-      "status": "idle"
-    },
-    {
-      "id": "node_370",
+      "id": "node_67",
       "file": "omega_command_registry_v1.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_371",
-      "file": "omega_v8_self_evolving_kernel.py",
+      "id": "node_68",
+      "file": "omega_command_registry_v2.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_372",
-      "file": "omega_nexus_core_v4.py",
+      "id": "node_69",
+      "file": "omega_commands.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_373",
+      "id": "node_70",
+      "file": "omega_conflict_resolver_v27.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_71",
+      "file": "omega_consensus_v43.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_72",
+      "file": "omega_crdt_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_73",
+      "file": "omega_daemon_supervisor_v14.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_74",
+      "file": "omega_data_stream_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_75",
+      "file": "omega_decision_engine_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_76",
+      "file": "omega_event_bus_v12.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_77",
+      "file": "omega_event_bus_v9_4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_78",
+      "file": "omega_event_mesh_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_79",
+      "file": "omega_execution_engine_v7.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_80",
+      "file": "omega_go_shell.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_81",
+      "file": "omega_governance_boot_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_82",
+      "file": "omega_governance_boot_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_83",
+      "file": "omega_graph_cognition_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_84",
+      "file": "omega_graph_memory_patch_init.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_85",
+      "file": "omega_graph_memory_patch_queue.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_86",
+      "file": "omega_gravity_v6.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_87",
+      "file": "omega_health_v9_6.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_88",
+      "file": "omega_identity_engine_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_89",
+      "file": "omega_identity_graph_v13.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_90",
+      "file": "omega_identity_kernel_v25.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_91",
+      "file": "omega_import_canonicalizer_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_92",
+      "file": "omega_import_resolution_kernel_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_93",
+      "file": "omega_intention_v24.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_94",
+      "file": "omega_interactive_assistant_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_95",
+      "file": "omega_kernel_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_96",
+      "file": "omega_kernel_v10_1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_97",
+      "file": "omega_kernel_v11.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_98",
+      "file": "omega_kernel_v12.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_99",
+      "file": "omega_kernel_v13.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_100",
+      "file": "omega_kernel_v14.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_101",
+      "file": "omega_kernel_v15.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_102",
+      "file": "omega_kernel_v17.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_103",
+      "file": "omega_kernel_v18.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_104",
+      "file": "omega_kernel_v19.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_105",
+      "file": "omega_kernel_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_106",
+      "file": "omega_kernel_v20.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_107",
+      "file": "omega_kernel_v21.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_108",
+      "file": "omega_kernel_v22.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_109",
+      "file": "omega_kernel_v23.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_110",
+      "file": "omega_kernel_v26.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_111",
+      "file": "omega_kernel_v30.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_112",
+      "file": "omega_kernel_v31.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_113",
+      "file": "omega_kernel_v33.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_114",
+      "file": "omega_kernel_v38.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_115",
+      "file": "omega_kernel_v40.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_116",
+      "file": "omega_kernel_v40_patch.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_117",
+      "file": "omega_kernel_v42.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_118",
+      "file": "omega_kernel_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_119",
+      "file": "omega_kernel_v51.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_120",
+      "file": "omega_kernel_v52.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_121",
+      "file": "omega_kernel_v53.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_122",
+      "file": "omega_kernel_v55.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_123",
+      "file": "omega_kernel_v56_patch.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_124",
+      "file": "omega_kernel_v8.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_125",
+      "file": "omega_kernel_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_126",
+      "file": "omega_language_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_127",
+      "file": "omega_learning_convergence_v12.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_128",
+      "file": "omega_memory_patch_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_129",
+      "file": "omega_memory_persistence_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_130",
+      "file": "omega_memorycore_v11.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_131",
+      "file": "omega_memorycore_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_132",
+      "file": "omega_memorycore_v6.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_133",
+      "file": "omega_memorycore_v7.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_134",
+      "file": "omega_memorycore_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_135",
+      "file": "omega_mesh_kernel_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_136",
+      "file": "omega_mesh_kernel_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_137",
+      "file": "omega_mesh_kernel_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_138",
+      "file": "omega_mesh_kernel_v6.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_139",
+      "file": "omega_mesh_kernel_v7_unified.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_140",
+      "file": "omega_mesh_node_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_141",
+      "file": "omega_mesh_node_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_142",
+      "file": "omega_mesh_os_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_143",
+      "file": "omega_mesh_os_v10.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_144",
+      "file": "omega_mesh_os_v11.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_145",
+      "file": "omega_mesh_os_v7.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_146",
+      "file": "omega_mesh_os_v8.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_147",
+      "file": "omega_mesh_superintelligence_v12.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_148",
+      "file": "omega_mesh_supervisor_v15.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_149",
+      "file": "omega_mesh_unified_core_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_150",
+      "file": "omega_mesh_v10_semantic_cognition.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_151",
+      "file": "omega_mesh_v10_semantic_cognition_engine.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_152",
+      "file": "omega_mesh_v11_node_cognition_mesh.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_153",
+      "file": "omega_control_plane_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_154",
+      "file": "omega_crdt_consensus_v14.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_155",
+      "file": "omega_crdt_memory_v4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_156",
+      "file": "omega_cross_brain_v15.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_157",
+      "file": "omega_cross_brain_v16.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_158",
+      "file": "omega_daemon_supervisor_v13.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_159",
+      "file": "omega_dependency_graph_scheduler_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_160",
+      "file": "omega_economy_engine_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_161",
+      "file": "omega_execution_governor_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_162",
+      "file": "omega_execution_type_registry_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_163",
+      "file": "omega_global_memory_cloud_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_164",
+      "file": "omega_goal_emergence_v20.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_165",
+      "file": "omega_goal_emergence_v22.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_166",
+      "file": "omega_gradient_integration_bridge_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_167",
+      "file": "omega_graph_memory_patch_atomic.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_168",
+      "file": "omega_graph_memory_v36.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_169",
+      "file": "omega_identity_graph_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_170",
+      "file": "omega_identity_v62.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_171",
+      "file": "omega_import_resolution_kernel_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_172",
+      "file": "omega_init_system.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_173",
+      "file": "omega_intelligence_economy_v10.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_174",
+      "file": "omega_kernel.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_175",
+      "file": "omega_kernel_mesh_node_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_176",
+      "file": "omega_kernel_v10.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_177",
+      "file": "omega_kernel_v16.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_178",
+      "file": "omega_kernel_v24.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_179",
+      "file": "omega_kernel_v25.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_180",
+      "file": "omega_kernel_v27.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_181",
+      "file": "omega_kernel_v28.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_182",
+      "file": "omega_kernel_v29.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_183",
+      "file": "omega_kernel_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_184",
+      "file": "omega_kernel_v32.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_185",
+      "file": "omega_kernel_v37.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_186",
+      "file": "omega_kernel_v39.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_187",
+      "file": "omega_kernel_v4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_188",
+      "file": "omega_kernel_v41.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_189",
+      "file": "omega_kernel_v44.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_190",
+      "file": "omega_kernel_v45.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_191",
+      "file": "omega_kernel_v46.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_192",
+      "file": "omega_kernel_v47.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_193",
+      "file": "omega_kernel_v48.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_194",
+      "file": "omega_kernel_v49.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_195",
+      "file": "omega_kernel_v50.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_196",
+      "file": "omega_kernel_v54.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_197",
+      "file": "omega_kernel_v6.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_198",
+      "file": "omega_kernel_v7.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_199",
+      "file": "omega_lang_v4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_200",
+      "file": "omega_lang_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_201",
+      "file": "omega_learning_engine_patch_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_202",
+      "file": "omega_learning_engine_v11.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_203",
+      "file": "omega_learning_gradient_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_204",
+      "file": "omega_memory_federation_v28.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_205",
+      "file": "omega_memorycore_v10.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_206",
+      "file": "omega_memorycore_v12.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_207",
+      "file": "omega_memorycore_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_208",
+      "file": "omega_memorycore_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_209",
+      "file": "omega_memorycore_v4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_210",
+      "file": "omega_memorycore_v8.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_211",
+      "file": "omega_mesh_bus_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_212",
+      "file": "omega_mesh_kernel_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_213",
+      "file": "omega_mesh_kernel_v4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_214",
+      "file": "omega_mesh_kernel_v7.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_215",
+      "file": "omega_mesh_kernel_v8_swarm_intelligence.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_216",
+      "file": "omega_mesh_node_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_217",
+      "file": "omega_mesh_observer_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_218",
+      "file": "omega_mesh_orchestrator_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_219",
+      "file": "omega_mesh_os_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_220",
+      "file": "omega_mesh_os_v4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_221",
+      "file": "omega_mesh_os_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_222",
+      "file": "omega_mesh_os_v6.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_223",
+      "file": "omega_mesh_os_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_224",
+      "file": "omega_mesh_v12_swarm_cognition.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_225",
+      "file": "omega_mesh_v13_core.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_226",
+      "file": "omega_mesh_v16_cognition_core.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_227",
+      "file": "omega_mesh_v16_recursive_scoring.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_228",
+      "file": "omega_ml_core_v11.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_229",
+      "file": "omega_neural_bus_v8.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_230",
+      "file": "omega_neural_bus_v9_3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_231",
+      "file": "omega_neural_registry_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_232",
+      "file": "omega_mesh_v15_goals.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_233",
+      "file": "omega_mesh_v16.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_234",
+      "file": "omega_mesh_v17_physics.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_235",
+      "file": "omega_module_registry_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_236",
+      "file": "omega_mutation_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_237",
+      "file": "omega_nexus_kernel_v9_2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_238",
       "file": "omega_nexus_v6_core.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_374",
-      "file": "omega_nexus_v7_core.py",
+      "id": "node_239",
+      "file": "omega_node_agent_v9_6.py",
       "role": "node",
       "status": "idle"
     },
     {
-      "id": "node_375",
+      "id": "node_240",
+      "file": "omega_event_bus_v4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_241",
+      "file": "omega_integration_bridge_v4_1_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_242",
+      "file": "omega_interface_registry_v43.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_243",
+      "file": "omega_self_diagnostic_v48.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_244",
+      "file": "omega_self_regulation_v51.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_245",
+      "file": "omega_memory_contract_v62.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_246",
+      "file": "omega_execution_loop_v63.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_247",
+      "file": "omega_graph_rewriter_v66.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_248",
+      "file": "omega_execution_graph_v68.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_249",
+      "file": "omega_execution_graph_v70.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_250",
+      "file": "omega_message_bus_v72.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_251",
+      "file": "omega_emergent_graph_v74.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_252",
+      "file": "omega_execution_v74.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_253",
+      "file": "run_v74_event_kernel.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_254",
+      "file": "omega_fusion_v75.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_255",
+      "file": "omega_orchestrator_v5_fixed.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_256",
+      "file": "omega_orchestrator_v6.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_257",
+      "file": "omega_os_kernel_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_258",
+      "file": "omega_os_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_259",
+      "file": "omega_os_v6.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_260",
+      "file": "omega_process_supervisor_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_261",
+      "file": "omega_recursive_intelligence_v13.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_262",
+      "file": "omega_self_healing_boot_v6.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_263",
+      "file": "omega_service_priority.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_264",
+      "file": "omega_swarm_control_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_265",
+      "file": "omega_swarm_network_v19.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_266",
+      "file": "omega_swarm_v24_persistent.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_267",
+      "file": "omega_swarm_v27_internet_mesh.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_268",
+      "file": "omega_systemd_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_269",
+      "file": "omega_systemd_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_270",
+      "file": "omega_systemd_v4_runtime.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_271",
+      "file": "omega_temporal_prediction_v17.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_272",
+      "file": "omega_thought_export_v6.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_273",
+      "file": "omega_unified_interface_spec_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_274",
+      "file": "omega_unified_kernel_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_275",
+      "file": "omega_unified_launcher_STABLE.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_276",
+      "file": "omega_unified_launcher_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_277",
+      "file": "omega_unified_launcher_v10.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_278",
+      "file": "omega_unified_launcher_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_279",
+      "file": "omega_v55_civilization.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_280",
+      "file": "omega_v56_identity_core.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_281",
+      "file": "omega_v59_specialization.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_282",
+      "file": "omega_v62_cognitive_physics.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_283",
+      "file": "run_omega_uks1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_284",
+      "file": "run_omega_v14.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_285",
+      "file": "run_omega_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_286",
+      "file": "omega_schema_v76.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_287",
+      "file": "omega_event_bus_v77.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_288",
+      "file": "omega_observer_v77.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_289",
+      "file": "omega_kernel_v78.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_290",
+      "file": "omega_type_enforcer_v79.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_291",
+      "file": "omega_kernel_v79.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_292",
+      "file": "omega_observer_guard_v79.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_293",
+      "file": "omega_observer_v710.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_294",
+      "file": "omega_mesh_bus_v720.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_295",
+      "file": "omega_observer.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_296",
+      "file": "omega_nexus_core_v4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_297",
+      "file": "omega_nexus_core_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_298",
+      "file": "omega_nexus_kernel_v9_3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_299",
+      "file": "omega_nexus_v9_2_kernel.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_300",
+      "file": "omega_observability.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_301",
+      "file": "omega_duplicate_intel_v4_1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_302",
+      "file": "omega_integration_bridge_v4_1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_303",
+      "file": "omega_translator_feed_v41.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_304",
+      "file": "omega_repair_reasoning_v42.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_305",
+      "file": "omega_patch_guard_v43.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_306",
+      "file": "omega_coherence_enforcer_v45.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_307",
+      "file": "omega_unified_kernel_v6.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_308",
+      "file": "omega_execution_graph_v65.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_309",
+      "file": "run_omega_v69.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_310",
+      "file": "omega_execution_graph_v70_fix.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_311",
+      "file": "omega_execution_layer_v73.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_312",
+      "file": "omega_execution_layer_v73_BACKUP.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_313",
+      "file": "omega_message_bus_v74.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_314",
+      "file": "omega_olang_compiler_v15.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_315",
+      "file": "omega_os_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_316",
+      "file": "omega_os_v4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_317",
+      "file": "omega_reinforcement_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_318",
+      "file": "omega_reinforcement_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_319",
+      "file": "omega_self_awareness_v19.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_320",
+      "file": "omega_self_healing_boot_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_321",
+      "file": "omega_sensor_interface_v11.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_322",
+      "file": "omega_service_agent.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_323",
+      "file": "omega_state.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_324",
+      "file": "omega_swarm_v23_unified.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_325",
+      "file": "omega_systemd_v3_kernel.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_326",
+      "file": "omega_systemd_v5_os_kernel.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_327",
+      "file": "omega_unified_boot_compiler_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_328",
+      "file": "omega_unified_field_os.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_329",
+      "file": "omega_unified_launcher_v11.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_330",
+      "file": "omega_unified_launcher_v6.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_331",
+      "file": "run_omega_v15.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_332",
+      "file": "omega_v20_bridge.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_333",
+      "file": "omega_v53_main.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_334",
+      "file": "omega_v57_cognitive_society.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_335",
+      "file": "omega_v6_pruning_patch.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_336",
+      "file": "run_omega_shk_v4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_337",
+      "file": "run_omega_v6.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_338",
+      "file": "wink_brain.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_339",
+      "file": "omega_cognition_engine_v77.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_340",
+      "file": "omega_self_model_v78.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_341",
+      "file": "omega_trace_normalizer_v77.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_342",
+      "file": "omega_cognition_contract_v78.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_343",
+      "file": "omega_language_v711.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_344",
+      "file": "omega_observer_v711.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_345",
+      "file": "omega_self_model_v711.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_346",
+      "file": "omega_contract_v714.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_347",
+      "file": "omega_execution_gate_v714.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_348",
+      "file": "omega_observer_guard_v715.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_349",
+      "file": "omega_event_bus_v716.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_350",
+      "file": "omega_scheduler_v717.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_351",
+      "file": "omega_memory_decay_v717.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_352",
+      "file": "omega_nodes_v720.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_353",
+      "file": "omega_memory_fusion_v721.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_354",
+      "file": "omega_causal_memory_v723.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_355",
+      "file": "omega_causal_infer_v723.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_356",
+      "file": "omega_kernel_v6_8_stability.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_357",
+      "file": "omega_memory_fusion_v12.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_358",
+      "file": "omega_cross_train_v13.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_359",
+      "file": "omega_self_heal_v13.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_360",
+      "file": "omega_observer_v13.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_361",
+      "file": "omega_v31_brain.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_362",
+      "file": "omega_mesh_v13_v15_unified_cognition.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_363",
+      "file": "omega_mesh_v14_internet.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_364",
+      "file": "omega_mesh_v17_cognitive_physics_engine.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_365",
+      "file": "omega_mesh_v9_internet_knowledge.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_366",
+      "file": "omega_meta_brain_v10.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_367",
+      "file": "omega_ml_core_v10.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_368",
+      "file": "omega_ml_core_v12.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_369",
+      "file": "omega_ml_core_v8.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_370",
+      "file": "omega_ml_core_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_371",
+      "file": "omega_module_identity_graph_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_372",
+      "file": "omega_neural_bus_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_373",
       "file": "omega_nexus_v8_core.py",
       "role": "node",
       "status": "idle"
     },
     {
+      "id": "node_374",
+      "file": "omega_nexus_v9_3_kernel.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_375",
+      "file": "omega_nexus_v9_boot.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
       "id": "node_376",
-      "file": "omega_chat_assistant_v9.py",
+      "file": "omega_node_adapter_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_377",
+      "file": "omega_cat_patch_v41.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_378",
+      "file": "omega_supervisor_patch_v41.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_379",
+      "file": "omega_temporal_drift_memory_v46.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_380",
+      "file": "omega_temporal_drift_memory_v47.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_381",
+      "file": "omega_contract_v67.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_382",
+      "file": "omega_node_registry_boot_v71.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_383",
+      "file": "omega_execution_layer_v72.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_384",
+      "file": "omega_adaptive_router_v72.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_385",
+      "file": "omega_emergent_patch_v74_fix.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_386",
+      "file": "omega_scheduler_v74.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_387",
+      "file": "omega_knowledge_field_v75.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_388",
+      "file": "omega_observer_v75.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_389",
+      "file": "omega_ucp_v79.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_390",
+      "file": "omega_os_runtime_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_391",
+      "file": "omega_process_supervisor_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_392",
+      "file": "omega_recursive_improvement_v20.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_393",
+      "file": "omega_router_v37.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_394",
+      "file": "omega_self_model_v19.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_395",
+      "file": "omega_self_model_v23.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_396",
+      "file": "omega_self_reflection_v21.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_397",
+      "file": "omega_superintelligence_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_398",
+      "file": "omega_swarm_mesh_v8.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_399",
+      "file": "omega_swarm_network_v18.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_400",
+      "file": "omega_swarm_node_v8.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_401",
+      "file": "omega_swarm_v25_neural.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_402",
+      "file": "omega_swarm_v26_shared_mesh.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_403",
+      "file": "omega_swarm_v30_synchronized_evolution.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_404",
+      "file": "omega_systemd_v4_execution_governor.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_405",
+      "file": "omega_systemd_v7_kernel.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_406",
+      "file": "omega_unified_brain_v22.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_407",
+      "file": "omega_unified_kernel_v15.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_408",
+      "file": "omega_unified_launcher_v7.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_409",
+      "file": "omega_v54_federation.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_410",
+      "file": "omega_v55_civilization_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_411",
+      "file": "omega_v58_hierarchy.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_412",
+      "file": "omega_v60_cognitive_economy.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_413",
+      "file": "quantum_brain.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_414",
+      "file": "run_omega_shk_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_415",
+      "file": "run_omega_unified_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_416",
+      "file": "run_omega_v16.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_417",
+      "file": "run_omega_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_418",
+      "file": "omega_bootstrap_v75.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_419",
+      "file": "omega_self_question_v77.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_420",
+      "file": "omega_observer_v78.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_421",
+      "file": "omega_kernel_v710.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_422",
+      "file": "omega_memory_v711.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_423",
+      "file": "omega_observer_guard_v713.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_424",
+      "file": "omega_attention_v718.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_425",
+      "file": "omega_predictor_v718.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_426",
+      "file": "omega_stability_controller_v720.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_427",
+      "file": "omega_emergence_v721.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_428",
+      "file": "omega_goal_interpreter_v722.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_429",
+      "file": "omega_file_consciousness_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_430",
+      "file": "omega_kernel_v6_8.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_431",
+      "file": "omega_nexus_v7_core.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_432",
+      "file": "omega_healer_daemon.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_433",
+      "file": "omega_worker_node_v4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_434",
+      "file": "omega_supervisor_v4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_435",
+      "file": "omega_repair_gate_v41.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_436",
+      "file": "omega_supervisor_v42.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_437",
+      "file": "omega_interface_registry_v44.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_438",
+      "file": "omega_control_brain_v49.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_439",
+      "file": "omega_self_diagnostic_v48_fixed.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_440",
+      "file": "omega_cognitive_runtime_v50.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_441",
+      "file": "omega_memory_adapter_v6.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_442",
+      "file": "omega_core_state_v61.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_443",
+      "file": "omega_runtime_registry_v62.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_444",
+      "file": "omega_contract_v68.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_445",
+      "file": "omega_brain_graph_v68_demo.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_446",
+      "file": "omega_execution_graph_v69.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_447",
+      "file": "patch_omega_graph_v69_tick_control.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_448",
+      "file": "omega_execution_graph_v69_backup.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_449",
+      "file": "omega_node_registry_boot_v71_safe.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_450",
+      "file": "omega_cognition_memory_v73.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_451",
+      "file": "omega_cross_learning_v73.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_452",
+      "file": "omega_node_safety_v75.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_453",
+      "file": "omega_orchestrator_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_454",
+      "file": "omega_os_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_455",
+      "file": "omega_recursive_self_mod_v26.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_456",
+      "file": "omega_reflection_v6.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_457",
+      "file": "omega_router_v35.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_458",
+      "file": "omega_self_patch_v29_engine.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_459",
+      "file": "omega_self_reflective_kernel_v6_3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_460",
+      "file": "omega_service_whitelist.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_461",
+      "file": "omega_shared_neural_matrix_v16.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_462",
+      "file": "omega_shared_state_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_463",
+      "file": "omega_swarm_consciousness_v20.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_464",
+      "file": "omega_swarm_evolver_v11.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_465",
+      "file": "omega_swarm_memory_bridge_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_466",
+      "file": "omega_system_root_map_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_467",
+      "file": "omega_systemd_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_468",
+      "file": "omega_systemd_v5_control_plane.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_469",
+      "file": "omega_systemd_v6_control_plane.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_470",
+      "file": "omega_unified_field_os_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_471",
+      "file": "omega_unified_launcher_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_472",
+      "file": "omega_unified_launcher_v4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_473",
+      "file": "omega_unified_superintelligence_v13.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_474",
+      "file": "omega_v61_cognitive_market.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_475",
+      "file": "run_omega_all_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_476",
+      "file": "run_omega_kernel_v15.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_477",
+      "file": "run_omega_shk_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_478",
+      "file": "run_omega_unified.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_479",
+      "file": "omega_layer_guard_v78.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_480",
+      "file": "omega_event_contract_v79.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_481",
+      "file": "omega_observer_v79.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_482",
+      "file": "omega_self_model_v79.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_483",
+      "file": "omega_bus_v710.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_484",
+      "file": "omega_continuity_v712.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_485",
+      "file": "omega_event_contract_v715.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_486",
+      "file": "omega_cognition_graph_v716.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_487",
+      "file": "omega_meta_observer_v719.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_488",
+      "file": "omega_semantic_layer_v720.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_489",
+      "file": "omega_nodes_v721.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_490",
+      "file": "omega_goal_field_v722.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_491",
+      "file": "omega_kernel_adapter_v723.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_492",
+      "file": "omega_self_model_v77.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_493",
+      "file": "omega_kernel_v6_7.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_494",
+      "file": "omega_v7_core.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_495",
+      "file": "omega_event_bus_v11.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_496",
+      "file": "omega_registry_v11.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_497",
+      "file": "omega_self_heal_v12.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_498",
+      "file": "omega_bootstrap_v12.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_499",
+      "file": "omega_embedding_v13.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_500",
+      "file": "omega_node_v28.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_501",
+      "file": "wink_node_v4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_502",
+      "file": "wink_wink_brain_v2.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_503",
+      "file": "wink_wink_brain_v3.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_504",
+      "file": "omega_intelligence_core.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_505",
+      "file": "omega_v29_registry.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_506",
+      "file": "omega_v31_patch_applier.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_507",
+      "file": "omega_node_spawner_v35.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_508",
+      "file": "omega_v39_dependency_graph.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_509",
+      "file": "omega_v42_autoreg.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_510",
+      "file": "omega_v49_crdt.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_511",
+      "file": "omega_execution_gate_v3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_512",
+      "file": "omega_data_classifier_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_513",
+      "file": "omega_orchestrator_v9_2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_514",
+      "file": "omega_v22_dashboard.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_515",
+      "file": "omega_v32_adaptive_core.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_516",
+      "file": "omega_wink_runtime_fix_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_517",
+      "file": "wink_wink_brain_v25.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_518",
+      "file": "omega_v29_language_layer.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_519",
+      "file": "omega_v30_node_factory.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_520",
+      "file": "omega_v30_execution_graph.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_521",
+      "file": "omega_v31_governance_state.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_522",
+      "file": "omega_v32_belief_engine.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_523",
+      "file": "omega_v32_consensus_engine.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_524",
+      "file": "omega_v33_main_brain.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_525",
+      "file": "omega_quantum_decision_v36.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_526",
+      "file": "omega_language_v37.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_527",
+      "file": "omega_v45_supervisor.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_528",
+      "file": "omega_v53_agent_runtime.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_529",
+      "file": "omega_signal_engine_v5_ast_brain.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_530",
+      "file": "omega_signal_engine_v5_ast_brain_patch.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_531",
+      "file": "omega_execution_kernel_v7_1_self_heal.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_532",
+      "file": "omega_decision_engine_v10_5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_533",
+      "file": "omega_control_router_v10_5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_534",
+      "file": "omega_v21_core.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_535",
+      "file": "omega_field_dynamics_patch.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_536",
+      "file": "observer_v27_node.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_537",
+      "file": "omega_v30_node_patch.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_538",
+      "file": "omega_v32_watchdog.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_539",
+      "file": "wink_wink_thought_brain_v11.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_540",
+      "file": "omega_language_core_v23.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_541",
+      "file": "omega_global_thought_bus_v23.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_542",
+      "file": "wink_wink_brain_v28.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_543",
+      "file": "wink_wink_brain_v8.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_544",
+      "file": "wink_wink_global_brain.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_545",
+      "file": "omega_v29_global_memory_mesh.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_546",
+      "file": "omega_v32_identity_loop.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_547",
+      "file": "omega_v33_scheduler.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_548",
+      "file": "omega_motivation_v38.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_549",
+      "file": "omega_observer_v38.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_550",
+      "file": "omega_v43_state.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_551",
+      "file": "omega_v51_dashboard.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_552",
+      "file": "omega_memory_graph_v10_5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_553",
+      "file": "omega_v31_watchdog.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_554",
+      "file": "wink_wink_thought_brain.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_555",
+      "file": "wink_wink_brain_v5.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_556",
+      "file": "omega_mesh_bus_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_557",
+      "file": "omega_v29_sync_engine.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_558",
+      "file": "omega_v32_identity_core.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_559",
+      "file": "omega_v32_contradiction_memory.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_560",
+      "file": "omega_v33_goal_engine.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_561",
+      "file": "omega_v33_heartbeat.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_562",
+      "file": "omega_goal_core_v38.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_563",
+      "file": "omega_live_bus_v38.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_564",
+      "file": "omega_v46_router.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_565",
+      "file": "omega_v47_scheduler.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_566",
+      "file": "node_brain_distribution_quantum_center.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_567",
+      "file": "omega_signal_engine_v6_3_node_classifier.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_568",
+      "file": "omega_memory_learning_v9_1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_569",
+      "file": "omega_v20_attractor_brain.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_570",
+      "file": "omega_v21_map.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_571",
+      "file": "omega_v21_runtime_fix.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_572",
+      "file": "omega_bootstrap_validator_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_573",
+      "file": "omega_event_graph_v11.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_574",
+      "file": "omega_observer_translator_v11.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_575",
+      "file": "omega_reinforcement_v12.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_576",
+      "file": "omega_observer_v12.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_577",
+      "file": "swarm_brain_v27.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_578",
+      "file": "omega_ema_patch.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_579",
+      "file": "omega_v30_brain_patch.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_580",
+      "file": "omega_v30_watchdog_patch.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_581",
+      "file": "omega_v31_consensus_core.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_582",
+      "file": "wink_wink_brain_v6_1_patch.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_583",
+      "file": "wink_wink_brain_v10.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_584",
+      "file": "omega_v30_code_graph.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_585",
+      "file": "omega_v31_edit_proposals.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_586",
+      "file": "omega_node_registry_v34.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_587",
+      "file": "omega_self_modify_v36.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_588",
+      "file": "omega_bus_v36.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_589",
+      "file": "omega_self_reflection_v37.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_590",
+      "file": "omega_v40_unified_runtime.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_591",
+      "file": "omega_v41_core.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_592",
+      "file": "omega_orchestrator_v9_2_memory.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_593",
+      "file": "omega_adaptive_core_v9_4.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_594",
+      "file": "omega_v18_thinking_map.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_595",
+      "file": "omega_v19_thinking_map.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_596",
+      "file": "omega_competition_patch.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_597",
+      "file": "omega_v24_dashboard_clean.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_598",
+      "file": "wink_node_v5.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_599",
+      "file": "node_scanner_boot.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_600",
+      "file": "omega_v33_node_discovery.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_601",
+      "file": "omega_truth_memory_v35.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_602",
+      "file": "omega_governance_v36.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_603",
+      "file": "omega_language_v36.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_604",
+      "file": "omega_identity_core_v37.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_605",
+      "file": "omega_megacore_v45.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_606",
+      "file": "omega_v48_plugins.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_607",
+      "file": "omega_v50_kernel.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_608",
+      "file": "omega_v53_graph_builder.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_609",
+      "file": "omega_live_brain_map_v4.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_610",
+      "file": "omega_signal_engine_v6_1_root_cause.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_611",
+      "file": "omega_event_memory_v9_3.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_612",
+      "file": "omega_evolution_engine_v15.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_613",
+      "file": "omega_v19_2_quantum_brain.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_614",
+      "file": "omega_v21_runtime_patch.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_615",
+      "file": "omega_bootstrap_v11.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_616",
+      "file": "omega_dominant_v13.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_617",
+      "file": "omega_bootstrap_v13.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_618",
+      "file": "omega_v32_brain.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_619",
+      "file": "wink_wink_brain_v24.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_620",
+      "file": "wink_wink_brain_v28_persistent.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_621",
+      "file": "omega_v30_self_modify.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_622",
+      "file": "omega_v31_audit_log.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_623",
+      "file": "omega_v33_integration.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_624",
+      "file": "omega_learning_loop_v36.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_625",
+      "file": "omega_signal_engine_v36.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_626",
+      "file": "omega_contradiction_engine_v37.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_627",
+      "file": "omega_dashboard_v38.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_628",
+      "file": "omega_v51_cluster.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_629",
+      "file": "omega_signal_engine_v2.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_630",
+      "file": "omega_execution_kernel_v7.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_631",
+      "file": "omega_shared_bus_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_632",
+      "file": "omega_live_brain_dashboard_v8.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_633",
+      "file": "omega_scoring_core_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_634",
+      "file": "omega_decision_engine_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_635",
+      "file": "omega_control_router_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_636",
+      "file": "omega_v21_runtime.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_637",
+      "file": "omega_v23_dashboard.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_638",
+      "file": "omega_control_center_v28.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_639",
+      "file": "omega_v32_node_heartbeat.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_640",
+      "file": "omega_language_core_v24.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_641",
+      "file": "omega_global_thought_bus_v24.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_642",
+      "file": "wink_wink_brain_v4.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_643",
+      "file": "wink_wink_brain_v7_trajectory_graph.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_644",
+      "file": "omega_v29_node_bus.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_645",
+      "file": "omega_v31_consensus_engine.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_646",
+      "file": "omega_v32_contradiction_engine.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_647",
+      "file": "omega_node_protocol_v35.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_648",
+      "file": "omega_language_engine_v35.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_649",
+      "file": "omega_quantum_sim_v35.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_650",
+      "file": "omega_personality_evolution_v37.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_651",
+      "file": "omega_v44_visualizer.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_652",
+      "file": "omega_v53_message_bus.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_653",
+      "file": "omega_v53_orchestrator.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_654",
+      "file": "omega_system_scanner_v1.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_655",
+      "file": "omega_signal_engine_v6_2_node_registry.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_656",
+      "file": "omega_execution_kernel_v7_2_dependency.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_657",
+      "file": "omega_policy_simulator_v9.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_658",
+      "file": "omega_cluster_brain_v15.py",
+      "role": "brain",
+      "status": "idle"
+    },
+    {
+      "id": "node_659",
+      "file": "omega_swarm_policy_v15.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_660",
+      "file": "omega_moe_router_v15.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_661",
+      "file": "omega_swarm_mesh_v16.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_662",
+      "file": "omega_v21_field_patch.py",
+      "role": "node",
+      "status": "idle"
+    },
+    {
+      "id": "node_663",
+      "file": "omega_v21_visual_field.py",
       "role": "node",
       "status": "idle"
     }

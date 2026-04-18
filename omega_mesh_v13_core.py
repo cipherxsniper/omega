@@ -51,7 +51,7 @@ class OmegaNode:
 
 class OmegaSystem:
     def __init__(self):
-        self.bus = OmegaBus()
+        self.bus = BUS
         self.nodes = [
             OmegaNode("memory", self.bus),
             OmegaNode("swarm", self.bus)

@@ -1,0 +1,15 @@
+def evaluate_action_success(goal, plan, execution):
+
+    # simple heuristic scoring system
+    score = 0.5
+
+    if "parsed" in str(execution):
+        score += 0.2
+
+    if "entities" in str(execution):
+        score += 0.2
+
+    if "question" in str(execution):
+        score += 0.1
+
+    return min(1.0, score)

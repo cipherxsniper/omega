@@ -1,0 +1,4 @@
+from gpt4all import GPT4All
+
+# lightweight good default model
+llm = GPT4All("mistral-7b-instruct.gguf")

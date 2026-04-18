@@ -1,0 +1,13 @@
+def agent_A(tokens, memory):
+    weight = sum(memory["concepts"].get(t, {}).get("strength", 0.5) for t in tokens)
+    return f"structural confidence: {weight:.2f}"
+
+def agent_B(tokens, memory):
+    if any(memory["concepts"].get(t, {}).get("trend", 0) > 3 for t in tokens):
+        return "semantic evolution detected"
+    return "semantic stable"
+
+def agent_C(tokens, memory):
+    if "zeus" in tokens or "athena" in tokens:
+        return "archetype resonance high"
+    return "symbolic baseline"

@@ -95,7 +95,7 @@ class CreativeNode(OmegaNode):
 # =========================================================
 class OmegaMeshKernelV1:
     def __init__(self):
-        self.bus = OmegaBus()
+        self.bus = BUS
 
         self.nodes = [
             OmegaNode("cog-1", "cognition", self.bus),

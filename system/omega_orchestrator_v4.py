@@ -1,44 +1,42 @@
-# ============================================================
-# OMEGA ORCHESTRATOR v4 — FIXED ENTRY INTERFACE
-# GUARANTEED BOOT COMPATIBILITY WITH run_omega_v5.py
-# ============================================================
+from core.omega_swarm import OmegaSwarm
+from core.omega_attention import OmegaAttention
+from core.omega_consensus import OmegaConsensus
+from core.omega_predictor import OmegaPredictor
+from core.omega_memory_compressor import OmegaMemoryCompressor
 
-import time
+class OmegaOrchestratorV4:
 
-
-class OmegaOrchestrator:
     def __init__(self):
-        self.running = False
+        self.swarm = OmegaSwarm(size=5)
 
-    # --------------------------------------------------------
-    # REQUIRED ENTRY METHOD (FIXES YOUR ERROR)
-    # --------------------------------------------------------
+        self.attn = OmegaAttention()
+        self.consensus = OmegaConsensus()
+        self.predictor = OmegaPredictor()
+        self.compressor = OmegaMemoryCompressor()
 
-    def run(self):
-        print("[ORCH] Omega Orchestrator ONLINE")
+        self.tick = 0
 
-        self.running = True
+    def run_cycle(self):
 
-        while self.running:
-            try:
-                print("[ORCH] tick...")
-                time.sleep(2)
+        raw_events = [{"x": 1, "y": 0.3}, {"x": -0.4, "y": 0.6}, {"x": 0.1, "y": 0.05}]
 
-            except KeyboardInterrupt:
-                print("[ORCH] shutdown signal")
-                self.running = False
+        # 1. Attention filter
+        events = self.attn.filter(raw_events)
 
-            except Exception as e:
-                print("[ORCH ERROR]", str(e))
+        # 2. Swarm processing
+        outputs = self.swarm.step(events)
 
+        # 3. Consensus formation
+        consensus = self.consensus.merge(outputs)
 
-# ============================================================
-# REQUIRED FUNCTION ENTRY (BACKUP COMPATIBILITY)
-# ============================================================
+        # 4. Compression stabilization
+        stable = self.compressor.compress(consensus)
 
-def run():
-    OmegaOrchestrator().run()
+        # 5. Prediction
+        future = self.predictor.predict(stable)
 
+        if self.tick % 5 == 0:
+            print("🧠 CONSENSUS:", stable)
+            print("🔮 PREDICTION:", future)
 
-def OmegaOrchestratorEntry():
-    return OmegaOrchestrator()
+        self.tick += 1

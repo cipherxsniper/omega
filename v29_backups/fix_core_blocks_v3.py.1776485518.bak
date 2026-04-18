@@ -1,0 +1,49 @@
+file = "omega_process_supervisor_v3.py"
+
+with open(file, "r") as f:
+    lines = f.readlines()
+
+new_lines = []
+i = 0
+
+while i < len(lines):
+    line = lines[i]
+
+    # REMOVE broken heartbeat + health_monitor blocks entirely
+    if line.strip().startswith("def heartbeat"):
+        # skip until next function OR end of file section
+        i += 1
+        while i < len(lines) and not lines[i].strip().startswith("def "):
+            i += 1
+        continue
+
+    if line.strip().startswith("def health_monitor"):
+        i += 1
+        while i < len(lines) and not lines[i].strip().startswith("def "):
+            i += 1
+        continue
+
+    new_lines.append(line)
+    i += 1
+
+# ADD CLEAN FIXED BLOCKS AT END
+new_lines.append("""
+def heartbeat():
+    while True:
+        print("[OMEGA HEARTBEAT] " + datetime.utcnow().isoformat())
+        time.sleep(10)
+
+
+def health_monitor():
+    while True:
+        for script, proc in list(processes.items()):
+            if proc.poll() is not None:
+                print("[RESTART] " + script)
+                launch_script(script)
+        time.sleep(5)
+""")
+
+with open(file, "w") as f:
+    f.writelines(new_lines)
+
+print("[FIXED] Core lifecycle blocks repaired")

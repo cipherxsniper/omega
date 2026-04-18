@@ -1,0 +1,21 @@
+def build_plan(goal, tokens, memory):
+
+    base = []
+
+    if goal == "understand_input":
+        base = ["parse intent", "extract meaning", "summarize structure"]
+
+    elif goal == "reduce_ambiguity":
+        base = ["detect unclear tokens", "generate clarifying question"]
+
+    elif goal.endswith("_refined"):
+        base = ["deep analysis", "cross-reference memory", "pattern compression"]
+
+    else:
+        base = ["general reasoning"]
+
+    # adapt based on memory strength
+    if len(memory.get("beliefs", {})) > 5:
+        base.append("belief alignment check")
+
+    return base

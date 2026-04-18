@@ -100,7 +100,7 @@ class InternetNode(OmegaNode):
 
 class OmegaSystem:
     def __init__(self):
-        self.bus = OmegaBus()
+        self.bus = BUS
 
         self.nodes = [
             MemoryNode("memory_core", self.bus),

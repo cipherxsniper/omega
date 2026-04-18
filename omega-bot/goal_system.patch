@@ -1,0 +1,18 @@
+def init_goals(memory):
+
+    if "goals" not in memory:
+        memory["goals"] = {
+            "understand_input": {"priority": 0.9, "progress": 0.0},
+            "maintain_coherence": {"priority": 0.8, "progress": 0.0},
+            "reduce_uncertainty": {"priority": 0.7, "progress": 0.0}
+        }
+
+def update_goal_progress(memory, goal, amount):
+
+    init_goals(memory)
+
+    if goal in memory["goals"]:
+        memory["goals"][goal]["progress"] = min(
+            1.0,
+            memory["goals"][goal]["progress"] + amount
+        )

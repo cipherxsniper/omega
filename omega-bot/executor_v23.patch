@@ -1,0 +1,15 @@
+def execute(plan):
+
+    results = []
+
+    for step in plan:
+        if "parse" in step:
+            results.append("intent parsed")
+        elif "extract" in step:
+            results.append("entities extracted")
+        elif "question" in step:
+            results.append("clarifying question generated")
+        else:
+            results.append(f"executed: {step}")
+
+    return results

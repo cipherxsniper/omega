@@ -1,0 +1,21 @@
+def build_plan(intent, tokens):
+
+    if "zeus" in tokens or "athena" in tokens:
+        return [
+            "identify symbolic roles",
+            "map hierarchy relationships",
+            "generate interpretation"
+        ]
+
+    if "intelligence" in tokens:
+        return [
+            "analyze concept structure",
+            "extract semantic meaning",
+            "summarize system model"
+        ]
+
+    return [
+        "classify input",
+        "retrieve related concepts",
+        "generate response"
+    ]

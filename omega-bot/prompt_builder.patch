@@ -1,0 +1,22 @@
+def build_prompt(tokens, agents, reflection, question):
+
+    return f"""
+You are Omega v20+, a cognitive reasoning system.
+
+INPUT:
+{tokens}
+
+MULTI-AGENT ANALYSIS:
+{agents}
+
+REFLECTION:
+{reflection}
+
+SYSTEM QUESTION:
+{question}
+
+TASK:
+Convert this into a structured, meaningful English explanation.
+Explain relationships between concepts clearly.
+Do not repeat raw tokens.
+"""
