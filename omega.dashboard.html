@@ -1,0 +1,211 @@
+cat > omega_dashboard.html << 'EOF'
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>OMEGA CONTAINED QUANTUM v25</title>
+
+<style>
+body {
+    margin:0;
+    background:#000;
+    font-family:monospace;
+}
+
+canvas {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:0;
+}
+
+.box {
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    width:90%;
+    height:28%;
+    border:3px solid #ffffff;
+    background:rgba(255,255,255,0.03);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    z-index:10;
+    box-shadow:0 0 15px white;
+}
+
+#hq { top:3%; }
+#r1 { top:35%; }
+#r2 { top:67%; }
+
+#hud {
+    position:fixed;
+    top:10px;
+    left:10px;
+    color:#00ff99;
+    z-index:20;
+}
+</style>
+</head>
+
+<body>
+
+<div id="hq" class="box">Omega Quantum Headquarters</div>
+<div id="r1" class="box">Quantum Reality 1</div>
+<div id="r2" class="box">Quantum Reality 2</div>
+
+<canvas id="c"></canvas>
+<div id="hud"></div>
+
+<script>
+
+const canvas = document.getElementById("c");
+const ctx = canvas.getContext("2d");
+
+function resize(){
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+}
+resize();
+window.addEventListener("resize", resize);
+
+function getBoxes(){
+    return {
+        HQ: {x: canvas.width*0.05, y: canvas.height*0.03, w: canvas.width*0.9, h: canvas.height*0.28},
+        R1: {x: canvas.width*0.05, y: canvas.height*0.35, w: canvas.width*0.9, h: canvas.height*0.28},
+        R2: {x: canvas.width*0.05, y: canvas.height*0.67, w: canvas.width*0.9, h: canvas.height*0.28}
+    };
+}
+
+const MAX = 300;
+
+// ---------------- PARTICLE ----------------
+class P {
+    constructor(box){
+        this.box = box;
+
+        let b = getBoxes()[box];
+
+        this.x = b.x + Math.random()*b.w;
+        this.y = b.y + Math.random()*b.h;
+
+        this.vx = (Math.random()-0.5)*3;
+        this.vy = (Math.random()-0.5)*3;
+
+        this.memory = 0;
+
+        this.size = 6.5; // 🔥 bigger particles
+        this.color = "#ffffff";
+        this.flash = 0; // color flash timer
+    }
+
+    bounce(){
+        let b = getBoxes()[this.box];
+
+        if(this.x < b.x){ this.x = b.x; this.vx *= -1; }
+        if(this.x > b.x + b.w){ this.x = b.x + b.w; this.vx *= -1; }
+
+        if(this.y < b.y){ this.y = b.y; this.vy *= -1; }
+        if(this.y > b.y + b.h){ this.y = b.y + b.h; this.vy *= -1; }
+    }
+
+    quantumJump(){
+
+        if(Math.random() < 0.01){
+
+            this.memory++;
+
+            // 🔥 FLASH COLOR ON JUMP
+            const colors = ["#00ffff","#ff00ff","#ffff00","#00ff99"];
+            this.color = colors[Math.floor(Math.random()*colors.length)];
+            this.flash = 20; // frames of color
+
+            // clone
+            if(particles.length < MAX){
+                let clone = new P(this.box);
+                clone.memory = this.memory;
+                particles.push(clone);
+            }
+
+            // move box
+            let next;
+            if(this.box === "HQ"){
+                next = Math.random() < 0.5 ? "R1" : "R2";
+            } else {
+                next = "HQ";
+            }
+
+            this.box = next;
+
+            let b = getBoxes()[this.box];
+
+            this.x = b.x + Math.random()*b.w;
+            this.y = b.y + Math.random()*b.h;
+
+            // mutation
+            this.vx *= (0.8 + Math.random()*0.6);
+            this.vy *= (0.8 + Math.random()*0.6);
+        }
+    }
+
+    step(){
+
+        this.x += this.vx;
+        this.y += this.vy;
+
+        this.vx *= 0.98;
+        this.vy *= 0.98;
+
+        this.bounce();
+        this.quantumJump();
+
+        // 🔥 FADE BACK TO WHITE
+        if(this.flash > 0){
+            this.flash--;
+        } else {
+            this.color = "#ffffff";
+        }
+    }
+
+    draw(){
+        ctx.fillStyle = this.color;
+
+        ctx.shadowBlur = 15;
+        ctx.shadowColor = this.color;
+
+        ctx.beginPath();
+        ctx.arc(this.x,this.y,this.size,0,Math.PI*2);
+        ctx.fill();
+
+        ctx.shadowBlur = 0;
+    }
+}
+
+let particles = [new P("HQ")];
+
+// ---------------- LOOP ----------------
+function loop(){
+
+    ctx.fillStyle = "rgba(0,0,0,0.25)";
+    ctx.fillRect(0,0,canvas.width,canvas.height);
+
+    for(let p of particles){
+        p.step();
+        p.draw();
+    }
+
+    document.getElementById("hud").innerHTML =
+        "OMEGA CONTAINED QUANTUM v25<br>" +
+        "Particles: " + particles.length;
+
+    requestAnimationFrame(loop);
+}
+
+loop();
+
+</script>
+
+</body>
+</html>
+EOF
