@@ -7,7 +7,7 @@ import sys
 import math
 
 SIZE = 40
-PARTICLES = 60
+PARTICLES = 600
 
 # =========================
 # FILE SCAN CACHE
@@ -94,7 +94,7 @@ def emit_event(x, y, strength):
         "x": x,
         "y": y,
         "strength": strength,
-        "life": 8
+        "life": 20
     })
 
 def decay_events():
@@ -136,8 +136,8 @@ class Particle:
 
         speed = math.sqrt(self.vx**2 + self.vy**2)
         if speed > 1.5:
-            self.vx *= 0.7
-            self.vy *= 0.7
+            self.vx *= 0.9
+            self.vy *= 0.9
 
         self.x %= SIZE
         self.y %= SIZE
