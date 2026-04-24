@@ -1,0 +1,8 @@
+// 🔁 ADD THESE IMPORTS AT TOP OF App.js
+
+import { updateEcosystems, assignEcosystem } from "./ecosystem";
+import { updateUniverses, renderUniverses } from "./universes";
+
+// 🌱 STATE
+let ecosystems = [];
+let universes = [];

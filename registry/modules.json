@@ -1,0 +1,9 @@
+{
+  "modules": [
+    "core",
+    "brain",
+    "memory",
+    "orchestrator",
+    "workers"
+  ]
+}

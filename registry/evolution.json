@@ -1,0 +1,6 @@
+{
+  "hot_reload": true,
+  "auto_evolve": true,
+  "cycle_interval_ms": 2000,
+  "mutation_threshold": 0.6
+}

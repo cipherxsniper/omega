@@ -1,16 +1,36 @@
-import os
-import psutil
+import os, json, uuid
 
-LOCK_FILE = "/tmp/omega.lock"
+BRAIN_DIR = "/data/data/com.termux/files/home/Omega/brains"
 
-def single_instance():
-    if os.path.exists(LOCK_FILE):
-        print("[KERNEL] Already running — exiting")
-        exit()
+class OmegaKernel:
+    def __init__(self):
+        self.nodes = {}
+        self.graph = []
 
-    with open(LOCK_FILE, "w") as f:
-        f.write(str(os.getpid()))
-from core.orchestrator import Orchestrator
+    def scan_brains(self):
+        brains = os.listdir(BRAIN_DIR)
+        self.nodes = {b: {"active": True} for b in brains}
+        return self.nodes
 
-if __name__ == "__main__":
-    Orchestrator().boot()
+    def validate(self, action):
+        # safety + structure gate
+        allowed = ["CREATE", "CLONE", "MUTATE", "WRITE", "JUMP"]
+        return action["type"] in allowed
+
+    def assign_dna(self):
+        return str(uuid.uuid4())[:8]
+
+    def approve_transition(self, particle, action):
+        if not self.validate(action):
+            return False
+
+        particle["dna"] = self.assign_dna()
+        particle["node"] = action.get("target", "brain_01")
+
+        self.graph.append({
+            "from": particle["id"],
+            "to": particle["node"],
+            "dna": particle["dna"]
+        })
+
+        return True

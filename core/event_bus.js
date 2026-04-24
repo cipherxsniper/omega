@@ -1,19 +1,13 @@
-const redis = require("redis");
+const events = {};
 
-const pub = redis.createClient();
-const sub = redis.createClient();
-
-pub.connect();
-sub.connect();
-
-function publish(channel, data) {
-    pub.publish(channel, JSON.stringify(data));
+function on(event, fn) {
+  if (!events[event]) events[event] = [];
+  events[event].push(fn);
 }
 
-function subscribe(channel, handler) {
-    sub.subscribe(channel, (msg) => {
-        handler(JSON.parse(msg));
-    }, false);
+function emit(event, data) {
+  if (!events[event]) return;
+  events[event].forEach(fn => fn(data));
 }
 
-module.exports = { publish, subscribe };
+module.exports = { on, emit };

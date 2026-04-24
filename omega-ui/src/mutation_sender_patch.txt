@@ -1,0 +1,17 @@
+// 🔁 ADD INSIDE YOUR App.js (useEffect scope)
+
+// import at top:
+import { collectMutations } from "./mutation";
+
+// inside useEffect:
+let mutationBuffer = [];
+
+// inside step() AFTER particles update:
+mutationBuffer = collectMutations(particles);
+
+// send to backend safely
+if (ws && ws.readyState === 1 && mutationBuffer.length > 0) {
+  ws.send(JSON.stringify({
+    mutations: mutationBuffer
+  }));
+}

@@ -1,123 +1,79 @@
+import asyncio, websockets, json, random, uuid
 
-# =========================
-# NEURON ATTRACTORS v12
-# =========================
+PORT = 8765
 
-class Attractor:
-    def __init__(self, x=None, y=None, parent=False):
-        self.x = x if x is not None else random.randint(0, SIZE-1)
-        self.y = y if y is not None else random.randint(0, SIZE-1)
+particles = []
 
-        self.strength = random.uniform(1.0, 2.5)
-        self.energy = random.uniform(0.5, 1.5)
-        self.age = 0
+def new_particle():
+    return {
+        "id": str(uuid.uuid4()),
+        "dna": "seed",
+        "x": random.random(),
+        "y": random.random(),
+        "box": 1,
+        "color": "white",
+        "clones": 1
+    }
 
-        self.division_threshold = random.uniform(6.0, 10.0)
-        self.death_threshold = 0.3
+# START WITH EXACTLY ONE PARTICLE
+particles.append(new_particle())
 
-    def drift(self):
-        self.age += 1
-        self.x += random.uniform(-0.15, 0.15)
-        self.y += random.uniform(-0.15, 0.15)
-        self.x %= SIZE
-        self.y %= SIZE
-        self.energy *= 0.985
+def validate(p):
+    # validation logic (box 2)
+    score = random.random()
 
-    def absorb(self, amount):
-        self.energy += amount
+    p["dna"] = p["dna"][:4] + random.choice("abcd1234")
+    p["id"] = str(uuid.uuid4())
 
-    def should_split(self):
-        return self.energy > self.division_threshold
+    return score > 0.4
 
-    def should_die(self):
-        return self.energy < self.death_threshold and self.age > 50
+def step():
+    global particles
+    new = []
 
-    def split(self):
-        child = Attractor(self.x, self.y, parent=True)
-        child.strength = self.strength * random.uniform(0.8, 1.2)
-        child.energy = self.energy * 0.4
+    for p in particles:
 
-        child.division_threshold = self.division_threshold * random.uniform(0.9, 1.1)
-        child.x += random.uniform(-1, 1)
-        child.y += random.uniform(-1, 1)
+        # BOX 1 → BOX 2 (entry to validation)
+        if p["box"] == 1:
+            if random.random() < 0.05:
+                p["box"] = 2
 
-        self.energy *= 0.5
-        return child
+        # BOX 2 → VALIDATION GATE
+        elif p["box"] == 2:
+            if validate(p):
+                p["box"] = 3
+                p["color"] = "lime"
 
+        # BOX 3 → EXPANSION (CLONE + QUANTUM JUMP)
+        elif p["box"] == 3:
+            if random.random() < 0.08:
 
-# =========================
-# INITIAL ATTRACTORS
-# =========================
-attractors = [Attractor() for _ in range(6)]
+                # CLONE SYSTEM
+                for i in range(2):
+                    c = dict(p)
+                    c["id"] = str(uuid.uuid4())
+                    c["clones"] = p["clones"] + 1
+                    c["dna"] = p["dna"] + "-q"
+                    c["color"] = random.choice(["cyan","magenta","lime"])
 
+                    # quantum jump back or forward
+                    c["box"] = random.choice([2,3])
 
-# =========================
-# ATTRACTOR EVOLUTION ENGINE
-# =========================
-def update_attractors():
-    global attractors
+                    new.append(c)
 
-    new_nodes = []
+        new.append(p)
 
-    for a in attractors:
-        a.drift()
+    particles = new[:200]
 
-        if a.should_split() and len(attractors) < 40:
-            new_nodes.append(a.split())
+async def handler(ws):
+    while True:
+        step()
+        await ws.send(json.dumps({"particles": particles}))
+        await asyncio.sleep(0.05)
 
-        if not a.should_die():
-            new_nodes.append(a)
+async def main():
+    async with websockets.serve(handler, "0.0.0.0", PORT):
+        print("🧠 Omega Pipeline Active")
+        await asyncio.Future()
 
-    attractors = new_nodes
-
-
-# =========================
-# PARTICLE → ATTRACTOR ENERGY FEED
-# =========================
-def feed_attractors(particle):
-    for a in attractors:
-        dx = a.x - particle.x
-        dy = a.y - particle.y
-        d = (dx*dx + dy*dy) ** 0.5 + 0.1
-
-        if d < 4:
-            a.absorb((1.0 / d) * 0.08)
-
-
-# CALL THIS INSIDE Particle.step()
-def attractor_interaction(self):
-    for a in attractors:
-        dx = a.x - self.x
-        dy = a.y - self.y
-        d = (dx*dx + dy*dy) ** 0.5 + 0.001
-
-        force = a.strength / (d*d)
-
-        self.vx += (dx/d) * force * 0.03
-        self.vy += (dy/d) * force * 0.03
-
-        if d < 4:
-            a.absorb(0.05 / d)
-
-
-# =========================
-# NEURAL UPDATE HOOK
-# =========================
-def omega_neural_tick():
-    update_attractors()
-
-
-# =========================
-# ATTRACTOR RENDERING
-# =========================
-def render_attractors(grid):
-    for a in attractors:
-        if a.energy > 8:
-            symbol = "⚛️"
-        elif a.energy > 4:
-            symbol = "◎"
-        else:
-            symbol = "○"
-
-        grid[int(a.y)][int(a.x)] = symbol
-
+asyncio.run(main())

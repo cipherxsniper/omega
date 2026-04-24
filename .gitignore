@@ -1,12 +1,16 @@
-_dist/
-_dist/
-<<<<<<< HEAD
+# AI models (VERY IMPORTANT)
+.ollama/
+models/
+node_modules/
 __pycache__/
+*.pyc
+
+# logs/cache
 *.log
-nohup.out
-=======
->>>>>>> 71d54e39cdfcdd1862cc6c05708474c3317e4251
-_dist/
-_omega_v5/
-__pycache__/
-v28_backups/
+.cache/
+*.tmp
+
+# system noise
+omega_env/
+v29_backups/
+.git/

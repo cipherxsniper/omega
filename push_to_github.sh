@@ -1,36 +1,59 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-# ===== CONFIG =====
-USERNAME="cipherxsniper"
-REPO_NAME="omega-intelligence-layer-v3"
-BRANCH="main"
+set -e
 
-echo "🧠 Initializing Git repo..."
+echo "🧠 Omega GitHub Auto-Push Starting..."
 
 cd ~/Omega || exit
 
-git init
+# -----------------------------
+# INIT GIT IF NOT EXISTS
+# -----------------------------
+if [ ! -d ".git" ]; then
+  echo "📦 Initializing git repo..."
+  git init
+fi
 
-git config user.name "$USERNAME"
-git config user.email "simpl3hoods@gmail.com"
+# -----------------------------
+# DEFAULT IGNORE RULES (safe for AI projects)
+# -----------------------------
+cat > .gitignore << EOG
+node_modules
+__pycache__
+*.pyc
+.ollama
+.env
+.DS_Store
+*.log
+EOG
 
-echo "📦 Adding files..."
+# -----------------------------
+# ADD FILES (handles large repo)
+# -----------------------------
+echo "📁 Adding files..."
 git add .
 
-echo "🧾 Committing..."
-git commit -m "Omega Intelligence Layer v3 snapshot"
+# -----------------------------
+# COMMIT (auto message)
+# -----------------------------
+echo "💾 Committing..."
+git commit -m "Omega full system sync $(date '+%Y-%m-%d %H:%M:%S')" || echo "Nothing to commit"
 
-echo "🌐 Setting branch..."
-git branch -M $BRANCH
+# -----------------------------
+# SET REMOTE (CHANGE THIS)
+# -----------------------------
+REPO_URL="https://github.com/YOUR_USERNAME/YOUR_REPO.git"
 
-echo "🔗 Adding remote..."
+if ! git remote | grep origin > /dev/null; then
+  echo "🔗 Adding remote..."
+  git remote add origin $REPO_URL
+fi
 
-git remote remove origin 2>/dev/null
-
-git remote add origin https://github.com/$USERNAME/$REPO_NAME.git
-
+# -----------------------------
+# PUSH
+# -----------------------------
 echo "🚀 Pushing to GitHub..."
+git branch -M main
+git push -u origin main
 
-git push -u origin $BRANCH
-
-echo "✅ DONE"
+echo "🧠 DONE: Omega synced to GitHub"
